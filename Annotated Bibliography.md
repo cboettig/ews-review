@@ -143,6 +143,8 @@ From this paper look up: (Kleinen et al. 2003; van Nes & Scheffer 2003; Brock et
  
 ## Other ideas to mention
 
+Stuff
+
  - Confusion about what consititutes "fast" and "slow" variables [@Walker2012]
- - Regime shifts may be fast, but actual change in state variables may be slow due to long transients [@Hastings2010d; Hughes2012].
+ - Regime shifts may be fast, but actual change in state variables may be slow due to long transients [@Hastings2010d; @Hughes2012].
  - Regimes shifts can occur locally in spatially explicit environements, resulting in gradual transitions at larger scales[@

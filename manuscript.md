@@ -2,8 +2,6 @@
 
 ## Intro
 
-## Seductiveness of 'generic' indicators
-
 ## Semantic confusion
 
  - The terms "regime shift", "critical transition", and "bifurcation" are often used interchangably.  This has been a source of confusion, as concepts applicable to one category may not be applicable to another.  Here we define them as:
@@ -14,11 +12,13 @@
 
 (Venn-diagram type figure showing the relationship between these)
 
-Regime shifts need not be critical transitions or bifurcations.  They may be slow transitions between regimes, or they may occur rapidly.  *Rapid regime shifts* may be causes either by a rapid change in external conditions, or an endogenous stochastic event.
+Regime shifts need not be critical transitions or bifurcations.  They may be slow transitions between regimes, or they may occur rapidly.  *Rapid regime shifts* may be causes either by rapid change in external conditions, or an endogenous stochastic event, in addition to a critical transition.
 
-It is not simple to distinguish between rapid regime shifts caused by bifurcation, and those driven by other causes.
+Anticipating and mitigating the effect of rapid regime shifts in ecological systems is a major research and management goal [@NSF2009], and early warning signals (EWS) are an important tool.  However, the theoretical basis of early warning signals apply only to a subset of critical transitions.
 
-# Conditions for False Negatives
+Here we detail several ways in which the use of early warning signals generate both false positive and false negative errors.  We outline the conditions under which we expect EWS to succeed, and the evidence needed to establish these conditions. Finally we examine recent developments in alternative approaches and extensions that may enable early detection of rapid regime shifts under different conditions.
+
+# Reasons for False Negatives
 
 A rapid regime shift may occur with no early warning signal when:
 
@@ -50,7 +50,7 @@ An early warning signal
 
      
 
-# Statistical Power
+## False Positives and Negatives due Statistical Power Issues
 
 Both false positive and false negative results may be due to inadequate statistical power
 
@@ -62,6 +62,8 @@ Both false positive and false negative results may be due to inadequate statisti
  - @Veraart2011 and @Dai2012 studied simple experimental systems which could be described with simple mechanistic models, and in which saddle-node bifurcations could be inferred both theoretically and experimentally. 
 
  - EWS may best be employed in systems where enough information is available to infer the possibility of saddle-node transitions, but where data is insufficient to estimate critical thresholds with useful precision.
+ 
+## Alternative approaches
 
 # Figure Concepts
 
