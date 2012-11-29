@@ -1,29 +1,29 @@
-Intro
------
+# Intro
+
 
 Introduction to Warning Signals
 When will such approaches be useful?  A landscape of possible scenarios.  
 
-Vignette of a misapplying
+## Vignette of a misapplying
 options for the vignette: 
 Bifurcation with decreasing variance?
 Large external force (too trivial)
 
 
-Tour of the diagram
--------------------
-
-+ Bifurcation + Rapid Shift + Critical Slowing Down (Saddle node)
-+ Bifurcation + Rapid Shift - Critical Slowing Down => e.g., Chaotic crisis
-+ Bifurcations - Rapid Shifts - Critical Slowing Down => e.g., Extinction
-+ Bifurcation - Rapid Shifts + Critical Slowing Down => Hopf, Transcritical
-- Bifurcations + Rapid Shifts - Critical Slowing Down => Forcing, Stochastic Event
-- Bifurcations + Rapid Shifts + Critical Slowing Down => Doesn’t exist?
-- Bifurcations - Rapid Shifts + Critical slowing Down => Smooth transitions 
+# Tour of the diagram
 
 
-So What
--------
+## + Bifurcation + Rapid Shift + Critical Slowing Down (Saddle node)
+## + Bifurcation + Rapid Shift - Critical Slowing Down => e.g., Chaotic crisis
+## + Bifurcations - Rapid Shifts - Critical Slowing Down => e.g., Extinction
+## + Bifurcation - Rapid Shifts + Critical Slowing Down => Hopf, Transcritical
+## - Bifurcations + Rapid Shifts - Critical Slowing Down => Forcing, Stochastic Event
+## - Bifurcations + Rapid Shifts + Critical Slowing Down => Doesn’t exist?
+## - Bifurcations - Rapid Shifts + Critical slowing Down => Smooth transitions 
+
+
+# So What
+
 
 CSD + not rapid shift.  Don’t get excited.  
 Rapid shift - CSD.  Problem.  New signals?  
@@ -37,15 +37,15 @@ Example of a case that is not enough to know, a case that is.
 
 Use all the available data
 
-Statistical power
------------------
+# Statistical power
+
 
 A problem for everyone (e.g Saddle node case, and other cases).  
 Understanding when it is worse
 Understanding what signals/methods have the most power
 
-Conclusions
------------
+# Conclusions
+
 
 
 
