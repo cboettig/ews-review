@@ -1,59 +1,103 @@
-# Intro
+Intro
+=====
 
+Introduction to Warning Signals 
 
-Introduction to Warning Signals
-When will such approaches be useful?  A landscape of possible scenarios.  
+When will such approaches be useful?
 
-## Vignette of a misapplying
-options for the vignette: 
-Bifurcation with decreasing variance?
-Large external force (too trivial)
+A landscapeof possible scenarios. 
 
+critical slowing down (CSD) 
 
-# Tour of the diagram
+## Vignette of misapplying 
 
+Options for the vignette: 
 
-## + Bifurcation + Rapid Shift + Critical Slowing Down (Saddle node)
-## + Bifurcation + Rapid Shift - Critical Slowing Down => e.g., Chaotic crisis
-## + Bifurcations - Rapid Shifts - Critical Slowing Down => e.g., Extinction
-## + Bifurcation - Rapid Shifts + Critical Slowing Down => Hopf, Transcritical
-## - Bifurcations + Rapid Shifts - Critical Slowing Down => Forcing, Stochastic Event
-## - Bifurcations + Rapid Shifts + Critical Slowing Down => Doesn’t exist?
-## - Bifurcations - Rapid Shifts + Critical slowing Down => Smooth transitions 
+-   Bifurcation with decreasing variance?
+-   Large external force (too trivial)
 
+Tour of the diagram
+===================
 
-# So What
++ Bifurcation + Rapid Shift + CSD (Saddle node)
+-----------------------------------------------
 
+-   Experimental support
+-   Microcosm [@Veraart2011, @Dai2012]
+-   Large-scale [@Carpenter2011a]
 
-CSD + not rapid shift.  Don’t get excited.  
-Rapid shift - CSD.  Problem.  New signals?  
+-   Bifurcation + Rapid Shift - CSD => e.g., Chaotic crisis
+    --------------------------------------------------------
 
-Context-specific signals? Evidence needed to establish where you are
-	Known mechanistic model.
-	Manipulated system.  
-Narrow the field of possible options.
-Example of a case that is not enough to know, a case that is.  
+-   Not all bifurcations are saddle-node types
+-   Non-saddle node bifurcations can cause rapid regime shifts, sometimes
+    without demonstrating CSD.
+-   Examples demonstrated in models:
+    -   Chaotic crises
+        -   @Hastings2012b examined a continuous model of a three-species food
+            chain where all species coexisted in a chaotic but stable attractor.
+            In the model, the top predator rapidly goes extinct in response to a
+            gradual increase the strength of stochastic noise, or an increase in
+            migration rates of individuals between patches. As the simulated
+            system approached this bifurcation, however, no increase in the
+            variance or skew of populations was detected.
+        -   Schreiber2003a examined a discrete-time model of a species subject
+            to strong density dependence (an Allee effect) and harvested by a
+            predator with a Type II functional response. In this model, the
+            population exhibits *decreasing* variance as predation intensity
+            increases, until a threshold level where the population goes
+            extinct.
 
+    -   Interacting Regime Shifts [@Brock2010]
+    -   Spatially extended systems [@Bel2012]
+        -   A local regime shift in a spatially extended system can induce a
+            global regime shift as the change propogates through the system. The
+            global shift can occur when environmental conditions are, on
+            average, far away from the threshold that would cause a local regime
+            shift. Thus, even if local regime shifts are due to a fold
+            bifurcation, global state variables may not exhibit indicators of
+            CSD.
+
+-   Bifurcations - Rapid Shifts - CSD => e.g., Extinction
+    ------------------------------------------------------
+
+-   Bifurcation - Rapid Shifts + CSD => Hopf, Transcritical
+    --------------------------------------------------------
+
+-   Bifurcations + Rapid Shifts - CSD => Forcing, Stochastic Event, Chaotic transient
+    ----------------------------------------------------------------------------------
+
+-   Chaotic transients
+    -   In spatially structured models with overcompensatory dynamics, long-term
+        transients may appear to be regime shifts [@Hastings1994, @Wysham2008]
+        (Should transients be a separate section, including @Hughes2012?]
+
+-   Bifurcations + Rapid Shifts + CSD => Doesn’t exist?
+    ----------------------------------------------------
+
+-   Bifurcations - Rapid Shifts + CSD => Smooth transitions
+    --------------------------------------------------------
+
+So What
+=======
+
+CSD + not rapid shift. Don’t get excited. Rapid shift - CSD. Problem. New
+signals?
+
+Context-specific signals? Evidence needed to establish where you are Known
+mechanistic model. Manipulated system. Narrow the field of possible options.
+Example of a case that is not enough to know, a case that is.
 
 Use all the available data
 
-# Statistical power
+Statistical power
+=================
 
+A problem for everyone (e.g Saddle node case, and other cases). Understanding
+when it is worse Understanding what signals/methods have the most power
 
-A problem for everyone (e.g Saddle node case, and other cases).  
-Understanding when it is worse
-Understanding what signals/methods have the most power
-
-# Conclusions
-
-
-
-
-
-
-
-
-
+Conclusions
+===========
 
 Semantic confusion
 ------------------
@@ -79,10 +123,17 @@ transitions between regimes, or they may occur rapidly. *Rapid regime shifts*
 may be causes either by a rapid change in external conditions, or an endogenous
 stochastic event.
 
-Anticipating and mitigating the effect of rapid regime shifts in ecological systems is a major research and management goal [@NSF2009], and early warning signals (EWS) are an important tool.  However, the theoretical basis of early warning signals apply only to a subset of critical transitions.
+Anticipating and mitigating the effect of rapid regime shifts in ecological
+systems is a major research and management goal [@NSF2009], and early warning
+signals (EWS) are an important tool. However, the theoretical basis of early
+warning signals apply only to a subset of critical transitions.
 
-Here we detail several ways in which the use of early warning signals generate both false positive and false negative errors.  We outline the conditions under which we expect EWS to succeed, and the evidence needed to establish these conditions. Finally we examine recent developments in alternative approaches and extensions that may enable early detection of rapid regime shifts under different conditions.
-
+Here we detail several ways in which the use of early warning signals generate
+both false positive and false negative errors. We outline the conditions under
+which we expect EWS to succeed, and the evidence needed to establish these
+conditions. Finally we examine recent developments in alternative approaches and
+extensions that may enable early detection of rapid regime shifts under
+different conditions.
 
 It is not simple to distinguish between rapid regime shifts caused by
 bifurcation, and those driven by other causes.
@@ -151,11 +202,12 @@ Figure Concepts
 -   Things that show critical transitions/bifurcations (CT)
 -   Things that show early warning signs (WS)
 
-![Figure 1: Something like
-this](https://lh6.googleusercontent.com/-Nkn8N_bNgNU/UHXb0U6PU6I/AAAAAAAACNM/c-L3tuzcLlg/s640/2012-10-10_13-01-19_117.jpg)
+![Figure 1: Something like this]
 
-![Another option: A branching
-diagram](http://dl.dropbox.com/u/3356641/blogstuff/Photo-2012.11.08-15.33.10.jpg)
+![Another option: A branching diagram]
 
-![Venn Diagram with Rapid Transition, Bifurcation, and CSD as circles](http://dl.dropbox.com/u/3356641/blogstuff/Photo-2012.11.20-11.24.31.jpg)
+![Venn Diagram with Rapid Transition, Bifurcation, and CSD as circles]
 
+  [Figure 1: Something like this]: https://lh6.googleusercontent.com/-Nkn8N_bNgNU/UHXb0U6PU6I/AAAAAAAACNM/c-L3tuzcLlg/s640/2012-10-10_13-01-19_117.jpg
+  [Another option: A branching diagram]: http://dl.dropbox.com/u/3356641/blogstuff/Photo-2012.11.08-15.33.10.jpg
+  [Venn Diagram with Rapid Transition, Bifurcation, and CSD as circles]: http://dl.dropbox.com/u/3356641/blogstuff/Photo-2012.11.20-11.24.31.jpg
