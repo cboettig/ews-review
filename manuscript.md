@@ -23,8 +23,8 @@ Tour of the diagram
 -----------------------------------------------
 
 -   Experimental support
--   Microcosm [@Veraart2011, @Dai2012]
--   Large-scale [@Carpenter2011a]
+    -   Microcosm [@Veraart2011, @Dai2012]
+    -   Large-scale [@Carpenter2011a]
 
 -   Bifurcation + Rapid Shift - CSD => e.g., Chaotic crisis
     --------------------------------------------------------
@@ -47,7 +47,6 @@ Tour of the diagram
             population exhibits *decreasing* variance as predation intensity
             increases, until a threshold level where the population goes
             extinct.
-
     -   Interacting Regime Shifts [@Brock2010]
     -   Spatially extended systems [@Bel2012]
         -   A local regime shift in a spatially extended system can induce a
@@ -58,11 +57,26 @@ Tour of the diagram
             bifurcation, global state variables may not exhibit indicators of
             CSD.
 
--   Bifurcations - Rapid Shifts - CSD => e.g., Extinction
-    ------------------------------------------------------
++ Bifurcations - Rapid Shifts - CSD => e.g., Extinction
+--------------------------------------------------------
 
--   Bifurcation - Rapid Shifts + CSD => Hopf, Transcritical
-    --------------------------------------------------------
++  Bifurcation - Rapid Shifts + CSD => Hopf, Transcritical
+-----------------------------------------------------------
+
+-   Some bifurcations are non-catastrophic.  Systems undergoing these bifurcations exhibit a qualitative change in dynamics, but no rapid shift from one equilibrium state to another.
+-   Unlike a saddle-node bifurcation, these bifurcations do not have hysteresis, and so changes are not difficult to resist.
+-   While theoretically sound, in a management setting, a non-catastrophic bifurcation may effectively be false positive when CSD is expected to precede a dramatic change
+-   Transcritical bifurcation
+    - Change between positive and zero stable equilibrium
+    - Common in many models [Examples - models of invasion, fisheries]
+    - CSD shown to occur prior to transcritical bifurcation [@Chisolm 2009; @Kefi2012]
+    - Experimental evidence for CSD in @Drake2012
+- Hopf bifurcation
+    - Transition between stable equilibrium and limit cycles
+    - Common in predatory-prey systems @May1972
+    - CSD shown to occur prior to Hopf bifurcation [@Chisolm 2009; @Kefi2012]
+    
+ 
 
 -   Bifurcations + Rapid Shifts - CSD => Forcing, Stochastic Event, Chaotic transient
     ----------------------------------------------------------------------------------
@@ -72,11 +86,11 @@ Tour of the diagram
         transients may appear to be regime shifts [@Hastings1994, @Wysham2008]
         (Should transients be a separate section, including @Hughes2012?]
 
--   Bifurcations + Rapid Shifts + CSD => Doesn’t exist?
-    ----------------------------------------------------
+- Bifurcations + Rapid Shifts + CSD => Doesn’t exist?
+------------------------------------------------------
 
 -   Bifurcations - Rapid Shifts + CSD => Smooth transitions
-    --------------------------------------------------------
+-----------------------------------------------------------
 
 So What
 =======
