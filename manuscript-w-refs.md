@@ -1,5 +1,4 @@
-CARL: How to deal with/include flickering?  It's a non-CSD signal.
- 
+CARL: How to deal with/include flickering? It's a non-CSD signal.
 
 Intro
 =====
@@ -29,8 +28,8 @@ The Best Case: Catastrophic Bifurcations Preceded by CSD
 CARL: What should we cover here?
 
 -   Experimental support
-    -   Microcosm [@Veraart2011; @Dai2012]
-    -   Large-scale [@Carpenter2011a]
+    -   Microcosm (Veraart et al. 2011, Dai et al. 2012)
+    -   Large-scale (Carpenter et al. 2011)
 
 Catastrophic Bifurcations *not* Preceded by CSD
 -----------------------------------------------
@@ -54,8 +53,8 @@ Catastrophic Bifurcations *not* Preceded by CSD
             increases, until a threshold level where the population goes
             extinct.
 
-    -   Interacting Regime Shifts [@Brock2010].
-    -   Spatially extended systems [@Bel2012].
+    -   Interacting Regime Shifts (Brock and Carpenter 2010).
+    -   Spatially extended systems (Bel et al. 2012).
         -   A local regime shift in a spatially extended system can induce a
             global regime shift as the change propogates through the system. The
             global shift can occur when environmental conditions are, on
@@ -78,14 +77,15 @@ Non-Catastrophic Bifurcations Preceded by CSD
 -   Transcritical bifurcation
     -   Change between positive and zero stable equilibrium
     -   Common in many models [Examples - models of invasion, fisheries]
-    -   CSD shown to occur prior to transcritical bifurcation [@Chisholm2009;
-        @Kefi2012]
-    -   Experimental evidence for CSD in @Drake2010
+    -   CSD shown to occur prior to transcritical bifurcation (Chisholm and
+        Filotas 2009, Kéfi et al. 2012)
+    -   Experimental evidence for CSD in Drake and Griffen (2010)
 
 -   Hopf bifurcation
     -   Transition between stable equilibrium and limit cycles
-    -   Common in predatory-prey systems [@May1972].
-    -   CSD shown to occur prior to Hopf bifurcation [@Chisholm2009; @Kefi2012]
+    -   Common in predatory-prey systems (May 1972).
+    -   CSD shown to occur prior to Hopf bifurcation (Chisholm and Filotas 2009,
+        Kéfi et al. 2012)
 
 Non-Catastrophic Bifurcations without CSD
 -----------------------------------------
@@ -103,7 +103,8 @@ Other Catastrophic Regime Shifts without CSD
 -   Endogenous stochastic events
 -   Transients
     -   In spatially structured models with overcompensatory dynamics, long-term
-        transients may appear to be regime shifts [@Hastings1994; @Wysham2008]
+        transients may appear to be regime shifts (Hastings and Higgins 1994,
+        Wysham and Hastings 2008)
 
 Other Catstrophic Regime Shifts with CSD
 ----------------------------------------
@@ -111,14 +112,14 @@ Other Catstrophic Regime Shifts with CSD
 -   Rapid regime shifts that are not bifurcations are not expected to exhibit
     CSD. However, CSD may be observed if
     -   A transition occurs due to repeated stochastic events that resemble CSD
-        [@Boettiger2012d]
+        (Boettiger and Hastings 2012)
     -   CSD occurs due to other processes in the system occuring simultaneously
 
 CSD in the absence of regime shifts
 -----------------------------------
 
 -   Systems undergoing change can exhibit CSD even in the absence of a rapid
-    regime shift of bifurcation [@Kefi2012]
+    regime shift of bifurcation (Kéfi et al. 2012)
 
 Observed vs. Real CSD - Statistical Power
 =========================================
@@ -132,7 +133,7 @@ Observed vs. Real CSD - Statistical Power
 -   Reciever-operator are a useful method for evaluating the efficacy of warning
     signals [@Boettiger2012a]
 -   Comparative, experimental studies
-    -   Historical data introduces biases [@Boettiger2012d]
+    -   Historical data introduces biases (Boettiger and Hastings 2012)
 
 So What?
 ========
@@ -143,18 +144,21 @@ signals?
 Context-specific signals
 ------------------------
 
-- Evidence needed to establish what type of system you are in, and if CSD can be expected
-- Known mechanistic model. Manipulated system. 
+-   Evidence needed to establish what type of system you are in, and if CSD can
+    be expected
+-   Known mechanistic model. Manipulated system.
 
-   - Examples: saddle nodes
-       -   Much research on regime shifts and early warning signals has focused on lakes [Refs from @Scheffer2001], which are well-modeled
-       -   @Veraart2011 and @Dai2012 studied simple experimental systems which could be described with simple mechanistic models, and in which saddle-nodes bifurcations could be inferred both theoretically and experimentally.
+-   Examples: saddle nodes
+    -   Much research on regime shifts and early warning signals has focused on
+        lakes (Refs from Scheffer et al. 2001), which are well-modeled
+    -   Veraart et al. (2011) and Dai et al. (2012) studied simple experimental
+        systems which could be described with simple mechanistic models, and in
+        which saddle-nodes bifurcations could be inferred both theoretically and
+        experimentally.
 
-
-- Signals for other types of systems
-    - Spatially extended [NEED CITATIONS]
-    - Networks [@Scheffer2012b]
-
+-   Signals for other types of systems
+    -   Spatially extended [NEED CITATIONS]
+    -   Networks (Scheffer et al. 2012)
 
 Conclusions
 ===========
@@ -164,8 +168,6 @@ Evidence required in order to use early warning signals
 
 Evidence of saddle-node bifurcation
 -----------------------------------
-
-
 
 -   EWS may best be employed in systems where enough information is available to
     infer the possibility of saddle-node transitions, but where data is
@@ -186,6 +188,54 @@ Figure Concepts
 
 References
 ==========
+
+Bel, G., A. Hagberg, and E. Meron. 2012. Gradual regime shifts in spatially
+extended ecosystems. Theoretical Ecology 5:591–604.
+
+Boettiger, C., and a Hastings. 2012. Early warning signals and the prosecutor’s
+fallacy. Proceedings of the Royal Society B: Biological Sciences.
+
+Brock, W. A., and S. R. Carpenter. 2010. Interacting Regime Shifts in
+Ecosystems: Implication for Early Warnings. Ecological Monographs 80:353–367.
+
+Carpenter, S. R., J. J. Cole, M. L. Pace, R. Batt, W. a Brock, T. Cline, J.
+Coloso, J. R. Hodgson, J. F. Kitchell, D. a Seekell, L. Smith, and B. Weidel.
+2011. Early Warnings of Regime Shifts: A Whole-Ecosystem Experiment. Science
+1079.
+
+Chisholm, R. a, and E. Filotas. 2009. Critical slowing down as an indicator of
+transitions in two-species models.. Journal of theoretical biology 257:142–9.
+
+Dai, L., D. Vorselen, K. S. Korolev, and J. Gore. 2012. Generic Indicators for
+Loss of Resilience Before a Tipping Point Leading to Population Collapse.
+Science 336:1175–1177.
+
+Drake, J. M., and B. D. Griffen. 2010. Early warning signals of extinction in
+deteriorating environments. Nature 467:456–459.
+
+Hastings, A., and K. Higgins. 1994. Persistence of Transients in Spatially
+Structured Ecological Models. Science 263:1133–1136.
+
+Kéfi, S., V. Dakos, M. Scheffer, E. H. van Nes, and M. Rietkerk. 2012. Early
+warning signals also precede non-catastrophic transitions. Oikos:1–8.
+
+May, R. M. 1972. Limit cycles in predator-prey communities.. Science (New York,
+N.Y.) 177:900–2.
+
+Scheffer, M., S. R. Carpenter, J. A. Foley, C. Folke, and B. Walker. 2001.
+Catastrophic shifts in ecosystems.. Nature 413:591–6.
+
+Scheffer, M., S. R. Carpenter, T. M. Lenton, J. Bascompte, W. Brock, V. Dakos,
+J. van de Koppel, I. A. van de Leemput, S. A. Levin, E. H. van Nes, M. Pascual,
+and J. Vandermeer. 2012. Anticipating Critical Transitions. Science 338:344–348.
+
+Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and M.
+Scheffer. 2011. Recovery rates reflect distance to a tipping point in a living
+system. Nature:2–5.
+
+Wysham, D. B., and A. Hastings. 2008. Sudden shifts in ecological systems:
+intermittency and transients in the coupled Ricker population model.. Bulletin
+of mathematical biology 70:1013–31.
 
   [Figure 1: Something like this]: https://lh6.googleusercontent.com/-Nkn8N_bNgNU/UHXb0U6PU6I/AAAAAAAACNM/c-L3tuzcLlg/s640/2012-10-10_13-01-19_117.jpg
   [Another option: A branching diagram]: http://dl.dropbox.com/u/3356641/blogstuff/Photo-2012.11.08-15.33.10.jpg
