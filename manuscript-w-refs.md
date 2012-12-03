@@ -5,6 +5,17 @@ Intro
 
 Introduction to Warning Signals
 
+-   Rapid regime shifts are common in natural systems
+-   Adaptation, mitigation, and avoidance are challenging when regime shifts are
+    faster than management, so early warning signals are needed
+-   Rapid regime shifts can be caused by many different mechanisms
+-   Desire for *general* warning signals which require minimal knowledge of
+    underlying mechanisms.
+-   Critical slowing down has been focus of most research in early warning
+    signals
+    -   Mechansism of critical slowing down (or is this what we cover later?)
+        -   Saddle-node bifurcation
+
 When will such approaches be useful?
 
 A landscape of possible scenarios.
@@ -13,6 +24,8 @@ critical slowing down (CSD)
 
 Vignette of misapplying
 -----------------------
+
+CARL: Unsure of how to structure this vingette. Maybe you writ this section?
 
 Options for the vignette:
 
@@ -25,7 +38,7 @@ Tour of the diagram
 The Best Case: Catastrophic Bifurcations Preceded by CSD
 --------------------------------------------------------
 
-CARL: What should we cover here?
+CARL: Lots to cover here. What do you think focus of this section should be?
 
 -   Experimental support
     -   Microcosm (Veraart et al. 2011, Dai et al. 2012)
@@ -135,18 +148,29 @@ Observed vs. Real CSD - Statistical Power
 -   Comparative, experimental studies
     -   Historical data introduces biases (Boettiger and Hastings 2012)
 
-So What?
-========
+Implications
+============
 
-CSD + not rapid shift. Don’t get excited. Rapid shift - CSD. Problem. New
-signals?
+While saddle-node transitions are common, they represent only part of the
+potential mechanisms for rapid regime shift.
+
+CSD can't be used alone as evidence regime shift. In some cases, it will be a
+false signal. In other cases, regime shifts occur without CSD. Additional
+information needed in order to determine best signal to use.
 
 Context-specific signals
 ------------------------
 
--   Evidence needed to establish what type of system you are in, and if CSD can
-    be expected
--   Known mechanistic model. Manipulated system.
+-   Need to establish that you are in a warning signals' domain of applicability
+    in order to use it
+-   In this domain, the warning signal should have reasonable power to
+    distinguish between real and false cases
+-   Potential ways to establish this
+    -   Known mechanistic model
+    -   Manipulated system.
+    -   Fitting models to past regime shift data, but models that serve as tests
+        between saddle node transitions and transitions caused by other
+        mechanisms.
 
 -   Examples: saddle nodes
     -   Much research on regime shifts and early warning signals has focused on
@@ -156,22 +180,15 @@ Context-specific signals
         which saddle-nodes bifurcations could be inferred both theoretically and
         experimentally.
 
--   Signals for other types of systems
-    -   Spatially extended [NEED CITATIONS]
-    -   Networks (Scheffer et al. 2012)
+Examining other signals for their domains of applicability
+----------------------------------------------------------
+
+-   Flickering
+-   Network-theory based observations (Scheffer et al. 2012)
+-   Spatially extended [NEED CITATIONS]
 
 Conclusions
 ===========
-
-Evidence required in order to use early warning signals
-=======================================================
-
-Evidence of saddle-node bifurcation
------------------------------------
-
--   EWS may best be employed in systems where enough information is available to
-    infer the possibility of saddle-node transitions, but where data is
-    insufficient to estimate critical thresholds with useful precision.
 
 Figure Concepts
 ===============
@@ -226,7 +243,7 @@ Scheffer, M., S. R. Carpenter, J. A. Foley, C. Folke, and B. Walker. 2001.
 Catastrophic shifts in ecosystems.. Nature 413:591–6.
 
 Scheffer, M., S. R. Carpenter, T. M. Lenton, J. Bascompte, W. Brock, V. Dakos,
-J. van de Koppel, I. A. van de Leemput, S. A. Levin, E. H. van Nes, M. Pascual,
+J. van de Koppel, I. A. van de Leemput, S. a Levin, E. H. van Nes, M. Pascual,
 and J. Vandermeer. 2012. Anticipating Critical Transitions. Science 338:344–348.
 
 Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and M.
