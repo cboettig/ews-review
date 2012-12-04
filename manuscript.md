@@ -1,5 +1,6 @@
 CARL: How to deal with/include flickering?  It's a non-CSD signal.
- 
+Good question.  Probably wrapping up with the "other indicators" at the end, where you have it, is good.  This way we have some examples to point to (and spatial examples) as to the emergence of the more context-specific indicators and the importance of having that context.  
+
 
 Intro
 =====
@@ -24,7 +25,9 @@ critical slowing down (CSD)
 Vignette of misapplying
 -----------------------
 
-CARL: Unsure of how to structure this vingette.  Maybe you writ this section?
+CARL: Unsure of how to structure this vingette.  Maybe you write this section?
+
+Sure.  Yeah, I'm leaning to the decreasing variance example as the motivation.  Probably have to get some code up and running to illustrate this.  
 
 Options for the vignette:
 
@@ -38,9 +41,11 @@ The Best Case: Catastrophic Bifurcations Preceded by CSD
 --------------------------------------------------------
 
 CARL: Lots to cover here.  What do you think focus of this section should be?
+The literature here is well-reviewed though, [@Scheffer2009; @Scheffer2012b].  I can write a quick summary on theory and experiment here.  
 
 -   Experimental support
-    -   Microcosm [@Veraart2011; @Dai2012]
+    -   Microcosm [@Veraart2011; @Dai2012]  
+Comment that [@Drake2010] thinks it belongs here but transcritical need not be "catastrophic".  
     -   Large-scale [@Carpenter2011a]
 
 Catastrophic Bifurcations *not* Preceded by CSD
@@ -58,7 +63,7 @@ Catastrophic Bifurcations *not* Preceded by CSD
             migration rates of individuals between patches. As the simulated
             system approached this bifurcation, however, no increase in the
             variance or skew of populations was detected.
-        -   Schreiber2003a examined a discrete-time model of a species subject
+        -   @Schreiber2003a examined a discrete-time model of a species subject
             to strong density dependence (an Allee effect) and harvested by a
             predator with a Type II functional response. In this model, the
             population exhibits *decreasing* variance as predation intensity
@@ -111,7 +116,7 @@ Other Catastrophic Regime Shifts without CSD
 -   Many rapid regime shifts are not due to bifurcations at all
 -   In these cases, CSD is not expected to precede these regime shifts
 -   External forcing
--   Endogenous stochastic events
+-   Endogenous stochastic events [@Ditlevsen2010]
 -   Transients
     -   In spatially structured models with overcompensatory dynamics, long-term
         transients may appear to be regime shifts [@Hastings1994; @Wysham2008]
@@ -121,7 +126,7 @@ Other Catstrophic Regime Shifts with CSD
 
 -   Rapid regime shifts that are not bifurcations are not expected to exhibit
     CSD. However, CSD may be observed if
-    -   A transition occurs due to repeated stochastic events that resemble CSD
+    -   A transition occurs due to stochastic events that resemble CSD
         [@Boettiger2012d]
     -   CSD occurs due to other processes in the system occuring simultaneously
 
@@ -136,7 +141,7 @@ Observed vs. Real CSD - Statistical Power
 
 -   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
     may be imperfect. *Observed* CSD can only be used as an indicator if it can
-    be detected and rejected reliably
+    be detected and rejected reliably [@Peretti2012]
 -   Need to know the power of CSD detection methods
 -   Model-based approaches are more powerful than summary statistics
     [@Boettiger2012a]
@@ -144,6 +149,8 @@ Observed vs. Real CSD - Statistical Power
     signals [@Boettiger2012a]
 -   Comparative, experimental studies
     -   Historical data introduces biases [@Boettiger2012d]
+
+  
 
 Implications
 ============
@@ -166,11 +173,15 @@ Context-specific signals
        -   Much research on regime shifts and early warning signals has focused on lakes [Refs from @Scheffer2001], which are well-modeled
        -   @Veraart2011 and @Dai2012 studied simple experimental systems which could be described with simple mechanistic models, and in which saddle-nodes bifurcations could be inferred both theoretically and experimentally.
 
+  Contexts: savanna transition, e.g. @Bel2012, @Staver2011, @Hirota2011
+
+
 ## Examining other signals for their domains of applicability
 
-- Flickering
+- Flickering [@Wang2012; @Brock2010]
 - Network-theory based observations [@Scheffer2012b]
-- Spatially extended [NEED CITATIONS]
+- Spatially extended [@Guttal2008; @Dakos2010; @Dakos2011; @Carpenter2010, @Bel2012; @Bailey2010; @Litzow2008] also see nice system-specific approaches in @Kefi2007, @Kefi2008 and also @vanNes2005
+
 
 Conclusions
 ===========
