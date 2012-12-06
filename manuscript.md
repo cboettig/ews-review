@@ -1,38 +1,47 @@
-CARL: How to deal with/include flickering?  It's a non-CSD signal.
-Good question.  Probably wrapping up with the "other indicators" at the end, where you have it, is good.  This way we have some examples to point to (and spatial examples) as to the emergence of the more context-specific indicators and the importance of having that context.  
+Introduction
+============
 
+Many natural systems exhibit regime shifts - rapid changes in the state and
+conditions of system behavior. Such shifts have include lake eutrophication,
+algal overgrowth of coral systems, fishery collapse, desertification of
+grasslands, and rapid changes in climate [TODO: Add refs]. Such drastic shifts
+have the potential to impact ecosystem health and human well-being. Thus, it is
+important to develop strategies for adaptation, mitigation, and avoidance of
+such shifts.
 
-Intro
-=====
+An important component of this management challenge is the development of early
+warning signals (EWS) of impending rapid regime shifts. Since regime shifts
+occur in a variety of systems, and underlying mechanisms for the shifts are not
+always known, *generic* signals applicable to a variety of systems will be
+particularly valuable.
 
-Introduction to Warning Signals
+Critical slowing down (CSD) has been studied extensively in theoretical [refs]
+and empirical contexts [refs] as a potential EWS. CSD occurs as a system's
+dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
+environment. As the eigenvalue approaches zero, the system's response to small
+perturbations slows. This change can changes in dynamic properties can be
+expressed in greater variance, autocorrelation, and return time of observed
+state variables [refs].
 
--   Rapid regime shifts are common in natural systems
--   Adaptation, mitigation, and avoidance are challenging when regime shifts are faster than management, so early warning signals are needed
--   Rapid regime shifts can be caused by many different mechanisms
--   Desire for *general* warning signals which require minimal knowledge of underlying mechanisms.
--   Critical slowing down has been focus of most research in early warning signals
-    - Mechansism of critical slowing down (or is this what we cover later?)
-        - Saddle-node bifurcation
+CSD has frequently been studied in the context of models exhibiting a
+saddle-node bifurcation [Figure 1: Equilibrium Diagram of Saddle Node].
+Saddle-nodes are one of many potential bifurcations in ecological systems,
+though. Rapid regime shifts may also occur in the absence of bifurcations at
+all.
 
+Here we review a variety of mechanisms that may lead to rapid (or
+"catastrophic") regime shifts in ecological systems, as well as mechanisms that
+generate observations of CSD. We illustrate that these phenomena do not overlap
+in many cases. We then discuss the conditions under which CSD and other warning
+signals may be reliably used, and the supporting evidence neccessary to
+establish whether they are appropriate to specific contexts
 
-When will such approaches be useful?
+**TODO (Noam): Talk more about bifurcations**
 
-A landscape of possible scenarios.
+An Example: Decreasing Variance Prior to transition
+---------------------------------------------------
 
-critical slowing down (CSD)
-
-Vignette of misapplying
------------------------
-
-CARL: Unsure of how to structure this vingette.  Maybe you write this section?
-
-Sure.  Yeah, I'm leaning to the decreasing variance example as the motivation.  Probably have to get some code up and running to illustrate this.  
-
-Options for the vignette:
-
--   Bifurcation with decreasing variance?
--   Large external force (too trivial)
+**TODO (Carl): Write this section**
 
 Tour of the diagram
 ===================
@@ -40,98 +49,172 @@ Tour of the diagram
 The Best Case: Catastrophic Bifurcations Preceded by CSD
 --------------------------------------------------------
 
-CARL: Lots to cover here.  What do you think focus of this section should be?
-The literature here is well-reviewed though, [@Scheffer2009; @Scheffer2012b].  I can write a quick summary on theory and experiment here.  
+**TODO (Carl): Write this section**
 
+-   Theoretical Basis (Reviewed by @Scheffer2009 and @Scheffer2012b)
 -   Experimental support
-    -   Microcosm [@Veraart2011; @Dai2012]  
-Comment that [@Drake2010] thinks it belongs here but transcritical need not be "catastrophic".  
+    -   Microcosm [@Veraart2011; @Dai2012]
+        -   Comment that [@Drake2010] thinks it belongs here but transcritical
+            need not be "catastrophic".
+
     -   Large-scale [@Carpenter2011a]
 
 Catastrophic Bifurcations *not* Preceded by CSD
 -----------------------------------------------
 
--   Not all bifurcations are saddle-node types
--   Non-saddle node bifurcations can cause rapid regime shifts, sometimes
-    without demonstrating CSD.
--   Examples demonstrated in models:
-    -   Chaotic crises
-        -   @Hastings2012b examined a continuous model of a three-species food
-            chain where all species coexisted in a chaotic but stable attractor.
-            In the model, the top predator rapidly goes extinct in response to a
-            gradual increase the strength of stochastic noise, or an increase in
-            migration rates of individuals between patches. As the simulated
-            system approached this bifurcation, however, no increase in the
-            variance or skew of populations was detected.
-        -   @Schreiber2003a examined a discrete-time model of a species subject
-            to strong density dependence (an Allee effect) and harvested by a
-            predator with a Type II functional response. In this model, the
-            population exhibits *decreasing* variance as predation intensity
-            increases, until a threshold level where the population goes
-            extinct.
+**TODO (Carl): Should we bother reproducing some of the figures from other
+papers?**
 
-    -   Interacting Regime Shifts [@Brock2010].
-    -   Spatially extended systems [@Bel2012].
-        -   A local regime shift in a spatially extended system can induce a
-            global regime shift as the change propogates through the system. The
-            global shift can occur when environmental conditions are, on
-            average, far away from the threshold that would cause a local regime
-            shift. Thus, even if local regime shifts are due to a fold
-            bifurcation, global state variables may not exhibit indicators of
-            CSD.
+Saddle nodes are only one of a variety of bifurcations which can cause rapid
+changes in system dynamics. Other bifurcations can cause long-term changes in
+system dynamics without a gradual pass through a state with zero eigenvalue, and
+therefore, not exhibit CSD
+
+One class of bifurcations in which we would not expect to see CSD prior to
+regime shift are known as *crises*. Crises are sudden changes in the long-term
+changes in the dynamics of chaotic attractors [@Grebogi1983] that occur in
+response to small changes in parameters. Chaotic attractors are features of many
+ecological models [@Hastings1993], and chaotic behavior has been shown in some
+ecological systems [refs] (**TODO (Noam): add examples**)
+
+@Hastings2010 examined a continuous model of a stochastic three-species food
+chain where all species migrate between six patches. When the environemental
+stochasticity (represented as random variation in the carrying capacity) is low,
+all species coexisted in a chaotic but stable attractor. A small increase in
+environmental stochasticity, though, cause extinction of the top predator and
+and rapid shift to a non-chaotic cycle. Despite an increase in environmental
+variability, neither the variance nor skew of the populations of any species
+change as the system approaches this bifurcation
+
+Another example of a chaotic crisis can be found in a simple discrete-time model
+where a population is subject to strong density dependence (an Allee effect) and
+harvested by predatirs with a Type II (saturating) functional response
+[@Schreiber2003]. When prey have high growth rates, the system has chaotic
+dynamics. Small increases in the predation intensity cause a bifurcation with
+chaotic but persistent prey populations to prey extinction. As predation
+intensity increases towards this threshold, the population exhibits *decreasing*
+variance.
+
+**TODO: Should we simulate this to see what the autocorrelation/skew look
+like?**
+
+Some spatially extended systems exhibit a type of bifurcation which is not
+accompanied by CSD. In one class of models, individual locations are subject to
+saddle node-type regime shifts, and also influence adjacent locations in a
+Short-range facilitation and long-range competition Such models are used
+represent transitions between vegetation types in response to changing water
+availability, and reproduce naturally occurring vegetation patterns
+[@Rietkerk2008]. In such systems, a regime shift in one location can propogate
+spatially and transition the whole system from one regime to another. Such a
+transition occurs if the control parameter (e.g., rainfall), exceeds the
+*Maxwell point* - the value at which a local disturbance propogates outwards
+[@Bel2012]. The Maxwell point may be far from the level at which an individual
+location would undergo a saddle-node bifurcation, and thus the system's global
+dynamics would not exhibit CSD prior to such a transition.
 
 Non-Catastrophic Bifurcations Preceded by CSD
 ---------------------------------------------
 
--   Some bifurcations are non-catastrophic. Systems undergoing these
-    bifurcations exhibit a qualitative change in dynamics, but no rapid shift
-    from one equilibrium state to another.
--   Unlike a saddle-node bifurcation, these bifurcations do not have hysteresis,
-    and so changes are not difficult to resist.
--   While theoretically sound, in a management setting, a non-catastrophic
-    bifurcation may effectively be false positive when CSD is expected to
-    precede a dramatic change
--   Transcritical bifurcation
-    -   Change between positive and zero stable equilibrium
-    -   Common in many models [Examples - models of invasion, fisheries]
-    -   CSD shown to occur prior to transcritical bifurcation [@Chisholm2009;
-        @Kefi2012]
-    -   Experimental evidence for CSD in @Drake2010
+Not all regime shifts are rapid. Some systems undergo bifurcations between
+qualitatively different, but quanitatively similar regimes. These transitions
+may be reversible. In a management setting, such changes may not be
+qualitatively different, so warning signals which detect such transitions may be
+effective "false positives".
 
--   Hopf bifurcation
-    -   Transition between stable equilibrium and limit cycles
-    -   Common in predatory-prey systems [@May1972].
-    -   CSD shown to occur prior to Hopf bifurcation [@Chisholm2009; @Kefi2012]
+CSD precedes several types of these non-catastrophic bifurcations. In the
+subcritical form of a Hopf bifurcation, a system transitions from a stable
+equilibrium to a stable cycle. This bifurcation occurs in classical
+predator-prey systems [@May1972] and has been observed in experimental systems
+[refs]. As a control parameter approaches the critical threshold, the system's
+dominant eigenvalue approaches zero and thus exhibits CSD [@Chisholm2009;
+@Kefi2012]. However, the mean value of the equilibrium does not change
+dramatically, and the transition from stable equilibrium to cycles is gradual as
+the cycle sizes grow from zero at the threshold value. In the presence of
+stochasticity, system behavior may be observed on either side of the threshold
+may be indistinguishable.
+
+The system's eigenvalue also passes through zero in the case of the
+transcritical bifurcation. The transcritical is a degenerate case of the the
+saddle-node, and occurs in many of the same systems. However, when a system
+passes through a transcritical bifurcation, the stable equilibrium transitions
+smoothly from positive to zero, or the reverse. In population systems, this
+corresponds to a transition from a very small population size to extinction - an
+important but non-catastrophic, and probably directly observable, event. CSD is
+observed prior to the transcritical bifurcations [@Chisholm2009; @Kefi2012].
+
+@Drake2010 induced a transcritical bifurcation in experimental populations of
+*Daphnia* by reducing food supplies and driving population growth rates below
+zero. They observed indicators of CSD (variation, skewness, autocorrelation, and
+spatial correlation) increase prior to collapse of the population.
 
 Non-Catastrophic Bifurcations without CSD
 -----------------------------------------
 
--   To exhaustively cover all bifurcations, we must include trivial
-    bifurcations, such as the transition of a very small population to
-    extinction
+**TODO: Anything here? Beyond a trivial change from positive to zero
+population**
 
-Other Catastrophic Regime Shifts without CSD
---------------------------------------------
+Catastrophic Regime Shifts without CSD
+--------------------------------------
 
--   Many rapid regime shifts are not due to bifurcations at all
--   In these cases, CSD is not expected to precede these regime shifts
--   External forcing
--   Endogenous stochastic events [@Ditlevsen2010]
--   Transients
-    -   In spatially structured models with overcompensatory dynamics, long-term
-        transients may appear to be regime shifts [@Hastings1994; @Wysham2008]
+**TODO: More examples here? This is obvious in some ways, but showing ubiquity
+may be useful**
+
+Some rapid regime shifts are not due to bifurcations at all. A system may
+undergo a because of a rapid change in external conditions or an external
+disturbance or internal stochastic event that switches it between dynamic
+regimes. In neither case would CSD be expected to precede such changes.
+
+**TODO: Insert figure like @Bel2012 Fig. 1?**
+
+Large, rapid changes in external conditions will result in rapid changes in
+ecological system dynamics. For instance, rapid changes in North American
+vegetation at the start of the Bølling-Allerød and end of the Younger Dryas
+period are thought to be responses to similarly large, rapid changes in climate
+[@Williams2011b.]
+
+Perturbations may shift systems from one regime to another even if underlying
+environmental conditions remain the same. @Hastings2010 showed that in a model
+where one species with stochastic Ricker dynamics disperses among eight patches,
+model behavior can switch stochastically between wildly oscillatory behavior and
+regularly cycling regimes even while parameters (including stochastic
+variability) remain the same.
+
+@Schooler2011 found that lakes with the invasive plant *Salvaniai molesta* and
+herbivorous weevils alternated between low- and high-*Salvnia* due to
+disturbance from regular flooding events. @Ditlevsen2010 examined 25 abrupt
+climate changes that occurred during the last glacial period (Dansgaard‐Oeschger
+events) and found no evidence for CSD in high-resolution climate data from ice
+cores, and concluded that the events were driven by endogenous climate
+stochasticity.
+
+Some events that appear to be regime shifts may actually be transients in some
+systems. Sudden changes in dynamics can occur in simple ecological models with
+strong density dependence that take long times to reach equilibrium.
+@Hastings1994 showed such dynamics in model of dispersal of iter- or sub-tidal
+organisms whose larvae disperse along a coastline. Over the thousands of years
+it takes the model to reach equilibrium, it may alternate between temporary
+regimes of regular cycles and chaos which switch in only a few years. While on
+long time scales these are technically not regime shifts, such changes would
+effectively appear to be regime shifts on shorter ones. We would not expect such
+regime shifts to be preceded with CSD.
 
 Other Catstrophic Regime Shifts with CSD
 ----------------------------------------
 
--   Rapid regime shifts that are not bifurcations are not expected to exhibit
-    CSD. However, CSD may be observed if
-    -   A transition occurs due to stochastic events that resemble CSD
-        [@Boettiger2012d]
-    -   CSD occurs due to other processes in the system occuring simultaneously
+**TODO: Expand**
+
+Could CSD occur in any type of regime shift that are not due to bifurcations?
+
+CSD may be observed prior to stochastically-driven regime shifts due to a
+stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
+
+CSD may also be observed in systems when they are *coupled* with other systems
+undergoing saddle-node bifurcations.
 
 CSD in the absence of regime shifts
 -----------------------------------
+
+**TODO: Expand from here on**
 
 -   Systems undergoing change can exhibit CSD even in the absence of a rapid
     regime shift of bifurcation [@Kefi2012]
@@ -150,42 +233,65 @@ Observed vs. Real CSD - Statistical Power
 -   Comparative, experimental studies
     -   Historical data introduces biases [@Boettiger2012d]
 
-  
-
 Implications
 ============
 
-While saddle-node transitions are common, they represent only part of the potential mechanisms for rapid regime shift.
+While saddle-node transitions are common, they represent only part of the
+potential mechanisms for rapid regime shift.
 
-CSD can't be used alone as evidence regime shift.  In some cases, it will be a false signal.  In other cases, regime shifts occur without CSD.  Additional information needed in order to determine best signal to use.
+CSD can't be used alone as evidence regime shift. In some cases, it will be a
+false signal. In other cases, regime shifts occur without CSD. Additional
+information needed in order to determine best signal to use.
+
+For stochastically-driven regime shifts, prediction may not be possible.
+Managing for resilience [refs] may be th eonly option.
+
+Regime shifts driven by external perturbation or strong forcing are not
+predictable *if the scope of mangement does not include the external causes*.
+Proper scoping of the management problem can avoid this situation. **(Possible
+reference: @ResilienceAlliance2010)**
 
 Context-specific signals
 ------------------------
 
-- Need to establish that you are in a warning signals' domain of applicability in order to use it
-   - In this domain, the warning signal should have reasonable power to distinguish between real and false cases
-- Potential ways to establish this
-    -  Known mechanistic model
-    -  Manipulated system. 
-    -  Fitting models to past regime shift data, but models that serve as tests between saddle node transitions and transitions caused by other mechanisms.
+-   Need to establish that you are in a warning signals' domain of applicability
+    in order to use it
+-   In this domain, the warning signal should have reasonable power to
+    distinguish between real and false cases
+-   Potential ways to establish this
+    -   Known mechanistic model
+    -   Manipulated system.
+    -   Fitting models to past regime shift data, but models that serve as tests
+        between saddle node transitions and transitions caused by other
+        mechanisms.
 
-   - Examples: saddle nodes
-       -   Much research on regime shifts and early warning signals has focused on lakes [Refs from @Scheffer2001], which are well-modeled
-       -   @Veraart2011 and @Dai2012 studied simple experimental systems which could be described with simple mechanistic models, and in which saddle-nodes bifurcations could be inferred both theoretically and experimentally.
+-   Examples: saddle nodes
+    -   Much research on regime shifts and early warning signals has focused on
+        lakes [Refs from @Scheffer2001], which are well-modeled
+    -   @Veraart2011 and @Dai2012 studied simple experimental systems which
+        could be described with simple mechanistic models, and in which
+        saddle-nodes bifurcations could be inferred both theoretically and
+        experimentally.
 
-  Contexts: savanna transition, e.g. @Bel2012, @Staver2011, @Hirota2011
+Contexts: savanna transition, e.g. @Bel2012, @Staver2011, @Hirota2011
 
+-   Other evidence:
+    -   Strong density dependence make chaos, and thus both crises and chaotic
+        transients, more likely [@Wysham2008].
 
-## Examining other signals for their domains of applicability
+Examining other signals for their domains of applicability
+----------------------------------------------------------
 
-- Flickering [@Wang2012; @Brock2010]
-- Network-theory based observations [@Scheffer2012b]
-- Spatially extended [@Guttal2008; @Dakos2010; @Dakos2011; @Carpenter2010, @Bel2012; @Bailey2010; @Litzow2008] also see nice system-specific approaches in @Kefi2007, @Kefi2008 and also @vanNes2005
-
+-   Flickering [@Wang2012; @Brock2010]
+-   Network-theory based observations [@Scheffer2012b]
+-   Spatially extended [@Guttal2008; @Dakos2010; @Dakos2011; @Carpenter2010,
+    @Bel2012; @Bailey2010; @Litzow2008] also see nice system-specific approaches
+    in @Kefi2007, @Kefi2008 and also @vanNes2005
+-   Future research
+    -   Behavior prior to/in systems with transients?
 
 Conclusions
 ===========
-
 
 Figure Concepts
 ===============
