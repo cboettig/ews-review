@@ -1,33 +1,87 @@
 Introduction
 ============
 
-Many natural systems exhibit regime shifts - rapid changes in the state and
-conditions of system behavior. Such shifts have include lake eutrophication,
-algal overgrowth of coral systems, fishery collapse, desertification of
-grasslands, and rapid changes in climate [TODO: Add refs]. Such drastic shifts
-have the potential to impact ecosystem health and human well-being. Thus, it is
-important to develop strategies for adaptation, mitigation, and avoidance of
-such shifts.
+Many natural systems exhibit regime shifts - rapid changes in the
+state and conditions of system behavior. Such shifts have include lake
+eutrophication [@Carpenter1999], algal overgrowth of coral systems
+[@Mumby2007], fishery collapse [@Jackson2001], desertification of
+grasslands [@Kefi2007], and rapid changes in climate [@Dakos2008]. Such
+drastic shifts have the potential to impact ecosystem health and human
+well-being. Thus, it is important to develop strategies for adaptation,
+mitigation, and avoidance of such shifts.
 
-An important component of this management challenge is the development of early
-warning signals (EWS) of impending rapid regime shifts. Since regime shifts
-occur in a variety of systems, and underlying mechanisms for the shifts are not
-always known, *generic* signals applicable to a variety of systems will be
-particularly valuable.
+The idea that complex systems such as ecosystems could change suddenly and
+without warning goes back to the 1970s [@Holling1973, @May1977].  Such 
+early work revealed that even simple models with the appropriate nonlinearities
+were capable of unpredictable behavior.  The only way to predict the transition
+was to have the right model -- and that meant having already had the chance
+to observe the transition (even then this remains a tough problem).  
 
-Critical slowing down (CSD) has been studied extensively in theoretical [refs]
-and empirical contexts [refs] as a potential EWS. CSD occurs as a system's
-dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
-environment. As the eigenvalue approaches zero, the system's response to small
-perturbations slows. This change can changes in dynamic properties can be
-expressed in greater variance, autocorrelation, and return time of observed
-state variables [refs].
+An important component of this management challenge is the development
+of early warning signals (EWS) of impending rapid regime shifts
+[@Scheffer2009]. Since regime shifts occur in a variety of systems,
+and underlying mechanisms for the shifts are not always known, *generic*
+signals applicable to a variety of systems will be particularly valuable.
+
+Critical slowing down (CSD) has been studied extensively in theoretical
+[@Wissel1981; @Ghandi1998; @Carpenter2006; @Hastings2010; @Lade2012;
+@Dakos2011a; @Boettiger2012b] and empirical contexts [@Drake2010;
+@Carpenter2011; @Veerat2012; @Dai2012; @Wang2012] as a potential EWS. CSD
+occurs as a system's dominant eigenvalue approaches zero due to a changing
+(possibly deteriorating) environment. As the eigenvalue approaches zero,
+the system's response to small perturbations slows. This change in 
+dynamic properties of a system can be expressed in greater variance,
+autocorrelation, and return time of observed state variables.
+
+
+
+_A confusion of terms_
+
+1. Catastrophic (Sudden shift)?
+2. Bifurcation?
+3. CSD/EWS pattern?  
+
+_Venn Diagram_
+
+
+
+### The illusion of generality & the need for the Venn Diagram.  
+
+The fact that critical slowing down can be observed in advance of sudden 
+transitions across a range of otherwise unrelated phenomena -- climate
+states, brain waves, and food webs -- can give the illusion of a general theory:
+
+> Perhaps the most exciting aspect of this work is that it is uncovering
+> generic features that should in principle hold for any complex
+> system. This implies that we may use these approaches even if we do
+> not understand all details of the underlying mechanisms that drive any
+> particular system.  [@Scheffer2012]
+
+Care is needed to avoid the fallacy that "all A are B" because we have 
+observed that "some A are B".  While more examples emerge of systems that
+exhibit the anticipated patterns of critical slowing down before sudden
+transitions, we do well not to miss the examples of systems that show 
+the same pattern without a transition, or a sudden transition preceded by
+a very different pattern.  
+
+While it is usually recalled that some abrubt transitions are not be preceded by critical slowing down 
+
+> Not all abrupt transitions will be preceded by slowing down. For
+> instance, sharp change may simply result from a sudden big external
+> impact. Also, slowing down of rates can have causes other than approaching
+> a tipping point (e.g., a drop in temperature). [@Scheffer2012]
+
+While large external forcing is frequently given as the simplest example of how
+a transtion could occur without any warning [@Bornasky2012; @Scheffer2001; @Scheffer2009; @Scheffer2012], 
+it is by no means the only mechanism.  
+
+
 
 CSD has frequently been studied in the context of models exhibiting a
-saddle-node bifurcation [Figure 1: Equilibrium Diagram of Saddle Node].
-Saddle-nodes are one of many potential bifurcations in ecological systems,
-though. Rapid regime shifts may also occur in the absence of bifurcations at
-all.
+saddle-node bifurcation [Figure 1: Equilibrium Diagram of Saddle Node] [@Barnosky2012].
+Saddle-nodes are one of many potential bifurcations
+in ecological systems, though. Rapid regime shifts may also occur in
+the absence of bifurcations at all.
 
 Here we review a variety of mechanisms that may lead to rapid (or
 "catastrophic") regime shifts in ecological systems, as well as mechanisms that
@@ -36,34 +90,77 @@ in many cases. We then discuss the conditions under which CSD and other warning
 signals may be reliably used, and the supporting evidence neccessary to
 establish whether they are appropriate to specific contexts
 
+
+
+
+
+
 **TODO (Noam): Talk more about bifurcations**
 
 An Example: Decreasing Variance Prior to transition
 ---------------------------------------------------
 
-**TODO (Carl): Write this section**
+
+
+[@Schreiber2003] [@Schreiber2008]
+
 
 Tour of the diagram
 ===================
 
-The Best Case: Catastrophic Bifurcations Preceded by CSD
+The Best Case: Catastrophic Bifurcations Preceded by CSD  <!-- "Best" might not be the right word -->
 --------------------------------------------------------
 
-**TODO (Carl): Write this section**
+Much of the (most visible) recent research in early warning signals has
+focused on the center of the diagram, where all three concepts intersect.
+The warning signal patterns postulated, such as increasing variance and
+coefficient of variation, [@Carpenter2006], increasing autocorrelation
+[@Dakos2008], increasing skewness [@Guttal2008a] can all be directly
+derived from the changing eigenvalue in a saddle node bifurcation.
+Consequently, experimential evaluations of warning signals have largely
+focused on this situation as well.
 
--   Theoretical Basis (Reviewed by @Scheffer2009 and @Scheffer2012b)
--   Experimental support
-    -   Microcosm [@Veraart2011; @Dai2012]
-        -   Comment that [@Drake2010] thinks it belongs here but transcritical
-            need not be "catastrophic".
+@Dai2012 clearly maps out the entire saddle-node bifurcation diagram
+emprically before presenting the corresponding decrease in recovery time
+(increase in variance and autocorrelation over time). @Veraart2011 shows
+a very similar result in a similar system.  These important experiments 
+are among the best demonstrations that saddle-node bifurcation dynamics
+really occur in natural systems, and can be accompanied by reliable
+detection of early warning signals, at least when sufficient data sampling,
+replicates, and controls are available.  
 
-    -   Large-scale [@Carpenter2011a]
+@Carpenter2011a provides an even more ambitious example, in which
+a lake ecosystem is manipulated towards a sudden transition through
+the introduction of a predator, while a neighboring experimental lake
+provides a control.  In this example the underlying dynamics of a whole
+lake ecosystem are far less tractable than the laboratory controlled
+chemoststats of microrganisms. While it is more difficult to identify
+the bifurcation process, the system is understood well enough to 
+anticipate that a sudden transition can be induced under the intended
+manipulation.  Like the laboratory examples, this helps eliminate the 
+options outside the circle "Catastrophic tranistions", in Figure 1.  
+The observed warning signals then place it in the center.  
+
+An interesting example is found in @Drake2010, where the system is
+forced through a transcritical bifurcation rather than a saddle node.
+An important difference is that a population approaching a transcritical
+bifurcation does so by a gradual approach to zero, rather than a sudden
+crash from a significantly positive state. (Such a sudden transition to a
+distant alternative stable state is characteristic, although not unique,
+to the saddle-node, giving rise to the term blue sky bifurcation).
+As such, we consider @Drake2010 to provide an excellent example of a
+system that shows CSD preceding a non-catostrophic or sudden bifurcation.
 
 Catastrophic Bifurcations *not* Preceded by CSD
 -----------------------------------------------
 
 **TODO (Carl): Should we bother reproducing some of the figures from other
-papers?**
+papers?** *Ask Alan*
+
+**Intro to this section should highlight it as one of the worst cases -- 
+as the result is catastrophic, all though the driving mechanism is still a 
+gradual change, and the expected pattern is absent or even backwards **
+
 
 Saddle nodes are only one of a variety of bifurcations which can cause rapid
 changes in system dynamics. Other bifurcations can cause long-term changes in
@@ -71,11 +168,11 @@ system dynamics without a gradual pass through a state with zero eigenvalue, and
 therefore, not exhibit CSD
 
 One class of bifurcations in which we would not expect to see CSD prior to
-regime shift are known as *crises*. Crises are sudden changes in the long-term
+regime shift are sometimes known as *crises*. Crises are sudden changes in the long-term  <!-- Citation? -->
 changes in the dynamics of chaotic attractors [@Grebogi1983] that occur in
 response to small changes in parameters. Chaotic attractors are features of many
-ecological models [@Hastings1993], and chaotic behavior has been shown in some
-ecological systems [refs] (**TODO (Noam): add examples**)
+ecological models [@Hastings1993], and chaotic behavior has been shown in some            <!-- All though its generality has also been questioned -->
+ecological systems [e.g. @Constantino1997 (10.1126/science.275.5298.389)] (**TODO (Noam): add examples**)
 
 @Hastings2010 examined a continuous model of a stochastic three-species food
 chain where all species migrate between six patches. When the environemental
