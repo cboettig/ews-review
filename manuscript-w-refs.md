@@ -87,7 +87,8 @@ each of these regions.
 
 ![Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
 shifts, bifurcations, and critical slowing down. Text in italic are example
-phenomena that occur in each domain.]
+phenomena that occur in each
+domain.](http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg)
 
 Catastrophic Bifurcations Preceded by CSD
 -----------------------------------------
@@ -238,7 +239,8 @@ regimes. In neither case would CSD be expected to precede such changes.
 
 **TODO: Insert figure like Bel et al. (2012) Fig. 1?**
 
-![From Bel et al. (2012): Difference between different types of perturbations]
+![From Bel et al. (2012): Difference between different types of
+perturbations](Bel2012example.png)
 
 Large, rapid changes in external conditions will result in rapid changes in
 ecological system dynamics. For instance, rapid changes in North American
@@ -559,9 +561,3 @@ thresholds. Oecologia 65:101–107.
 Wysham, D. B., and A. Hastings. 2008. Sudden shifts in ecological systems:
 intermittency and transients in the coupled Ricker population model.. Bulletin
 of mathematical biology 70:1013–31.
-
-  [Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
-  shifts, bifurcations, and critical slowing down. Text in italic are example
-  phenomena that occur in each domain.]: http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg
-  [From Bel et al. (2012): Difference between different types of perturbations]:
-    Bel2012example.png
