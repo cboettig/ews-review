@@ -562,6 +562,6 @@ of mathematical biology 70:1013–31.
 
   [Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
   shifts, bifurcations, and critical slowing down. Text in italic are example
-  phenomena that occur in each domain.]: ews-venn.jpg
+  phenomena that occur in each domain.]: http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg
   [From Bel et al. (2012): Difference between different types of perturbations]:
     Bel2012example.png

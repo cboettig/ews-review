@@ -83,7 +83,7 @@ each of these regions.
 
 ![Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
 shifts, bifurcations, and critical slowing down. Text in italic are example
-phenomena that occur in each domain.](ews-venn.jpg)
+phenomena that occur in each domain.](http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg)
 
 Catastrophic Bifurcations Preceded by CSD
 -----------------------------------------
