@@ -159,6 +159,8 @@ chaotic but persistent prey populations to prey extinction. As predation
 intensity increases towards this threshold, the population exhibits *decreasing*
 variance.
 
+![Figure 1: A system where variance decreases prior to a population collapse. from @Schreiber2003. In this model, prey species with high growth rates exhibit chaotic dynamics under predation, but populations collapse when predation increases beyond a threshold value.  Left: The population level as a function of predation rate.  Middle:  Variance of the prey population level.  Note that it *decreases* as predation rate approaches the threshold.  Right: Lag-1 Autocorrelation in prey population dynamics increases as the threshold is approached](schreiber-fig.png)
+
 **OPEN QUESTION: Should we simulate this to see what the autocorrelation/skew
 look like?**
 
@@ -196,6 +198,10 @@ change dramatically, and the transition from stable equilibrium to cycles is
 gradual as the cycle sizes grow from zero at the threshold value. In the
 presence of stochasticity, system behavior may be observed on either side of the
 threshold may be indistinguishable.
+
+![Figure 2: A system where critical slowing down is observed without a critical threshold, from @Kefi2012.  In this model, prey have logistic growth and are subject to predation with a Type III functional response, but there is no bifurcation.  Instead, average prey population exhibits a smooth response to increased predation. Left: The population level as a function of predation rate.  Middle:  Variance of the prey population level.  Note that it increases during the transition, despite no bifurcation.  Right: Lag-1 Autocorrelation in prey population dynamics as predation rate increases.  Note that it, too, increases despite the lack of a bifurcation](schreiber-fig.png)
+
+
 
 The system's eigenvalue also passes through zero in the case of the
 transcritical bifurcation. The transcritical is a degenerate case of the the
