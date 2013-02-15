@@ -20,10 +20,32 @@ An important component of this management challenge is the development of early
 warning signals (EWS) of impending rapid regime shifts [@Scheffer2009]. Since
 regime shifts occur in a variety of systems, and underlying mechanisms for the
 shifts are not always known, *generic* signals applicable to a variety of
-systems will be particularly valuable.
+systems will be particularly valuable.  
+
+Foundational research in early warning signals identified certain
+patterns such as increasing variance or autocorrelation which can
+accurately forecast a sudden transition in a wide variety of systems
+[@Scheffer2009]. Subsequent work has begun to identify an growing library
+of cases in which these indicators are not present before a transition
+[@Hastings2010; @Schreiber2008; @Bel2012; @Schreiber2004], or are observed
+in the absence of any transition [@Kefi2012].  These examples are distinct
+from the more well-known case of statistical error -- such as a signal
+that is present but too weak to detect due to insufficient avaiable data
+[see @Dakos2008; Scheffer2009, @Perretti2012].  Instead, such work moves
+into new territory where different underlying mechanisms have lead
+to starkly different patterns.  
+
+Where do the established indicators work? Where do they break down? 
+How can we tell which case is which?  
+
+
+
+
 
 Lack of Generality of Critical Slowing Down
 -------------------------------------------
+
+*Not clear that this section belongs here(?).  The point is to cast a wider net in our search for warning signals than critical slowing down.  Not to bash the existing metric as not general -CB*
 
 Critical slowing down (CSD) has been studied extensively in theoretical
 [@Wissel1984; @Gandhi1998; @Carpenter2006; @Hastings2010; @Lade2012;
@@ -33,7 +55,9 @@ occurs as a system's dominant eigenvalue approaches zero due to a changing
 (possibly deteriorating) environment. As the eigenvalue approaches zero, the
 system's response to small perturbations slows. This change in dynamic
 properties of a system can be expressed in greater variance, autocorrelation,
-and return time of observed state variables.
+and return time of observed state variables.  *This is important background that should appear somewhere -CB*
+
+*This next section may be entirely unneccessary -CB*
 
 The fact that critical slowing down can be observed in advance of sudden
 transitions across a range of otherwise unrelated phenomena -- climate states,
@@ -61,15 +85,22 @@ While large external forcing is frequently given as the simplest example of how
 a transtion could occur without any warning [@Barnosky2012; @Scheffer2001;
 @Scheffer2009; @Scheffer2012b], it is by no means the only mechanism.
 
+
+
+*Map out the paper.  Needs flushing out more -CB*
+
 Here we review a variety of mechanisms that may lead to rapid (or
 "catastrophic") regime shifts in ecological systems, as well as mechanisms that
-generate observations of CSD. We illustrate that these phenomena do not overlap
-in many cases. We then discuss the conditions under which CSD and other warning
-signals may be reliably used, and the supporting evidence neccessary to
-establish whether they are appropriate to specific contexts.
+generate observations of CSD. We illustrate that not all rapid shifts exhibit 
+CSD, and not all observations of CSD involve rapid shifts.  The future of 
+early warning signals for regime shifts will depend on being able to develop
+further (generic) indicators to describe and identify which systems belong where.  
+
 
 Relationships between Regime Shifts, Bifurcations, and CSD
 ==========================================================
+
+*Should we drop the Bifurcations circle? Would a different third circle be useful? -CB* 
 
 In Figure 1 we illustrate the domains of overlap between three distinct stes of
 phenomena. The first, *rapid regime shifts* are abrupt changes in system
@@ -221,11 +252,16 @@ correlation) increased prior to collapse of the population.
 Non-Catastrophic Bifurcations without CSD
 -----------------------------------------
 
+Some bifurcations are much more mundane, involving neither catastrophic shifts 
+or patterns of critical slowing down.  
+
 **TODO: Anything here? Beyond a trivial change from positive to zero
 population**
 
 Catastrophic Regime Shifts without CSD
 --------------------------------------
+
+**TODO: Add a numeric reference connecting each section to a region of Figure 1**
 
 **TODO: More examples here? This is obvious in some ways, but showing ubiquity
 may be useful**
@@ -272,43 +308,10 @@ long time scales these are technically not regime shifts, such changes would
 effectively appear to be regime shifts on shorter ones. We would not expect such
 regime shifts to be preceded with CSD.
 
-Other Catstrophic Regime Shifts with CSD
-----------------------------------------
 
-**TODO: Expand**
+Discussion
+==============================================================================
 
--   Could CSD occur in any type of regime shift that are not due to
-    bifurcations?
--   CSD may be observed prior to stochastically-driven regime shifts due to a
-    stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
--   CSD may also be observed in systems when they are *coupled* with other
-    systems undergoing saddle-node bifurcations.
-
-CSD in the absence of regime shifts
------------------------------------
-
-**TODO: Expand**
-
--   Systems undergoing change can exhibit CSD even in the absence of a rapid
-    regime shift of bifurcation [@Kefi2012]
-
-Observed vs. Real CSD - Statistical Power
-=========================================
-
--   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
-    may be imperfect. *Observed* CSD can only be used as an indicator if it can
-    be detected and rejected reliably, which is often not the case under common
-    levels of noise in ecological data [@Perretti2012].
--   Need to know the power of CSD detection methods
--   Model-based approaches are more powerful than summary statistics
-    [@Boettiger2012a]
--   Reciever-operator are a useful method for evaluating the efficacy of warning
-    signals [@Boettiger2012a]
--   Comparative, experimental studies
-    -   Historical data introduces biases [@Boettiger2012b]
-
-Implications
-============
 
 -   While saddle-node transitions are common, they represent only part of the
     potential mechanisms for rapid regime shift.
@@ -364,9 +367,39 @@ Examining other signals for their domains of applicability
 -   Future research
     -   Behavior prior to/in systems with transients?
 
-Conclusions
-===========
 
+
+Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
+---------------------------------------------------------------------
+
+**TODO: -- Section really belongs as a footnote/passing comment in discussion **
+
+-   CSD may be observed prior to stochastically-driven regime shifts due to a
+    stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
+-   CSD may also be observed in systems when they are *coupled* with other
+    systems undergoing saddle-node bifurcations.
+
+
+Observed vs. Real CSD - Statistical Power
+-----------------------------------------
+
+** Move this section up? Alan adds to introduction, and then revisit in the discussion -CB **
+
+-   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
+    may be imperfect. *Observed* CSD can only be used as an indicator if it can
+    be detected and rejected reliably, which is often not the case under common
+    levels of noise in ecological data [@Perretti2012].
+-   Need to know the power of CSD detection methods
+-   Model-based approaches are more powerful than summary statistics
+    [@Boettiger2012a]
+-   Receiver-operator are a useful method for evaluating the efficacy of warning
+    signals [@Boettiger2012a]
+-   Comparative, experimental studies
+    -   Historical data introduces biases [@Boettiger2012b]
+
+Acknowledgments
+================
+This work was partially supported by the Center for Stock Assessment Research, a partnership between the University of California Santa Cruz and the Fisheries Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA.  **TODO Add your acknowledgments here**
 
 References
 ==========
