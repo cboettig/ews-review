@@ -45,7 +45,9 @@ How can we tell which case is which?
 Lack of Generality of Critical Slowing Down
 -------------------------------------------
 
-*Not clear that this section belongs here(?).  The point is to cast a wider net in our search for warning signals than critical slowing down.  Not to bash the existing metric as not general -CB*
+*Not clear that this section belongs here(?).  The point is to cast a wider
+net in our search for warning signals than critical slowing down.  Not to bash
+the existing metric as not general -CB*
 
 Critical slowing down (CSD) has been studied extensively in theoretical
 [@Wissel1984; @Gandhi1998; @Carpenter2006; @Hastings2010; @Lade2012;
@@ -55,7 +57,8 @@ occurs as a system's dominant eigenvalue approaches zero due to a changing
 (possibly deteriorating) environment. As the eigenvalue approaches zero, the
 system's response to small perturbations slows. This change in dynamic
 properties of a system can be expressed in greater variance, autocorrelation,
-and return time of observed state variables.  *This is important background that should appear somewhere -CB*
+and return time of observed state variables.  *This is important background
+that should appear somewhere -CB*
 
 *This next section may be entirely unneccessary -CB*
 
@@ -100,7 +103,14 @@ further (generic) indicators to describe and identify which systems belong where
 Relationships between Regime Shifts, Bifurcations, and CSD
 ==========================================================
 
-*Should we drop the Bifurcations circle? Would a different third circle be useful? -CB* 
+*Should we drop the Bifurcations circle? Would a different third circle be
+useful? -CB* 
+
+*I think each of the sections could use a format of "what we expected", "what
+is surprising" and "more research to answer xyz". We kind of jump into each
+of the examples without a lot of "so what". Highlighting which areas of the
+diagram are most ripe for exploration would be particularly useful I think. -CB*
+
 
 In Figure 1 we illustrate the domains of overlap between three distinct stes of
 phenomena. The first, *rapid regime shifts* are abrupt changes in system
@@ -187,8 +197,13 @@ chaotic but persistent prey populations to prey extinction. As predation
 intensity increases towards this threshold, the population exhibits *decreasing*
 variance.
 
-![Figure 2: A system where variance decreases prior to a population collapse. from @Schreiber2003. In this model, prey species with high growth rates exhibit chaotic dynamics under predation, but populations collapse when predation increases beyond a threshold value.  Left: The population level as a function of predation rate.  Middle:  Variance of the prey population level.  Note that it *decreases* as predation rate approaches the threshold.  Right: Lag-1 Autocorrelation in prey population dynamics increases as the threshold is approached](schreiber-fig.png)
-
+![Figure 2: A system where variance decreases prior to a population collapse. from
+@Schreiber2003. In this model, prey species with high growth rates exhibit chaotic
+dynamics under predation, but populations collapse when predation increases beyond a
+threshold value.  Left: The population level as a function of predation rate.  
+Middle:  Variance of the prey population level.  Note that it *decreases* as
+predation rate approaches the threshold.  Right: Lag-1 Autocorrelation in prey
+population dynamics increases as the threshold is approached](schreiber-fig.png)
 
 Some spatially extended systems exhibit a type of bifurcation which is not
 accompanied by CSD. In one class of models, individual locations are subject to
@@ -278,7 +293,8 @@ disturbance (as illustrated in Figure 5), or internal stochastic event
 that switches it between dynamic regimes. In neither case would CSD be
 expected to precede such changes.
 
-**TODO: an example of a our PRSB Figure 1 might be useful (or confusing?) figure of a stochastic transition... -CB**
+**TODO: an example of a our PRSB Figure 1 might be useful (or confusing?)
+figure of a stochastic transition... -CB**
 
 ![Figure 5: Difference between different types of perturbations.  On the
 horizontal axis is the bifurcation parameter, representing the state
