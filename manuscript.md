@@ -237,7 +237,7 @@ function of predation rate.  Middle:  Variance of the prey population
 level.  Note that it increases during the transition, despite no
 bifurcation.  Right: Lag-1 Autocorrelation in prey population dynamics
 as predation rate increases.  Note that it, too, increases despite the
-lack of a bifurcation](schreiber-fig.png)
+lack of a bifurcation](kefi-fig.png)
 
 
 
