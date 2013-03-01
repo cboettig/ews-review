@@ -114,7 +114,7 @@ each of these regions.
 
 ![Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
 shifts, bifurcations, and critical slowing down. Text in italic are example
-phenomena that occur in each domain.](http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg)
+phenomena that occur in each domain.](ews-venn.jpg)
 
 Catastrophic Bifurcations Preceded by CSD
 -----------------------------------------
@@ -355,7 +355,7 @@ Context-specific signals
 the experimental examples basically knew they could expect saddle-nodes, etc), and 
 how much we just highlight this for future work.  No simple answers to this section
 at the moment...  More about establishing language to discuss the problem and 
-potential solutions  --CB **
+potential solutions  --CB**
 
 -   Need to establish that you are in a warning signals' domain of applicability
     in order to use it
@@ -399,7 +399,7 @@ Section is again more of a footnote that these things exist but are outside the 
 Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
 ---------------------------------------------------------------------
 
-**TODO: -- Section really belongs just as a footnote/passing comment in discussion **
+**TODO: -- Section really belongs just as a footnote/passing comment in discussion**
 
 -   CSD may be observed prior to stochastically-driven regime shifts due to a
     stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
@@ -410,7 +410,7 @@ Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
 Observed vs. Real CSD - Statistical Power
 -----------------------------------------
 
-** Move this section up? Alan adds to introduction, and then revisit in the discussion -CB **
+**Move this section up? Alan adds to introduction, and then revisit in the discussion -CB**
 
 -   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
     may be imperfect. *Observed* CSD can only be used as an indicator if it can
