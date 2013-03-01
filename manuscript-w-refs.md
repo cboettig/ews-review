@@ -5,26 +5,51 @@ Many natural systems exhibit regime shifts - rapid changes in the state and
 conditions of system behavior. Such shifts include lake eutrophication
 (Carpenter et al. 1999), algal overgrowth of coral systems (Mumby et al. 2007),
 fishery collapse (Jackson et al. 2001), desertification of grasslands (Kéfi et
-al. 2007), and rapid changes in climate (Dakos et al. 2008). Such drastic shifts
-have the potential to impact ecosystem health and human well-being. Thus, it is
-important to develop strategies for adaptation, mitigation, and avoidance of
-such shifts.
+al. 2007), and rapid changes in climate (Dakos et al. 2008). Such dramatic
+shifts have the potential to impact ecosystem health and human well-being. Thus,
+it is important to develop strategies for adaptation, mitigation, and avoidance
+of such shifts. The idea that complex systems such as ecosystems could change
+suddenly and without warning goes back to the 1970s (Holling 1973, May 1977).
+Such early work revealed that even simple models with the appropriate
+nonlinearities were capable of unpredictable behavior. The only way to predict
+the transition was to have the right model -- and that meant having already had
+the chance to observe the transition (even then this remains a tough problem).
+One cogent early example (Ludwig et al. 1978) demonstrated how knowledge of the
+forms and time scales of interactions among insects, birds, and trees could lead
+to a qualitative model that predicted the possibility of essentially regime
+shifts.
 
-The idea that complex systems such as ecosystems could change suddenly and
-without warning goes back to the 1970s (Holling 1973, May 1977). Such early work
-revealed that even simple models with the appropriate nonlinearities were
-capable of unpredictable behavior. The only way to predict the transition was to
-have the right model -- and that meant having already had the chance to observe
-the transition (even then this remains a tough problem).
-
-An important component of this management challenge is the development of early
+Management of systems that could potentially undergo shifts means balancing the
+costs of adaptation, mitigation or avoidance against the costs of simply the
+shift itself. For example, what is the cost (economic impact) of a eutrophied
+lake versus the cost of adaptation, mitigation, or avoidance. Avoidance clearly
+depends on an ability to predict regime shifts in advance, or depending on the
+time scale of response and response of the system, on the ability to recognize a
+shift as it is occurring. Adaptation and mitigation similarly might require an
+ability to predict a shift in advance if the time scale of implementation of
+mitigation or adaptation is long relative to the rate at which damages occur. An
+important component of this management challenge is the development of early
 warning signals (EWS) of impending rapid regime shifts (Scheffer et al. 2009).
 Since regime shifts occur in a variety of systems, and underlying mechanisms for
-the shifts are not always known, *generic* signals applicable to a variety of
-systems will be particularly valuable.
+the shifts are not always known, the development of generic signals applicable
+to a variety of systems would be particularly valuable. This naturally leads to
+the questions of when such generic signals would be valuable tools versus the
+need to develop system-specific approaches in all cases.
 
-Lack of Generality of Critical Slowing Down
--------------------------------------------
+Foundational research in early warning signals identified certain patterns such
+as increasing variance or autocorrelation which can accurately forecast a sudden
+transition in a wide variety of systems (Scheffer et al. 2009). Subsequent work
+has begun to identify a growing library of cases in which these indicators are
+not present before a transition (Schreiber and Rittenhouse 2004, Schreiber and
+Rudolf 2008, Hastings and Wysham 2010, Bel et al. 2012), or are observed in the
+absence of any transition (Kéfi et al. 2012). These examples are distinct from
+the more well-known case of statistical error -- such as a signal that is
+present but too weak to detect due to insufficient avaiable data (see Dakos et
+al. 2008, Scheffer2009, Perretti and Munch 2012). Instead, such work moves into
+new territory where different underlying mechanisms have lead to starkly
+different patterns. Determining which underlying mechanisms are present is a
+substantial is both empirical and theoretical challenge. When does critical
+slowing down correspond to the assumptions made?
 
 Critical slowing down (CSD) has been studied extensively in theoretical (Wissel
 1984, Gandhi et al. 1998, Carpenter et al. 2006, Hastings and Wysham 2010, Dakos
@@ -37,25 +62,6 @@ perturbations slows. This change in dynamic properties of a system can be
 expressed in greater variance, autocorrelation, and return time of observed
 state variables.
 
-The fact that critical slowing down can be observed in advance of sudden
-transitions across a range of otherwise unrelated phenomena -- climate states,
-brain waves, and food webs -- can give the illusion of a general theory:
-
-> Perhaps the most exciting aspect of this work is that it is uncovering generic
-> features that should in principle hold for any complex system. This implies
-> that we may use these approaches even if we do not understand all details of
-> the underlying mechanisms that drive any particular system. (Scheffer et al.
-> 2012)
-
-Care is needed to avoid the fallacy that "all A are B" because we have observed
-that "some A are B". While more examples emerge of systems that exhibit the
-anticipated patterns of critical slowing down before sudden transitions, we do
-well not to miss the examples of systems that show the same pattern without a
-transition, or a sudden transition preceded by a very different pattern.
-
-While it is usually recalled that some abrubt transitions are not be preceded by
-critical slowing down
-
 > Not all abrupt transitions will be preceded by slowing down. For instance,
 > sharp change may simply result from a sudden big external impact. (Scheffer et
 > al. 2012)
@@ -65,15 +71,27 @@ a transtion could occur without any warning (Scheffer et al. 2001, 2009,
 Barnosky et al. 2012, Scheffer et al. 2012), it is by no means the only
 mechanism.
 
+*Map out the paper. Needs flushing out more -CB*
+
 Here we review a variety of mechanisms that may lead to rapid (or
 "catastrophic") regime shifts in ecological systems, as well as mechanisms that
-generate observations of CSD. We illustrate that these phenomena do not overlap
-in many cases. We then discuss the conditions under which CSD and other warning
-signals may be reliably used, and the supporting evidence neccessary to
-establish whether they are appropriate to specific contexts.
+generate observations of CSD. We illustrate that not all rapid shifts exhibit
+CSD, and not all observations of CSD involve rapid shifts. Thus the issue of
+determining early warning signals is really two-fold: first, identify classes of
+systems where CSD is expected and conversely systems that may undergo shifts
+without CSD, and then second to determine appropriate statistical tools to look
+at CSD. In this paper we review both aspects of the overall question.
 
 Relationships between Regime Shifts, Bifurcations, and CSD
 ==========================================================
+
+*Should we drop the Bifurcations circle? Would a different third circle be
+useful? -CB*
+
+*I think each of the sections could use a format of "what we expected", "what is
+surprising" and "more research to answer xyz". We kind of jump into each of the
+examples without a lot of "so what". Highlighting which areas of the diagram are
+most ripe for exploration would be particularly useful I think. -CB*
 
 In Figure 1 we illustrate the domains of overlap between three distinct stes of
 phenomena. The first, *rapid regime shifts* are abrupt changes in system
@@ -87,8 +105,7 @@ each of these regions.
 
 ![Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
 shifts, bifurcations, and critical slowing down. Text in italic are example
-phenomena that occur in each
-domain.](http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg)
+phenomena that occur in each domain.]
 
 Catastrophic Bifurcations Preceded by CSD
 -----------------------------------------
@@ -102,9 +119,9 @@ derived from the changing eigenvalue in a saddle node bifurcation. Consequently,
 experimential evaluations of warning signals have largely focused on this
 situation as well. CSD has frequently been studied in the context of models
 exhibiting a saddle-node bifurcation [Figure 1: Equilibrium Diagram of Saddle
-Node] (Barnosky et al. 2012). Saddle-nodes are one of many potential
-bifurcations in ecological systems, though. Rapid regime shifts may also occur
-in the absence of bifurcations at all.
+Node][@Barnosky2012]. Saddle-nodes are one of many potential bifurcations in
+ecological systems, though. Rapid regime shifts may also occur in the absence of
+bifurcations at all.
 
 Dai et al. (2012) clearly maps out the entire saddle-node bifurcation diagram
 emprically before presenting the corresponding decrease in recovery time
@@ -128,9 +145,6 @@ then place it in the center.
 
 Catastrophic Bifurcations *not* Preceded by CSD
 -----------------------------------------------
-
-**OPEN QUESTON: Should we bother reproducing some of the figures from other
-papers?**
 
 Saddle nodes are only one of a variety of bifurcations which can cause rapid
 changes in system dynamics. Other bifurcations can cause long-term changes in
@@ -166,8 +180,14 @@ chaotic but persistent prey populations to prey extinction. As predation
 intensity increases towards this threshold, the population exhibits *decreasing*
 variance.
 
-**OPEN QUESTION: Should we simulate this to see what the autocorrelation/skew
-look like?**
+![Figure 2: A system where variance decreases prior to a population collapse.
+from Schreiber (2003). In this model, prey species with high growth rates
+exhibit chaotic dynamics under predation, but populations collapse when
+predation increases beyond a threshold value. Left: The population level as a
+function of predation rate.\
+Middle: Variance of the prey population level. Note that it *decreases* as
+predation rate approaches the threshold. Right: Lag-1 Autocorrelation in prey
+population dynamics increases as the threshold is approached]
 
 Some spatially extended systems exhibit a type of bifurcation which is not
 accompanied by CSD. In one class of models, individual locations are subject to
@@ -186,6 +206,9 @@ system's global dynamics would not exhibit CSD prior to such a transition.
 Non-Catastrophic Bifurcations Preceded by CSD
 ---------------------------------------------
 
+**TODO: Add a numeric reference connecting each section to a region of Figure
+1**
+
 Not all regime shifts are rapid. Some systems undergo bifurcations between
 qualitatively different, but quantatively similar regimes. These transitions may
 be reversible. In a management setting, such qualitative changes may
@@ -196,13 +219,24 @@ CSD precedes several types of these non-catastrophic bifurcations. In the
 subcritical form of a Hopf bifurcation, a system transitions from a stable
 equilibrium to a stable cycle. This bifurcation occurs in classical
 predator-prey systems (May 1972) and has been observed in experimental systems
-[**ADD REFS**]. As a control parameter approaches the critical threshold, the
+(Drake and Griffen 2010, Veraart et al. 2011, Carpenter 2011, Dai et al. 2012,
+Wang et al. 2012). As a control parameter approaches the critical threshold, the
 system's dominant eigenvalue approaches zero and thus exhibits CSD (Chisholm and
 Filotas 2009, Kéfi et al. 2012). However, the mean value of the equilibrium does
 not change dramatically, and the transition from stable equilibrium to cycles is
 gradual as the cycle sizes grow from zero at the threshold value. In the
 presence of stochasticity, system behavior may be observed on either side of the
 threshold may be indistinguishable.
+
+![Figure 3: A system where critical slowing down is observed without a critical
+threshold, from Kéfi et al. (2012). In this model, prey have logistic growth and
+are subject to predation with a Type III functional response, but there is no
+bifurcation. Instead, average prey population exhibits a smooth response to
+increased predation. Left: The population level as a function of predation rate.
+Middle: Variance of the prey population level. Note that it increases during the
+transition, despite no bifurcation. Right: Lag-1 Autocorrelation in prey
+population dynamics as predation rate increases. Note that it, too, increases
+despite the lack of a bifurcation]
 
 The system's eigenvalue also passes through zero in the case of the
 transcritical bifurcation. The transcritical is a degenerate case of the the
@@ -223,30 +257,51 @@ correlation) increased prior to collapse of the population.
 Non-Catastrophic Bifurcations without CSD
 -----------------------------------------
 
+**TODO: Add a numeric reference connecting each section to a region of Figure
+1**
+
+Some bifurcations are much more mundane, involving neither catastrophic shifts
+or patterns of critical slowing down.
+
 **TODO: Anything here? Beyond a trivial change from positive to zero
 population**
 
 Catastrophic Regime Shifts without CSD
 --------------------------------------
 
-**TODO: More examples here? This is obvious in some ways, but showing ubiquity
-may be useful**
+**TODO: Add a numeric reference connecting each section to a region of Figure
+1**
 
 Some rapid regime shifts are not due to bifurcations at all. A system may
 undergo a because of a rapid change in external conditions, an external
-disturbance or internal stochastic event that switches it between dynamic
-regimes. In neither case would CSD be expected to precede such changes.
+disturbance (as illustrated in Figure 5), or internal stochastic event that
+switches it between dynamic regimes. In neither case would CSD be expected to
+precede such changes.
 
-**TODO: Insert figure like Bel et al. (2012) Fig. 1?**
+**TODO: an example of a our PRSB Figure 1 might be useful (or confusing?) figure
+of a stochastic transition... -CB**
 
-![From Bel et al. (2012): Difference between different types of
-perturbations](Bel2012example.png)
+![Figure 5: Difference between different types of perturbations. On the
+horizontal axis is the bifurcation parameter, representing the state of the
+environment (e.g. annual mean temperature) whose slow change could lead to a
+sudden shift. A direct disturbance to the system state (e.g. population size,
+vertical axis) could also cause a transition if it is large enough to cross the
+stability threshold (dashed line). Such a perturbation can come from exogenous
+factors such as anthropogenic pressures or occur by chance from intrisic
+stochasticity. These distinct mechanisms of disturbance and environmental change
+are coupled -- as the environment detiorates moving the system left on the
+diagram, the probability that a distrubance crosses the threshold increases.
+From Bel et al. (2012).]
 
 Large, rapid changes in external conditions will result in rapid changes in
 ecological system dynamics. For instance, rapid changes in North American
 vegetation at the start of the Bølling-Allerød and end of the Younger Dryas
 period are thought to be responses to similarly large, rapid changes in climate
-(Williams et al. 2011).
+(Williams et al. 2011). Doney and Sailley (2013) interpret a recent analysis by
+Di Lorenzo and Ohman (2013) as demonstrating that what were previously thought
+of as regime shifts in krill dynamics in the Pacific ocean (Hare and Mantua
+2000) could actually be explained by a close coupling to El Nino environmental
+dynamics through the Pacific Decadal Oscillation (PDO).
 
 Stochastic perturbations may shift systems from one regime to another even if
 underlying environmental conditions remain the same. Hastings and Wysham (2010)
@@ -274,44 +329,8 @@ While on long time scales these are technically not regime shifts, such changes
 would effectively appear to be regime shifts on shorter ones. We would not
 expect such regime shifts to be preceded with CSD.
 
-Other Catstrophic Regime Shifts with CSD
-----------------------------------------
-
-**TODO: Expand**
-
--   Could CSD occur in any type of regime shift that are not due to
-    bifurcations?
--   CSD may be observed prior to stochastically-driven regime shifts due to a
-    stochastic artifact (See "Statistical Power" below, and Boettiger and
-    Hastings (2012a)).
--   CSD may also be observed in systems when they are *coupled* with other
-    systems undergoing saddle-node bifurcations.
-
-CSD in the absence of regime shifts
------------------------------------
-
-**TODO: Expand**
-
--   Systems undergoing change can exhibit CSD even in the absence of a rapid
-    regime shift of bifurcation (Kéfi et al. 2012)
-
-Observed vs. Real CSD - Statistical Power
-=========================================
-
--   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
-    may be imperfect. *Observed* CSD can only be used as an indicator if it can
-    be detected and rejected reliably, which is often not the case under common
-    levels of noise in ecological data (Perretti and Munch 2012).
--   Need to know the power of CSD detection methods
--   Model-based approaches are more powerful than summary statistics (Boettiger
-    and Hastings 2012a)
--   Reciever-operator are a useful method for evaluating the efficacy of warning
-    signals (Boettiger and Hastings 2012a)
--   Comparative, experimental studies
-    -   Historical data introduces biases (Boettiger and Hastings 2012a)
-
-Implications
-============
+Discussion
+==========
 
 -   While saddle-node transitions are common, they represent only part of the
     potential mechanisms for rapid regime shift.
@@ -326,10 +345,16 @@ Implications
 -   Regime shifts driven by external perturbation or strong forcing are not
     predictable *if the scope of mangement does not include the external
     causes*. Proper scoping of the management problem can avoid this situation.
-    **(Possible reference: Alliance (2010))**
+    **(Possible reference: Resilience Alliance (2010))**
 
 Context-specific signals
 ------------------------
+
+\*\*This is "the way forward". Unclear how much we should map out here (e.g.,
+how the experimental examples basically knew they could expect saddle-nodes,
+etc), and how much we just highlight this for future work. No simple answers to
+this section at the moment... More about establishing language to discuss the
+problem and potential solutions --CB \*\*
 
 -   Need to establish that you are in a warning signals' domain of applicability
     in order to use it
@@ -359,6 +384,9 @@ Context-specific signals
 Examining other signals for their domains of applicability
 ----------------------------------------------------------
 
+Section is again more of a footnote that these things exist but are outside the
+scope discussed here?
+
 -   Flickering (Brock and Carpenter 2010, Wang et al. 2012)
 -   Spatial signals in extended systems. (Litzow et al. 2008, Guttal and
     Jayaprakash 2008a, Dakos et al. 2009, Carpenter and Brock 2010, , Bailey
@@ -368,14 +396,46 @@ Examining other signals for their domains of applicability
 -   Future research
     -   Behavior prior to/in systems with transients?
 
-Conclusions
-===========
+Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
+---------------------------------------------------------------------
+
+\*\*TODO: -- Section really belongs just as a footnote/passing comment in
+discussion \*\*
+
+-   CSD may be observed prior to stochastically-driven regime shifts due to a
+    stochastic artifact (See "Statistical Power" below, and Boettiger and
+    Hastings (2012a)).
+-   CSD may also be observed in systems when they are *coupled* with other
+    systems undergoing saddle-node bifurcations.
+
+Observed vs. Real CSD - Statistical Power
+-----------------------------------------
+
+\*\* Move this section up? Alan adds to introduction, and then revisit in the
+discussion -CB \*\*
+
+-   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
+    may be imperfect. *Observed* CSD can only be used as an indicator if it can
+    be detected and rejected reliably, which is often not the case under common
+    levels of noise in ecological data (Perretti and Munch 2012).
+-   Need to know the power of CSD detection methods
+-   Model-based approaches are more powerful than summary statistics (Boettiger
+    and Hastings 2012a)
+-   Receiver-operator are a useful method for evaluating the efficacy of warning
+    signals (Boettiger and Hastings 2012a)
+-   Comparative, experimental studies
+    -   Historical data introduces biases (Boettiger and Hastings 2012a)
+
+Acknowledgments
+===============
+
+This work was partially supported by the Center for Stock Assessment Research, a
+partnership between the University of California Santa Cruz and the Fisheries
+Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA. **TODO Add
+your acknowledgments here**
 
 References
 ==========
-
-Alliance, R. 2010. Assessing Resilience in Social-Ecological Systems : Workbook
-for Practitioners. Version 2.0.
 
 Bailey, R. M. 2010. Spatial and temporal signatures of fragility and threshold
 proximity in modelled semi-arid vegetation.. Proceedings. Biological sciences /
@@ -416,7 +476,7 @@ for lakes subject to potentially irreversible change. Ecological Applications
 9:751–771.
 
 Carpenter, S. R., and W. a Brock. 2010. Early warnings of regime shifts in
-spatial dynamics using the discrete Fourier transform. Ecosphere 1:10.
+spatial dynamics using the discrete Fourier transform. Ecosphere 1:art10.
 
 Chisholm, R. a, and E. Filotas. 2009. Critical slowing down as an indicator of
 transitions in two-species models.. Journal of theoretical biology 257:142–9.
@@ -427,7 +487,7 @@ Science 336:1175–1177.
 
 Dakos, V., S. Kéfi, M. Rietkerk, E. H. van Nes, and M. Scheffer. 2011a. Slowing
 down in spatially patterned ecosystems at the brink of collapse.. The American
-naturalist 177:153.
+naturalist 177:E153–66.
 
 Dakos, V., E. H. Nes, R. Donangelo, H. Fort, and M. Scheffer. 2009. Spatial
 correlation as leading indicator of catastrophic shifts. Theoretical
@@ -440,8 +500,16 @@ Dakos, V., M. Scheffer, E. H. van Nes, V. Brovkin, V. Petoukhov, and H. Held.
 2008. Slowing down as an early warning signal for abrupt climate change..
 Proceedings of the National Academy of Sciences 105:14308–12.
 
+Di Lorenzo, E., and M. D. Ohman. 2013. A double-integration hypothesis to
+explain ocean ecosystem response to climate forcing.. Proceedings of the
+National Academy of Sciences of the United States of America.
+
 Ditlevsen, P. D., and S. J. Johnsen. 2010. Tipping points: Early warning and
 wishful thinking. Geophysical Research Letters 37:2–5.
+
+Doney, S. C., and S. F. Sailley. 2013. When an ecological regime shift is really
+just stochastic noise.. Proceedings of the National Academy of Sciences of the
+United States of America 110:2438–2439.
 
 Drake, J. M., and B. D. Griffen. 2010. Early warning signals of extinction in
 deteriorating environments. Nature 467:456–7.
@@ -459,6 +527,9 @@ Ecology 2:3–12.
 
 Guttal, V., and C. Jayaprakash. 2008a. Changing skewness: an early warning
 signal of regime shifts in ecosystems.. Ecology letters 11:450–60.
+
+Hare, S. R., and N. J. Mantua. 2000. Empirical evidence for North Pacific regime
+shifts in 1977 and 1989. Progress in oceanography 47:103–145.
 
 Hastings, A., C. L. Hom, S. Ellner, P. Turchin, and H. C. J. Godfray. 1993.
 Chaos in ecology: is mother nature a strange attractor?. Annual Review of
@@ -496,11 +567,15 @@ and imminent desertification in Mediterranean arid ecosystems.. Nature
 449:213–7.
 
 Lade, S. J., and T. Gross. 2012. Early Warning Signals for Critical Transitions:
-A Generalized Modeling Approach. PLoS Computational Biology 8:1002360.
+A Generalized Modeling Approach. PLoS Computational Biology 8:e1002360.
 
 Litzow, M. A., J. D. Urban, and B. J. Laurel. 2008. Increased spatial variance
 accompanies reorganization of two continental shelf ecosystems. Ecological
 Applications 18:1331–1337.
+
+Ludwig, D., D. D. Jones, and C. S. Holling. 1978. Qualitative Analysis of Insect
+Outbreak Systems: The Spruce Budworm and Forest. The Journal of Animal Ecology
+47:315.
 
 May, R. M. 1972. Limit cycles in predator-prey communities.. Science (New York,
 N.Y.) 177:900–2.
@@ -517,6 +592,9 @@ Catastrophic Regime Shifts in Ecosystems. Ecology 86:1797–1807.
 Perretti, C. T., and S. B. Munch. 2012. Regime shift indicators fail under noise
 levels commonly observed in ecological systems. Ecological Applications
 22:1772–1779.
+
+Resilience Alliance. 2010. Assessing Resilience in Social-Ecological Systems :
+Workbook for Practitioners. Version 2.0.
 
 Rietkerk, M., and J. van de Koppel. 2008. Regular pattern formation in real
 ecosystems.. Trends in ecology & evolution 23:169–75.
@@ -538,6 +616,12 @@ Kakadu. Nature 470:86–89.
 
 Schreiber, S. J. 2003. Allee effects, extinctions, and chaotic transients in
 simple population models. Theoretical Population Biology 64:201–209.
+
+Schreiber, S. J., and S. Rittenhouse. 2004. From simple rules to cycling in
+community assembly. Oikos 93:430–358.
+
+Schreiber, S., and V. H. W. Rudolf. 2008. Crossing habitat boundaries: coupling
+dynamics of ecosystems through complex life cycles.. Ecology letters 11:576–87.
 
 Staver, A. C., S. Archibald, and S. Levin. 2011. Tree cover in sub-Saharan
 Africa: rainfall and fire constrain forest and savanna as alternative stable
@@ -561,3 +645,35 @@ thresholds. Oecologia 65:101–107.
 Wysham, D. B., and A. Hastings. 2008. Sudden shifts in ecological systems:
 intermittency and transients in the coupled Ricker population model.. Bulletin
 of mathematical biology 70:1013–31.
+
+  [Figure 1: Venn diagram repesenting the intersecting domains of rapid regime
+  shifts, bifurcations, and critical slowing down. Text in italic are example
+  phenomena that occur in each domain.]: http://dl.dropbox.com/u/3356641/blogstuff/ews-venn.jpg
+  [Figure 2: A system where variance decreases prior to a population collapse.
+  from Schreiber (2003). In this model, prey species with high growth rates
+  exhibit chaotic dynamics under predation, but populations collapse when
+  predation increases beyond a threshold value. Left: The population level as a
+  function of predation rate.\
+  Middle: Variance of the prey population level. Note that it *decreases* as
+  predation rate approaches the threshold. Right: Lag-1 Autocorrelation in prey
+  population dynamics increases as the threshold is approached]: schreiber-fig.png
+  [Figure 3: A system where critical slowing down is observed without a critical
+  threshold, from Kéfi et al. (2012). In this model, prey have logistic growth
+  and are subject to predation with a Type III functional response, but there is
+  no bifurcation. Instead, average prey population exhibits a smooth response to
+  increased predation. Left: The population level as a function of predation
+  rate. Middle: Variance of the prey population level. Note that it increases
+  during the transition, despite no bifurcation. Right: Lag-1 Autocorrelation in
+  prey population dynamics as predation rate increases. Note that it, too,
+  increases despite the lack of a bifurcation]: kefi-fig.png
+  [Figure 5: Difference between different types of perturbations. On the
+  horizontal axis is the bifurcation parameter, representing the state of the
+  environment (e.g. annual mean temperature) whose slow change could lead to a
+  sudden shift. A direct disturbance to the system state (e.g. population size,
+  vertical axis) could also cause a transition if it is large enough to cross
+  the stability threshold (dashed line). Such a perturbation can come from
+  exogenous factors such as anthropogenic pressures or occur by chance from
+  intrisic stochasticity. These distinct mechanisms of disturbance and
+  environmental change are coupled -- as the environment detiorates moving the
+  system left on the diagram, the probability that a distrubance crosses the
+  threshold increases. From Bel et al. (2012).]: Bel2012example.png
