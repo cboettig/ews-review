@@ -419,6 +419,26 @@ Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
 -   CSD may also be observed in systems when they are *coupled* with other
     systems undergoing saddle-node bifurcations.
 
+<<<<<<< HEAD
+=======
+Observed vs. Real CSD - Statistical Power
+-----------------------------------------
+
+**Move this section up? Alan adds to introduction, and then revisit in the discussion -CB**
+
+-   Even in cases where CSD precedes a rapid regime shift, *detection* of CSD
+    may be imperfect. *Observed* CSD can only be used as an indicator if it can
+    be detected and rejected reliably, which is often not the case under common
+    levels of noise in ecological data [@Perretti2012].
+-   Need to know the power of CSD detection methods
+-   Model-based approaches are more powerful than summary statistics
+    [@Boettiger2012a]
+-   Receiver-operator are a useful method for evaluating the efficacy of warning
+    signals [@Boettiger2012a]
+-   Comparative, experimental studies
+    -   Historical data introduces biases [@Boettiger2012b]
+
+>>>>>>> 09b6535925be516bb4e7ca61e3fe4718df0e3df4
 Acknowledgments
 ===============
 
