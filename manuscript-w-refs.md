@@ -344,14 +344,14 @@ simulated data used to test EWS. Under common levels of noise found in field
 data, CSD-based early warning signals often fail (Perretti and Munch 2012).
 
 A wide variety of statistical summary indicators have been examined as potential
-detectors of CSD. Most commonly, these are variance and autocorrelation, and
-sometimes skewness [Guttal2008a] and conditional heteroscedasticity (Seekell et
+detectors of CSD. The most common are variance and autocorrelation. Other
+include skewness [Guttal2008a] and conditional heteroscedasticity (Seekell et
 al. 2011). These statistics are typically calculated on sliding windows of
 time-series data and tested formally or informally for trends. The relative
 power of these tests varies considerably with context; no indicator has
 consistently outperformed others (Dakos et al. 2011b, 2012, Lindegren et al.
 2012, Perretti and Munch 2012). Also, measuring these indicators requires making
-sometimes arbitrary in calculations. For instance, the power of lag-1
+sometimes arbitrary calculations. For instance, the power of lag-1
 autocorrelation to detect a regime shift may be modified by changing methods of
 data aggregation, de-trending, changing sliding window length, filtering signal
 bandwidth (Lenton et al. 2012). These choices may be optimized when enough
@@ -361,29 +361,36 @@ with many ecological datasets. Multiple-method (Lindegren et al. 2012) and
 composite indices (Drake and Griffen 2010) have been proposed, but their power
 relative to other indicators is unknown.
 
-Another approach to detecting CSD has been fitting time series data to model
-rather than summarizing it via statistics. Model-based approaches have two
-flavors. Models may be used to calculate summary statistics related to CSD, such
-as eigenvalues (Lade and Gross 2012) or diffusion terms in jump-diffusion models
-(Carpenter 2011a, Brock and Carpenter 2012), which are then examined for trends
-in the same fashion as the statistics above. Alternatively, models representing
-both deteriorating and stable conditions may be fit to the data and in order to
-determine which is more likely (Dakos et al. 2012, ). Boettiger and Hastings
-(2012a) found that likelihood ratio tests were more powerful than trend-based
-summary statistic tests across several real and simulated ecological data sets.
+Another approach to detecting CSD has been fitting time series data to models
+rather than summarizing it via statistics. Two approaches have been used for
+these model-based methods. First, models may be used to calculate summary
+statistics related to CSD, such as eigenvalues (Lade and Gross 2012) or
+diffusion terms in jump-diffusion models (Carpenter 2011a, Brock and Carpenter
+2012). These statistics are then examined for trends in the same fashion as the
+summary statistics above. Alternatively, models representing both deteriorating
+and stable conditions may be fit to the data and in order to determine which is
+more likely (Dakos et al. 2012, ). Boettiger and Hastings (2012a) found that
+likelihood ratio tests were more powerful than trend-based summary statistic
+tests across several real and simulated ecological data sets. This approach is
+also more robust than summary-statistic methods to spurious correlations that
+arise when collapses are driven by purely stochastic events (Boettiger and
+Hastings 2012a)
 
-Most studies of early warning signal methods have been performed on simulated
-data.
-
-The trade-off between false negatives and false positives is a matter of not
-just statistical but economic efficiency. A signal that is too sensitive.
-However, this but Boettiger and Hastings (2012a) suggest the use of
-reciever-operating characteristics (ROC) to describe the performance of various
-early warning signals. ROC curves represent the false positive rate at any true
-positive rate.
-
-Comparative, experimental studies - Historical data introduces biases (Boettiger
-and Hastings 2012a)
+Care is required in the criteria used to judge the power of warning signal
+methods. The trade-off between false negatives and false positives is a matter
+of not just statistical but economic efficiency. For instance, a large number of
+false positives may be acceptable if they reduce the probability of a false
+warning that would result in an otherwise avoidable catastrophic regime shift,
+and the costs of failing to detect such a shift exceed that of the false
+positives. Boettiger and Hastings (2012a) suggest the use of reciever-operating
+characteristic (ROC) curves to describe the performance of various early warning
+signals. ROC curves (See figure) represent the false positive rate at any true
+positive rate. Overall performance can be assessed by the area under the curve,
+which is 1 if the signal is perfect and 0.5 if the signal performs no better
+than random. The complete shape of the curve provides more information on the
+possible trade-offs under different sensitivities. This information, combined
+with a decision-theoretic [@REF?] framework, has the potential to illuminate in
+which cases early warning signals can be useful.
 
 Discussion
 ==========
@@ -406,11 +413,11 @@ Discussion
 Context-specific signals
 ------------------------
 
-\*\*This is "the way forward". Unclear how much we should map out here (e.g.,
-how the experimental examples basically knew they could expect saddle-nodes,
-etc), and how much we just highlight this for future work. No simple answers to
-this section at the moment... More about establishing language to discuss the
-problem and potential solutions --CB \*\*
+**This is "the way forward". Unclear how much we should map out here (e.g., how
+the experimental examples basically knew they could expect saddle-nodes, etc),
+and how much we just highlight this for future work. No simple answers to this
+section at the moment... More about establishing language to discuss the problem
+and potential solutions --CB**
 
 -   Need to establish that you are in a warning signals' domain of applicability
     in order to use it
@@ -455,8 +462,8 @@ scope discussed here?
 Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
 ---------------------------------------------------------------------
 
-\*\*TODO: -- Section really belongs just as a footnote/passing comment in
-discussion \*\*
+**TODO: -- Section really belongs just as a footnote/passing comment in
+discussion**
 
 -   CSD may be observed prior to stochastically-driven regime shifts due to a
     stochastic artifact (See "Statistical Power" below, and Boettiger and
