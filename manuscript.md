@@ -17,7 +17,7 @@ have the right model -- and that meant having already had the chance to observe
 the transition (even then this remains a tough problem). One cogent early
 example [@Ludwig1978] demonstrated how knowledge of the forms and time scales of
 interactions among insects, birds, and trees could lead to a qualitative model
-that predicted the possibility of essentially regime shifts.
+that essentially predicted the possibility of regime shifts.
 
 Management of systems that could potentially undergo shifts requires balancing
 the costs of adaptation, mitigation or avoidance against the costs of the shift
@@ -37,7 +37,7 @@ questions of when such generic signals would be valuable tools versus the need
 to develop system-specific approaches in all cases.
 
 Foundational research in early warning signals identified certain patterns such
-as which can accurately forecast a sudden transition in a wide variety of
+as those which can accurately forecast a sudden transition in a wide variety of
 systems [@Scheffer2009]. Most extensively researched is the phenomenon of
 critical slowing down (CSD), which is manifested as a pattern of increasing
 variance or autocorrelation of a system. Subsequent work has begun to identify a
@@ -68,14 +68,14 @@ Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 
 ***A general thought while rewriting in this section. Whenever applicable,
 replace CSD with "early warning signal", to make the point that we are only
-using CSD as an example of possible warning signals***.
+using CSD as an example of possible warning signals.***. **Agreed***
 
 ***I think each of the sections could use a format of "what we expected", "what
 is surprising" and "more research to answer xyz". We kind of jump into each of
 the examples without a lot of "so what". Highlighting which areas of the diagram
-are most ripe for exploration would be particularly useful I think. -CB***\*
+are most ripe for exploration would be particularly useful I think. -CB***
 
-Critical slowing down has been studied extensively in theoretical [@Wissel1984;
+Early warning signals such as CSD have been studied extensively in theoretical [@Wissel1984;
 @Gandhi1998; @Carpenter2006; @Hastings2010; @Lade2012; @Dakos2011a;
 @Boettiger2012b] and empirical contexts [@Drake2010; @Carpenter2011;
 @Veraart2011; @Dai2012; @Wang2012] as a potential early warning signal for
@@ -102,18 +102,20 @@ phenomena that occur in each domain.](ews-venn.jpg)
 Catastrophic Bifurcations Preceded by CSD
 -----------------------------------------
 
-Much of the (most visible) recent research in early warning signals has focused
-on the center of the diagram, where all three concepts intersect. The warning
-signal patterns postulated, such as increasing variance and coefficient of
-variation, [@Carpenter2006], increasing autocorrelation [@Dakos2008], increasing
-skewness [@Guttal2008a] can all be directly derived from the changing eigenvalue
-in a saddle node bifurcation. Consequently, experimental evaluations of warning
-signals have largely focused on this situation as well. CSD has frequently been
-studied in the context of models exhibiting a saddle-node bifurcation (Figure). Saddle-nodes are one of many
-potential bifurcations in ecological systems, though. Rapid regime shifts may
-also occur in the absence of bifurcations at all.
+Much of the (most visible) recent research in early warning signals
+has focused on the center of the diagram, where all three concepts
+intersect. The warning signal patterns postulated, such as increasing
+variance and coefficient of variation, [@Carpenter2006], increasing
+autocorrelation [@Dakos2008], increasing skewness [@Guttal2008a] can
+all be directly derived from the changing eigenvalue in a saddle node
+bifurcation. Consequently, experimental evaluations of warning signals
+have largely focused on this situation as well. CSD has frequently been
+studied in the context of models exhibiting a saddle-node bifurcation
+(Figure). Saddle-nodes are one of many potential bifurcations in
+ecological systems, though. Rapid regime shifts may also occur in the
+absence of bifurcations at all.
 
-***Insert figure of saddle-node bifurcation - NR***
+***Insert figure of saddle-node bifurcation(?) NR***
 
 @Dai2012 clearly maps out the entire saddle-node bifurcation diagram empirically
 before presenting the corresponding decrease in recovery time (increase in
@@ -132,7 +134,11 @@ difficult to identify the bifurcation process, the system is understood well
 enough to anticipate that a sudden transition can be induced under the intended
 manipulation. Like the laboratory examples, this helps eliminate the options
 outside the circle "bifurcations", in Figure 1. The observed warning signals
-then place it in the center.
+then place it in the center of the diagram. 
+
+While these studies have provided valuable demonstrations of the potential to find
+early warning signals of sudden transitions, this literature has begun to enumerate
+examples of similar tranistions in which no such signal is present.  
 
 Catastrophic Bifurcations *not* Preceded by CSD
 -----------------------------------------------
@@ -140,18 +146,27 @@ Catastrophic Bifurcations *not* Preceded by CSD
 Saddle nodes are only one of a variety of bifurcations which can cause rapid
 changes in system dynamics. Other bifurcations can cause long-term changes in
 system dynamics without a gradual pass through a state with zero eigenvalue, and
-therefore, not exhibit CSD.
+therefore, not exhibit CSD. Many of these examples can in fact show patterns in 
+typical early warning indicator variables such as variance or autocorrelation that 
+are completely opposite to the patterns seen above.  
 
 These are some of the most problematic cases, because they represent disruptive
 but potentially avoidable events, but would not be detected by using CSD as an
-early warning signals.
+early warning signals.  
+
+
+
+*** Makes it sound like chaos is the only example. Chaos is dismissed by most 
+ecologists as irrelevant, lacking evidence in most natural systems***
 
 One class of bifurcations in which we would not expect to see CSD prior to
 regime shift are sometimes known as *crises*. Crises are sudden changes in the
 dynamics of chaotic attractors that occur in response to small changes in
 parameters [@Grebogi1983]. Chaotic attractors are features of many ecological
 models [@Hastings1993], and chaotic behavior has been shown in some ecological
-systems [@Constantino1997]
+systems [@Constantino1997].  Examples are not restricted to chaotic dynamics.
+Decreasing variance is observed before a sudden transition following a Hopf
+bifurcation in @Schreiber2008. 
 
 @Hastings2010 examined a continuous model of a stochastic three-species food
 chain where all species migrate between six patches. When environemental
@@ -160,7 +175,7 @@ all species coexist in a chaotic but stable attractor. A small increase in
 environmental stochasticity, though, causes extinction of the top predator and
 and rapid shift to a non-chaotic cycle. Despite an increase in environmental
 variability, neither the variance nor skew of the populations of any species
-change as the system approaches this bifurcation
+change as the system approaches this bifurcation.  
 
 Another example of a chaotic crisis can be found in a simple discrete-time model
 where a population is subject to strong density dependence (an Allee effect) and
@@ -197,8 +212,7 @@ dynamics would not exhibit CSD prior to such a transition.
 Non-Catastrophic Bifurcations Preceded by CSD
 ---------------------------------------------
 
-**TODO: Add a numeric reference connecting each section to a region of Figure
-1**
+**TODO: Add a numeric reference connecting each section to a region of Figure 1**
 
 Not all regime shifts are rapid. Some systems undergo bifurcations between
 qualitatively different, but quantatively similar regimes. These transitions may
@@ -310,28 +324,87 @@ abrupt climate changes that occurred during the last glacial period
 climate data from ice cores, and concluded that the events were driven by
 endogenous climate stochasticity.
 
-Some events that appear to be regime shifts may actually be transients in some
-systems. Sudden changes in dynamics can occur in simple ecological models with
-strong density dependence that take long times to reach equilibrium.
-@Hastings1994 showed such dynamics in model of dispersal of inter- or sub-tidal
-organisms whose larvae disperse along a coastline. Over the thousands of years
-it takes the model to reach equilibrium, it may alternate between temporary
-regimes of regular cycles and chaos which switch in only a few years.  More recently @DiLorenzo2013 showed that regime-shift like behavior in marine populations can be explained transients created by white-noise forcing of atmospheric weather filtered through the low-pass filters of oceanic physics and population responses. While on long time scales these are technically not regime shifts, such changes would
-effectively appear to be regime shifts on shorter ones. We would not expect such
-regime shifts to be preceded with CSD.
+Some events that appear to be regime shifts may actually be transients
+in some systems. Sudden changes in dynamics can occur in simple
+ecological models with strong density dependence that take long times
+to reach equilibrium.  @Hastings1994 showed such dynamics in model of
+dispersal of inter- or sub-tidal organisms whose larvae disperse along
+a coastline. Over the thousands of years it takes the model to reach
+equilibrium, it may alternate between temporary regimes of regular cycles
+and chaos which switch in only a few years.  More recently @DiLorenzo2013
+showed that regime-shift like behavior in marine populations can be
+explained transients created by white-noise forcing of atmospheric
+weather filtered through the low-pass filters of oceanic physics and
+population responses. While on long time scales these are technically
+not regime shifts, such changes would effectively appear to be regime
+shifts on shorter ones. We would not expect such regime shifts to be
+preceded with CSD.
 
 Detecting Early Warning Signals
 ===============================
 
-The usefulness of early warning signals depends not just on their applicability to particular systems, but also on the their statistical power.  A warning signal must provide adequate power to reliably detect and reject evidence of impending regime shifts.
+***This section does not feel connected to the rest of the paper -CB***
 
-Ecological data is often sparse, noisy, autocorrelated and subject to confounding driving variables, in contrast to much of the experimental or simulated data used to test EWS.  Under common levels of noise found in field data, CSD-based early warning signals often fail [@Perretti2012].
+The usefulness of early warning signals depends not just on their
+applicability to particular systems, but also on the their statistical
+power.  A warning signal must provide adequate power to reliably detect
+and reject evidence of impending regime shifts.
 
-A wide variety of statistical summary indicators have been examined as potential detectors of CSD.  The most common are variance and autocorrelation.  Other include skewness [Guttal2008a] and conditional heteroscedasticity [@Seekell2011]. These statistics are typically calculated on sliding windows of time-series data and tested formally or informally for trends.  The relative power of these tests varies considerably with context; no indicator has consistently outperformed others [@Perretti2012; @Lindegren2012; @Dakos2011; @Dakos2012].  Also, measuring these indicators requires making sometimes arbitrary calculations. For instance, the power of lag-1 autocorrelation to detect a regime shift may be modified by changing methods of data aggregation, de-trending, changing sliding window length, filtering signal bandwidth [@Lenton2012].  These choices may be optimized when enough calibration data is available, as @Lenton2012 were able to do with several sets of paleoclimate data.  However, such calibration may not be possible with many ecological datasets.  Multiple-method [@Lindegren2012] and composite indices [@Drake2010] have been proposed, but their power relative to other indicators is unknown.
+Ecological data is often sparse, noisy, autocorrelated and subject to
+confounding driving variables, in contrast to much of the experimental
+or simulated data used to test EWS.  Under common levels of noise found
+in field data, CSD-based early warning signals often fail [@Perretti2012].
 
-Another approach to detecting CSD has been fitting time series data to models rather than summarizing it via statistics.  Two approaches have been used for these model-based methods.  First, models may be used to calculate summary statistics related to CSD, such as eigenvalues [@Lade2012] or diffusion terms in jump-diffusion models [@Carpenter2011d; @Brock2012]. These statistics are then examined for trends in the same fashion as the summary statistics above.  Alternatively, models representing both deteriorating and stable conditions may be fit to the data and in order to determine which is more likely [@Dakos2012, @Boettiger2012a]. @Boettiger2012a found that likelihood ratio tests were more powerful than trend-based summary statistic tests across several real and simulated ecological data sets.  This approach is also more robust than summary-statistic methods to spurious correlations that arise when collapses are driven by purely stochastic events [@Boettiger2012b]
+A wide variety of statistical summary indicators have been examined
+as potential detectors of CSD.  The most common are variance and
+autocorrelation.  Other include skewness [Guttal2008a] and conditional
+heteroscedasticity [@Seekell2011]. These statistics are typically
+calculated on sliding windows of time-series data and tested formally
+or informally for trends.  The relative power of these tests varies
+considerably with context; no indicator has consistently outperformed
+others [@Perretti2012; @Lindegren2012; @Dakos2011; @Dakos2012].
+Also, measuring these indicators requires making sometimes arbitrary
+calculations. For instance, the power of lag-1 autocorrelation to detect
+a regime shift may be modified by changing methods of data aggregation,
+de-trending, changing sliding window length, filtering signal bandwidth
+[@Lenton2012].  These choices may be optimized when enough calibration
+data is available, as @Lenton2012 were able to do with several sets of
+paleoclimate data.  However, such calibration may not be possible with
+many ecological datasets.  Multiple-method [@Lindegren2012] and composite
+indices [@Drake2010] have been proposed, but their power relative to
+other indicators is unknown.
 
-Care is required in the criteria used to judge the power of warning signal methods. The trade-off between false negatives and false positives is a matter of not just statistical but economic efficiency.  For instance, a large number of false positives may be acceptable if they reduce the probability of a false warning that would result in an otherwise avoidable catastrophic regime shift, and the costs of failing to detect such a shift exceed that of the false positives. @Boettiger2012a suggest the use of reciever-operating characteristic (ROC) curves to describe the performance of various early warning signals.  ROC curves (See figure) represent the false positive rate at any true positive rate.  Overall performance can be assessed by the area under the curve, which is 1 if the signal is perfect and 0.5 if the signal performs no better than random.  The complete shape of the curve provides more information on the possible trade-offs under different sensitivities.  This information, combined with a decision-theoretic [@REF?] framework, has the potential to illuminate in which cases early warning signals can be useful.
+Another approach to detecting CSD has been fitting time series data
+to models rather than summarizing it via statistics.  Two approaches
+have been used for these model-based methods.  First, models may be
+used to calculate summary statistics related to CSD, such as eigenvalues
+[@Lade2012] or diffusion terms in jump-diffusion models [@Carpenter2011d;
+@Brock2012]. These statistics are then examined for trends in the
+same fashion as the summary statistics above.  Alternatively, models
+representing both deteriorating and stable conditions may be fit to
+the data and in order to determine which is more likely [@Dakos2012,
+@Boettiger2012a]. @Boettiger2012a found that likelihood ratio tests were
+more powerful than trend-based summary statistic tests across several real
+and simulated ecological data sets.  This approach is also more robust
+than summary-statistic methods to spurious correlations that arise when
+collapses are driven by purely stochastic events [@Boettiger2012b]
+
+Care is required in the criteria used to judge the power of warning signal
+methods. The trade-off between false negatives and false positives is a
+matter of not just statistical but economic efficiency.  For instance,
+a large number of false positives may be acceptable if they reduce
+the probability of a false warning that would result in an otherwise
+avoidable catastrophic regime shift, and the costs of failing to detect
+such a shift exceed that of the false positives. @Boettiger2012a suggest
+the use of reciever-operating characteristic (ROC) curves to describe
+the performance of various early warning signals.  ROC curves (See
+figure) represent the false positive rate at any true positive rate.
+Overall performance can be assessed by the area under the curve, which
+is 1 if the signal is perfect and 0.5 if the signal performs no better
+than random.  The complete shape of the curve provides more information on
+the possible trade-offs under different sensitivities.  This information,
+combined with a decision-theoretic [@REF?] framework, has the potential
+to illuminate in which cases early warning signals can be useful.
 
 Discussion
 ==========
