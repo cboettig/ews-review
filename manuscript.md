@@ -496,7 +496,7 @@ Acknowledgments
 
 This work was partially supported by the Center for Stock Assessment Research, a
 partnership between the University of California Santa Cruz and the Fisheries
-Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA. **TODO Add
+Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA, and the NSF Integrative Graduate Education and Research Traineeship Program. **TODO Add
 your acknowledgments here**
 
 References
