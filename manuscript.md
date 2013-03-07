@@ -343,8 +343,6 @@ ones. We would not expect such regime shifts to be preceded with CSD.
 Statistical problems in detecting early warning signals
 =======================================================
 
-***This section does not feel connected to the rest of the paper -CB***
-
 The usefulness of early warning signals depends not just on their applicability
 to particular systems, but on our ability to detect them in those systems. A
 warning signal must provide adequate power to reliably detect and reject
