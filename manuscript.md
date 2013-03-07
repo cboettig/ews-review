@@ -297,7 +297,7 @@ vertical axis) could also cause a transition if it is large enough to cross the
 stability threshold (dashed line). Such a perturbation can come from exogenous
 factors such as anthropogenic pressures or occur by chance from intrinsic
 stochasticity. These distinct mechanisms of disturbance and environmental change
-are coupled -- as the environment deteriorates moving the system left on the
+are coupled -- as the environment deteriorates, moving the system right on the
 diagram, the probability that a disturbance crosses the threshold increases.
 From @Bel2012.](Bel2012example.png)
 
