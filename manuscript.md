@@ -167,7 +167,7 @@ Decreasing variance is observed before a sudden transition following a Hopf
 bifurcation in @Schreiber2008.
 
 @Hastings2010 examined a continuous model of a stochastic three-species food
-chain where all species migrate between six patches. When environemental
+chain where all species migrate between six patches. When environmental
 stochasticity (represented as random variation in the carrying capacity) is low,
 all species coexist in a chaotic but stable attractor. A small increase in
 environmental stochasticity, though, causes extinction of the top predator and
