@@ -340,8 +340,8 @@ population responses. While on long time scales these are technically not regime
 shifts, such changes would effectively appear to be regime shifts on shorter
 ones. We would not expect such regime shifts to be preceded with CSD.
 
-Detecting Early Warning Signals
-===============================
+Statistical problems in detecting early warning signals
+=======================================================
 
 ***This section does not feel connected to the rest of the paper -CB***
 
@@ -392,7 +392,7 @@ warning that would result in an otherwise avoidable catastrophic regime shift,
 and the costs of failing to detect such a shift exceed that of the false
 positives. @Boettiger2012a suggest the use of reciever-operating characteristic
 (ROC) curves to describe the performance of various early warning signals. ROC
-curves (Figure) represent the false positive rate at any true positive rate.
+curves (Figure 6) represent the false positive rate at any true positive rate.
 Overall performance can be assessed by the area under the curve, which is 1 if
 the signal is perfect and 0.5 if the signal performs no better than random. The
 complete shape of the curve provides more information on the possible trade-offs
@@ -400,7 +400,7 @@ under different sensitivities. This information, combined with a
 decision-theoretic [@REF?] framework, has the potential to illuminate in which
 cases early warning signals can be useful.
 
-**Carl: Can you re-generate an ROC curve to put here?**
+![Figure 6: Reciever-operating characteristic (ROC) curves illustrate the trade-off between false positive and true positive detection rates of an early warning signal.  Perfect warning signals (solid curve) would identify all thresholds while generating no false positives, while very poor signals would have no ability to distinguish false from true signals (dotted line).  In reality, warning signals' have a trade-off between the two which is described by a curve (dotted line) or summarized by the area under the ROC curve](ROC.png)
 
 Discussion
 ==========
