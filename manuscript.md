@@ -167,7 +167,7 @@ Decreasing variance is observed before a sudden transition following a Hopf
 bifurcation in @Schreiber2008.
 
 @Hastings2010 examined a continuous model of a stochastic three-species food
-chain where all species migrate between six patches. When environemental
+chain where all species migrate between six patches. When environmental
 stochasticity (represented as random variation in the carrying capacity) is low,
 all species coexist in a chaotic but stable attractor. A small increase in
 environmental stochasticity, though, causes extinction of the top predator and
@@ -297,7 +297,7 @@ vertical axis) could also cause a transition if it is large enough to cross the
 stability threshold (dashed line). Such a perturbation can come from exogenous
 factors such as anthropogenic pressures or occur by chance from intrinsic
 stochasticity. These distinct mechanisms of disturbance and environmental change
-are coupled -- as the environment deteriorates moving the system left on the
+are coupled -- as the environment deteriorates, moving the system right on the
 diagram, the probability that a disturbance crosses the threshold increases.
 From @Bel2012.](Bel2012example.png)
 
@@ -340,19 +340,12 @@ population responses. While on long time scales these are technically not regime
 shifts, such changes would effectively appear to be regime shifts on shorter
 ones. We would not expect such regime shifts to be preceded with CSD.
 
-Detecting Early Warning Signals
-===============================
+Statistical problems in detecting early warning signals
+=======================================================
 
-***This section does not feel connected to the rest of the paper -CB***
+The above cases show that behavior providing an early warning signal prior to regime shifts may only be present in certain types of ecological systems.  An additional important consideration is whether these behaviors will be *detectable* in those domains where they are expected.  To be usable as an early warning signal, system behavior must be detectable well enough in advance of a regime shift to serve in decision-making, and be reliably distinguishable from other patterns.
 
-The usefulness of early warning signals depends not just on their applicability
-to particular systems, but on our ability to detect them in those systems. A
-warning signal must provide adequate power to reliably detect and reject
-evidence of impending regime shifts. Ecological data is often sparse, noisy,
-autocorrelated and subject to confounding driving variables, in contrast to much
-of the experimental or simulated data used to test EWS. Under common levels of
-noise found in field data, CSD-based early warning signals often fail
-[@Perretti2012].
+Ecological data is often sparse, noisy, autocorrelated and subject to confounding driving variables, in contrast to much of the experimental or simulated data used to test EWS. Under common levels of noise found in field data, CSD-based early warning signals often fail [@Perretti2012].
 
 A wide variety of statistical summary indicators have been examined as potential
 detectors of CSD. The most common are variance and autocorrelation. Others
@@ -392,7 +385,7 @@ warning that would result in an otherwise avoidable catastrophic regime shift,
 and the costs of failing to detect such a shift exceed that of the false
 positives. @Boettiger2012a suggest the use of reciever-operating characteristic
 (ROC) curves to describe the performance of various early warning signals. ROC
-curves (Figure) represent the false positive rate at any true positive rate.
+curves (Figure 6) represent the false positive rate at any true positive rate.
 Overall performance can be assessed by the area under the curve, which is 1 if
 the signal is perfect and 0.5 if the signal performs no better than random. The
 complete shape of the curve provides more information on the possible trade-offs
@@ -400,7 +393,7 @@ under different sensitivities. This information, combined with a
 decision-theoretic [@REF?] framework, has the potential to illuminate in which
 cases early warning signals can be useful.
 
-**Carl: Can you re-generate an ROC curve to put here?**
+![Figure 6: Reciever-operating characteristic (ROC) curves illustrate the trade-off between false positive and true positive detection rates of an early warning signal.  Perfect warning signals (solid curve) would identify all thresholds while generating no false positives, while very poor signals would have no ability to distinguish false from true signals (dotted line).  In reality, warning signals' have a trade-off between the two which is described by a curve (dotted line) or summarized by the area under the ROC curve](ROC.png)
 
 Discussion
 ==========

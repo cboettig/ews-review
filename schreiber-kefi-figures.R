@@ -30,7 +30,7 @@ schreiber.stats <- adply(1:length(m), 1, function(x) data.frame(
   ))
 
 png("schreiber-fig.png", width=800, height=400)
-par(mfrow=c(1,3), cex.lab=1.5)
+par(mfrow=c(1,3), cex.lab=1.5, family="Lato Light")
 plot(m, X[1001,], pch=19, cex=0.3, xlab = "", ylab="Population Level", col="grey")
 lines(schreiber.stats$m, schreiber.stats$mean, type="l")
 plot(schreiber.stats$m, schreiber.stats$SD, type="l", ylab="Standard Deviation", xlab="")
@@ -75,7 +75,7 @@ kefi.stats <- adply(1:length(cs), 1, function(x) data.frame(
   ))
 
 png("kefi-fig.png", width=800, height=400)
-par(mfrow=c(1,3), par(mfrow=c(1,3), cex.lab=1.5))
+par(mfrow=c(1,3), par(mfrow=c(1,3), cex.lab=1.5), family="Lato Light")
 plot(kefi.stats$c, tail(Vout,1), xlab="", ylab="Population Level", type="l", lwd=2)
 plot(kefi.stats$c, kefi.stats$SD, type="l", ylab="Standard Deviation", xlab="", lwd=2)
 plot(kefi.stats$c, kefi.stats$AR1, type="l", ylab="Lag-1 Autocorrelation", xlab="", lwd=2)
