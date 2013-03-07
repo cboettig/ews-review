@@ -343,14 +343,9 @@ ones. We would not expect such regime shifts to be preceded with CSD.
 Statistical problems in detecting early warning signals
 =======================================================
 
-The usefulness of early warning signals depends not just on their applicability
-to particular systems, but on our ability to detect them in those systems. A
-warning signal must provide adequate power to reliably detect and reject
-evidence of impending regime shifts. Ecological data is often sparse, noisy,
-autocorrelated and subject to confounding driving variables, in contrast to much
-of the experimental or simulated data used to test EWS. Under common levels of
-noise found in field data, CSD-based early warning signals often fail
-[@Perretti2012].
+The above cases show that behavior providing an early warning signal prior to regime shifts may only be present in certain types of ecological systems.  An additional important consideration is whether these behaviors will be *detectable* in those domains where they are expected.  To be usable as an early warning signal, system behavior must be detectable well enough in advance of a regime shift to serve in decision-making, and be reliably distinguishable from other patterns.
+
+Ecological data is often sparse, noisy, autocorrelated and subject to confounding driving variables, in contrast to much of the experimental or simulated data used to test EWS. Under common levels of noise found in field data, CSD-based early warning signals often fail [@Perretti2012].
 
 A wide variety of statistical summary indicators have been examined as potential
 detectors of CSD. The most common are variance and autocorrelation. Others
