@@ -99,8 +99,8 @@ regions.
 shifts, bifurcations, and critical slowing down. Text in italic are example
 phenomena that occur in each domain.](ews-venn.jpg)
 
-Catastrophic Bifurcations Preceded by CSD
------------------------------------------
+Catastrophic Bifurcations Preceded by CSD (1)
+---------------------------------------------
 
 Much of the (most visible) recent research in early warning signals
 has focused on the center of the diagram, where all three concepts
@@ -140,8 +140,8 @@ While these studies have provided valuable demonstrations of the potential to fi
 early warning signals of sudden transitions, this literature has begun to enumerate
 examples of similar tranistions in which no such signal is present.  
 
-Catastrophic Bifurcations *not* Preceded by CSD
------------------------------------------------
+Catastrophic Bifurcations *not* Preceded by CSD (2)
+---------------------------------------------------
 
 Saddle nodes are only one of a variety of bifurcations which can cause rapid
 changes in system dynamics. Other bifurcations can cause long-term changes in
@@ -209,10 +209,9 @@ transition occurs if the control parameter (e.g., rainfall), exceeds the
 location would undergo a saddle-node bifurcation, and thus the system's global
 dynamics would not exhibit CSD prior to such a transition.
 
-Non-Catastrophic Bifurcations Preceded by CSD
----------------------------------------------
+Non-Catastrophic Bifurcations Preceded by CSD  (3)
+----------------------------------------------------
 
-**TODO: Add a numeric reference connecting each section to a region of Figure 1**
 
 Not all regime shifts are rapid. Some systems undergo bifurcations between
 qualitatively different, but quantatively similar regimes. These transitions may
@@ -232,16 +231,6 @@ from stable equilibrium to cycles is gradual as the cycle sizes grow from zero
 at the threshold value. In the presence of stochasticity, system behavior may be
 observed on either side of the threshold may be indistinguishable.
 
-![Figure 4: A system where critical slowing down is observed without
-a critical threshold, from @Kefi2012. In this model, prey have logistic growth
-and are subject to predation with a Type III functional response, but there is
-no bifurcation. Instead, average prey population exhibits a smooth response to
-increased predation. Left: The population level as a function of predation rate.
-Middle: Variance of the prey population level. Note that it increases during the
-transition, despite no bifurcation. Right: Lag-1 Autocorrelation in prey
-population dynamics as predation rate increases. Note that it, too, increases
-despite the lack of a bifurcation](kefi-fig.png) 
-
 The system's eigenvalue also passes through zero in the case of the
 transcritical bifurcation. The transcritical is a degenerate case of the the
 saddle-node, and occurs in many of the same systems. However, when a system
@@ -258,23 +247,29 @@ reducing food supplies and driving population growth rates below zero.
 Indicators of CSD (variation, skewness, autocorrelation, and spatial
 correlation) increased prior to collapse of the population.
 
-Non-Catastrophic Bifurcations without CSD
------------------------------------------
+CSD in the absence of bifurcations or regime shifts. (4)
+-------------------------------------------------------
 
-**TODO: Add a numeric reference connecting each section to a region of Figure
-1**
+Critical slowing down may appear in systems without any bifurcations.  @Kefi2012 showed that smooth transitions that modify a system's potential and decrease the value of its dominant eigenvalue will result in longer return times and greater variance and autocorrelation in system behavior (See Figure 4).  When the transition between states is smooth, these measures will exhibit a smooth increase to a maximum and then a decrease, unlike the sharp peaks found in systems with bifurcations.  Nonetheless, both exhibit increasing measures of CSD which may be indistinguishable.
 
-Some bifurcations are much more mundane, involving neither catastrophic shifts
-or patterns of critical slowing down.
+![Figure 4: A system where critical slowing down is observed without
+a critical threshold, from @Kefi2012. In this model, prey have logistic growth
+and are subject to predation with a Type III functional response, but there is
+no bifurcation. Instead, average prey population exhibits a smooth response to
+increased predation. Left: The population level as a function of predation rate.
+Middle: Variance of the prey population level. Note that it increases during the
+transition, despite no bifurcation. Right: Lag-1 Autocorrelation in prey
+population dynamics as predation rate increases. Note that it, too, increases
+despite the lack of a bifurcation](kefi-fig.png)
 
-**TODO: Anything here? Beyond a trivial change from positive to zero
-population**
+Non-Catastrophic Bifurcations without CSD (5)
+----------------------------------------------
 
-Catastrophic Regime Shifts without Bifurcations or CSD
-------------------------------------------------------
+Some bifurcations involving neither catastrophic shifts
+or patterns of critical slowing down.  The transition from very small populations to zero is one such transition.  System behavior after extinction is clearly different, and exhibits hysteresis.  However, the transition, while not smooth, is not due to a saddle-node or similar bifurcation, and CSD would not be expected.
 
-**TODO: Add a numeric reference connecting each section to a region of Figure
-1**
+Catastrophic Regime Shifts without Bifurcations or CSD  (6)
+------------------------------------------------------------
 
 Some rapid regime shifts are not due to bifurcations at all. A large external
 forcing (as illustrated in Figure 5) may change the behavior of a system without
@@ -293,10 +288,10 @@ environment (e.g. annual mean temperature) whose slow change could lead to a
 sudden shift. A direct disturbance to the system state (e.g. population size,
 vertical axis) could also cause a transition if it is large enough to cross the
 stability threshold (dashed line). Such a perturbation can come from exogenous
-factors such as anthropogenic pressures or occur by chance from intrisic
+factors such as anthropogenic pressures or occur by chance from intrinsic
 stochasticity. These distinct mechanisms of disturbance and environmental change
-are coupled -- as the environment detiorates moving the system left on the
-diagram, the probability that a distrubance crosses the threshold increases.
+are coupled -- as the environment deteriorates moving the system left on the
+diagram, the probability that a disturbance crosses the threshold increases.
 From @Bel2012.](Bel2012example.png)
 
 Large, rapid changes in external conditions will result in rapid changes in
