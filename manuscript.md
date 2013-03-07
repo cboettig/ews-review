@@ -472,12 +472,16 @@ Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
 ---------------------------------------------------------------------
 
 **TODO: -- Section really belongs just as a footnote/passing comment in
-discussion**
+discussion.  Alternatively the first of these should be rolled into the statstics section?
+The coupling is kind of a technicality/semantics question anyhow, though
+those recent PNAS papers hit on exactly that.-CB**
 
 -   CSD may be observed prior to stochastically-driven regime shifts due to a
     stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
+
+
 -   CSD may also be observed in systems when they are *coupled* with other
-    systems undergoing saddle-node bifurcations.
+    systems undergoing saddle-node bifurcations (see http://www.carlboettiger.info/2013/02/12/notes.html)
 
 Acknowledgments
 ===============
