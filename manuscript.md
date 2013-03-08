@@ -399,127 +399,24 @@ summarized by the area under the ROC curve](ROC.pdf)
 Discussion
 ==========
 
-<<<<<<< HEAD
 Recognizing the potential for early warning signals of critical transitions represents a substantial leap forward in addressing one of the most challenging questions in ecology and ecosystem management today. In the decades prior, the prospect that ecosystems could make sudden transitions into an undesirable state due to gradual, slow changes in their environment hung like a spectre over both our understanding and management of natural systems. Research that points to the possibility of detecting these transitions holds the promise of meeting this challenge and has attracted justifiably widespread attention among both theoretical and empirical communities. Nonetheless, our understanding of early warning signals is still in its infancy. Thus far, our best understanding and empirical experience lies in transitions that are driven by saddle-node (also called fold) bifurcations.
-=======
-<!-- is 'spectre' etc a bit too strong/literary? dry out the tone a bit? -->
- 
-Recognizing the potential for early warning signals of critical
-transitions represents a substantial leap forward in addressing one
-of the most challenging questions in ecology and ecosystem management
-today. In the decades prior, the realization from both theoretical
-models and empirical demonstrations that ecosystems could make sudden
-transitions into an undesirable state due to gradual, slow changes
-in their enviroment hung like a spectre over both our understanding
-and management of natural systems. Consequently, research that pointed
-to the possibility of detecting these transitions holds the promise of
-unraveling this riddle and has attracted justifiably widespread attention
-among both theoretical and empirical communities.  While we commend
-this enthusiasm, we also caution that our understanding of early warning
-signals is still in it's infancy.  Thus far, our best understanding and
-empirical experience lies in transitions that are driven by saddle-node
-(also called fold) bifurcations.
 
-While saddle-node bifurcations may be a common, they represent only part
-of the potential mechanisms for rapid regime shift. Occupying the center
-of our diagram, Figure 1, such transitions represent our best-understood
-cases.  Researchers have relied on existing expertise and prior
-research to identify emprical systems most likely to experience critical
-transitions through the saddle-node-like mechanism [e.g. @Carpenter2011;
-@Dai2012], and have achieved a close match to theoretical predictions
-of early warning signals.  While these examples provide a much needed
-proof-of-principle that these signals can be detected in the real world,
-it is too early to apply the same methods to novel systems where the
-expertise that suggests the saddle-node mechanism is not avaialable.
+While saddle-node bifurcations may be common, they represent only part of the potential mechanisms for rapid regime shift. Occupying the center of our diagram, Figure 1, such transitions represent our best-understood cases. Researchers have relied on existing expertise and prior research to identify empirical systems most likely to experience critical transitions through the saddle-node-like mechanism [e.g. @Carpenter2011; @Dai2012], and have achieved a close match to theoretical predictions of early warning signals. While these examples provide a much needed proof-of-principle that these signals can be detected in the real world, it is too early to apply the same methods to novel systems where the saddle-node is only one of many possible mechanisms.
 
-CSD alone cannot be used as evidence regime shift. In some cases, it
-will be present when no transition is approaching. In other cases,
-regime shifts occur without CSD.  Though false alarms and missed
-events can occur in any statistical procedure, the cases discussed
-here demonstrate that these errors will also arise when the underlying
-dynamics do not correspond to our assumptions.  These situations fall
-in the uncharted area beyond the center of Figure 1, where research
-has just begun to illuminate their existence.  A better theoretical
-and empirical understanding of these cases will allow us to construct
-novel warning signals, that may be opposite the patterns observed in the
-familiar saddle-node bifurcations.  Before early warning signals can be
-applied in novel systems, additional information is needed in order to
-determine best signal to use.
-
-The future of early warning signals lies in the uncharted territory. For
-certain classes of transitions such as the stochastically-driven regime
-shifts, prediction may not be possible. In such cases, managing for
-resilience may be the only option. Likewise, regime shifts driven by
-external perturbation or strong forcing are not predictable *if the scope
-of mangement does not include the external causes. Proper scoping of the
-management problem can avoid this situation  [@ResilienceAlliance2010;
-@Fischer2009; @Polasky2011d].
-
-
-*** Not sure how much of the following we need, but could be very useful to
-outline the basic idea of how we start identifying when we are in charted
-or uncharted territory...***
->>>>>>> 0947e1d29b3f83e61ee68e8546325200808ca25a
-
-While saddle-node bifurcations may be a common, they represent only part of the potential mechanisms for rapid regime shift. Occupying the center of our diagram, Figure 1, such transitions represent our best-understood cases. Researchers have relied on existing expertise and prior research to identify empirical systems most likely to experience critical transitions through the saddle-node-like mechanism [e.g. @Carpenter2011; @Dai2012], and have achieved a close match to theoretical predictions of early warning signals. While these examples provide a much needed proof-of-principle that these signals can be detected in the real world, it is too early to apply the same methods to novel systems where the saddle-node is only one of many possible mechanisms.
+Thus, establishing the saddle node mechanism a necessary condition of using CSD as a warning signal.  This can be done via manipulation in simple experimental systems [@Veraart2011; @Dai2012], but this is impractical in nature. Another approach is to assume the saddle-node mechanism applies to a limited set of systems that have well-studied examples, such as lakes undergoing eutrophication [@Scheffer2001], or forest/savannah transitions may also [@Staver2011; @Hirota2011; @Bel2012].  Fitting simplified saddle-node models, following @Boettiger2012a to past regime shifts in less well-understood systems may provide evidence for the mechanism.  However, care must be taken to specify sufficient alternative models.
 
 CSD alone cannot be used as evidence regime shift. In some cases, it will be present when no transition is approaching. In other cases, regime shifts occur without CSD. Though false alarms and missed events can occur in any statistical procedure, the cases discussed here demonstrate that these errors will also arise when the underlying dynamics do not correspond to our assumptions. These situations fall in the uncharted area beyond the center of Figure 1, where research has just begun to illuminate their existence. A better theoretical and empirical understanding of these cases will allow us to construct novel warning signals, that may be opposite the patterns observed in the familiar saddle-node bifurcations. Before early warning signals can be applied in novel systems, additional information is needed in order to determine best signal to use.
 
 The future of early warning signals lies in the uncharted territory. For certain classes of transitions, such as stochastically-driven regime shifts, prediction may not be possible. In such cases, managing for resilience may be the only option. Likewise, regime shifts driven by external perturbation or strong forcing are not predictable *if* the scope of management does not include the external causes. Proper scoping of the management problem can avoid this situation [@ResilienceAlliance2010; @Fischer2009, @Polasky2011d].
 
-Context-specific signals
-------------------------
-
--   Need to establish that you are in a warning signals' domain of applicability
-    in order to use it
--   In this domain, the warning signal should have reasonable power to
-    distinguish between real and false cases
--   Potential ways to establish this
-    -   Known mechanistic model
-    -   Manipulated system.
-    -   Fitting models to past regime shift data, but models that serve as tests
-        between saddle node transitions and transitions caused by other
-        mechanisms.
-
--   Examples: Saddle nodes
-    -   Much research on regime shifts and early warning signals has focused on
-        lakes [Refs from @Scheffer2001], which are well-modeled
-    -   @Veraart2011 and @Dai2012 studied simple experimental systems which
-        could be described with simple mechanistic models, and in which
-        saddle-nodes bifurcations could be inferred both theoretically and
-        experimentally.
-    -   Forest/savanna transition has supporting evidence, e.g. @Bel2012,
-        @Staver2011, @Hirota2011
-
--   Evidence supporting the potential of other mechanisms
-    -   Strong density dependence make chaos, and thus both crises and chaotic
-        transients, more likely [@Wysham2008].
-
-
-
-*** Some cases we don't really discuss -- need to add as 'footnote' at least? ***
------------------------------------------------------------------------------------
-
-
--   Flickering [@Wang2012; @Brock2010]
--   Spatial signals in extended systems. [@Guttal2008; @Dakos2009; @Dakos2011;
-    @Carpenter2010, @Bel2012; @Bailey2010; @Litzow2008] (Also see nice
-    system-specific approaches in @Kefi2007, @Kefi2008 and @vanNes2005)
--   Network-theory based observations [@Scheffer2012b]
--   Future research
-    -   Behavior prior to/in systems with transients?
--   CSD may be observed prior to stochastically-driven regime shifts due to a
-    stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
--   CSD may also be observed in systems when they are *coupled* with other
-    systems undergoing saddle-node bifurcations (see http://www.carlboettiger.info/2013/02/12/notes.html)
+For other classes of transitions, prediction may be possible but other EWS must be explored.  Flickering [@Brock2010; @Wang2012], or rapid transitions between states prior to a more permanent transition, is one signal that may apply across many types of systems.  It manifests in biomodality and high variance in times series.  Spatial pattern development may be a warning signal in systems with short-distance positive feedbacks but long-distance negative feedbacks, such as grassland-desert transitions [@vanNes2005; @Kefi2007, @Kefi2008].  Other spatial signals may apply where systems include both saddle nodes and positive feedbacks across space [@Guttal2008; @Litzow2008; @Dakos2009; @Bailey2010@Carpenter2010; @Dakos2011; @Bel2012].  A critical task for EWS research is to map these signals to their domains of applicability, and create methods to establish if ecosystems fall into these domains.
 
 Acknowledgments
 ===============
 
 This work was partially supported by the Center for Stock Assessment Research, a
 partnership between the University of California Santa Cruz and the Fisheries
-Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA, and the NSF Integrative Graduate Education and Research Traineeship Program. **TODO Add
-your acknowledgments here**
+Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA, and the NSF Integrative Graduate Education and Research Traineeship Program.
 
 References
 ==========
