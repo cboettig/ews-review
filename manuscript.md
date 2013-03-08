@@ -51,7 +51,7 @@ These examples are distinct from the more well-known case of statistical error
 available data (see @Dakos2008; @Scheffer2009 and @Perretti2012). Instead, such
 work moves into new territory where different underlying mechanisms have lead to
 starkly different patterns. Determining which underlying mechanisms are present
-is a substantial is both empirical and theoretical challenge. When does critical
+is a substantial empirical and theoretical challenge. When does critical
 slowing down correspond to the assumptions made?
 
 Here we review a variety of mechanisms that may lead to rapid (or
@@ -399,24 +399,89 @@ summarized by the area under the ROC curve](ROC.pdf)
 Discussion
 ==========
 
-Recognizing the potential for early warning signals of critical transitions represents a substantial leap forward in addressing one of the most challenging questions in ecology and ecosystem management today. In the decades prior, the prospect that ecosystems could make sudden transitions into an undesirable state due to gradual, slow changes in their environment hung like a spectre over both our understanding and management of natural systems. Research that points to the possibility of detecting these transitions holds the promise of meeting this challenge and has attracted justifiably widespread attention among both theoretical and empirical communities. Nonetheless, our understanding of early warning signals is still in its infancy. Thus far, our best understanding and empirical experience lies in transitions that are driven by saddle-node (also called fold) bifurcations.
+Recognizing the potential for early warning signals of critical
+transitions represents a substantial leap forward in addressing one
+of the most challenging questions in ecology and ecosystem management
+today. In the decades prior, the prospect that ecosystems could make
+sudden transitions into an undesirable state due to gradual, slow changes
+in their environment hung like a spectre over both our understanding and
+management of natural systems. Research that points to the possibility of
+detecting these transitions holds the promise of meeting this challenge
+and has attracted justifiably widespread attention among both theoretical
+and empirical communities. Nonetheless, our understanding of early warning
+signals is still in its infancy. Thus far, our best understanding and
+empirical experience lies in transitions that are driven by saddle-node
+(also called fold) bifurcations.
 
-While saddle-node bifurcations may be common, they represent only part of the potential mechanisms for rapid regime shift. Occupying the center of our diagram, Figure 1, such transitions represent our best-understood cases. Researchers have relied on existing expertise and prior research to identify empirical systems most likely to experience critical transitions through the saddle-node-like mechanism [e.g. @Carpenter2011; @Dai2012], and have achieved a close match to theoretical predictions of early warning signals. While these examples provide a much needed proof-of-principle that these signals can be detected in the real world, it is too early to apply the same methods to novel systems where the saddle-node is only one of many possible mechanisms.
+While saddle-node bifurcations may be common, they represent only part
+of the potential mechanisms for rapid regime shift. Occupying the center
+of our diagram, Figure 1, such transitions represent our best-understood
+cases. Researchers have relied on existing expertise and prior research
+to identify empirical systems most likely to experience critical
+transitions through the saddle-node-like mechanism [e.g. @Carpenter2011;
+@Dai2012], and have achieved a close match to theoretical predictions
+of early warning signals. While these examples provide a much needed
+proof-of-principle that these signals can be detected in the real world,
+it is too early to apply the same methods to novel systems where the
+saddle-node is only one of many possible mechanisms.
 
-Thus, establishing the saddle node mechanism a necessary condition of using CSD as a warning signal.  This can be done via manipulation in simple experimental systems [@Veraart2011; @Dai2012], but this is impractical in nature. Another approach is to assume the saddle-node mechanism applies to a limited set of systems that have well-studied examples, such as lakes undergoing eutrophication [@Scheffer2001], or forest/savannah transitions may also [@Staver2011; @Hirota2011; @Bel2012].  Fitting simplified saddle-node models, following @Boettiger2012a to past regime shifts in less well-understood systems may provide evidence for the mechanism.  However, care must be taken to specify sufficient alternative models.
+Thus, establishing the saddle node mechanism a necessary condition
+of using CSD as a warning signal.  This can be done via manipulation
+in simple experimental systems [@Veraart2011; @Dai2012], but this is
+impractical in nature. Another approach is to assume the saddle-node
+mechanism applies to a limited set of systems that have well-studied
+examples, such as lakes undergoing eutrophication [@Scheffer2001], or
+forest/savannah transitions may also [@Staver2011; @Hirota2011; @Bel2012].
+Fitting simplified saddle-node models, following @Boettiger2012a to
+past regime shifts in less well-understood systems may provide evidence
+for the mechanism.  However, care must be taken to specify sufficient
+alternative models.
 
-CSD alone cannot be used as evidence regime shift. In some cases, it will be present when no transition is approaching. In other cases, regime shifts occur without CSD. Though false alarms and missed events can occur in any statistical procedure, the cases discussed here demonstrate that these errors will also arise when the underlying dynamics do not correspond to our assumptions. These situations fall in the uncharted area beyond the center of Figure 1, where research has just begun to illuminate their existence. A better theoretical and empirical understanding of these cases will allow us to construct novel warning signals, that may be opposite the patterns observed in the familiar saddle-node bifurcations. Before early warning signals can be applied in novel systems, additional information is needed in order to determine best signal to use.
+CSD alone cannot be used as evidence regime shift. In some cases,
+it will be present when no transition is approaching. In other cases,
+regime shifts occur without CSD. Though false alarms and missed events can
+occur in any statistical procedure, the cases discussed here demonstrate
+that these errors will also arise when the underlying dynamics do not
+correspond to our assumptions. These situations fall in the uncharted
+area beyond the center of Figure 1, where research has just begun
+to illuminate their existence. A better theoretical and empirical
+understanding of these cases will allow us to construct novel warning
+signals, that may be opposite the patterns observed in the familiar
+saddle-node bifurcations. Before early warning signals can be applied
+in novel systems, additional information is needed in order to determine
+best signal to use.
 
-The future of early warning signals lies in the uncharted territory. For certain classes of transitions, such as stochastically-driven regime shifts, prediction may not be possible. In such cases, managing for resilience may be the only option. Likewise, regime shifts driven by external perturbation or strong forcing are not predictable *if* the scope of management does not include the external causes. Proper scoping of the management problem can avoid this situation [@ResilienceAlliance2010; @Fischer2009, @Polasky2011d].
+The future of early warning signals lies in the uncharted territory. For
+certain classes of transitions, such as stochastically-driven regime
+shifts, prediction may not be possible. In such cases, managing for
+resilience may be the only option. Likewise, regime shifts driven by
+external perturbation or strong forcing are not predictable *if* the scope
+of management does not include the external causes. Proper scoping of
+the management problem can avoid this situation [@ResilienceAlliance2010;
+@Fischer2009; @Polasky2011d].
 
-For other classes of transitions, prediction may be possible but other EWS must be explored.  Flickering [@Brock2010; @Wang2012], or rapid transitions between states prior to a more permanent transition, is one signal that may apply across many types of systems.  It manifests in biomodality and high variance in times series.  Spatial pattern development may be a warning signal in systems with short-distance positive feedbacks but long-distance negative feedbacks, such as grassland-desert transitions [@vanNes2005; @Kefi2007, @Kefi2008].  Other spatial signals may apply where systems include both saddle nodes and positive feedbacks across space [@Guttal2008; @Litzow2008; @Dakos2009; @Bailey2010@Carpenter2010; @Dakos2011; @Bel2012].  A critical task for EWS research is to map these signals to their domains of applicability, and create methods to establish if ecosystems fall into these domains.
+For other classes of transitions, prediction may be possible but other
+EWS must be explored.  Flickering [@Brock2010; @Wang2012], or rapid
+transitions between states prior to a more permanent transition, is
+one signal that may apply across many types of systems.  It manifests
+in biomodality and high variance in times series.  Spatial pattern
+development may be a warning signal in systems with short-distance
+positive feedbacks but long-distance negative feedbacks, such as
+grassland-desert transitions [@vanNes2005; @Kefi2007, @Kefi2008].
+Other spatial signals may apply where systems include both saddle nodes
+and positive feedbacks across space [@Guttal2008; @Litzow2008; @Dakos2009;
+@Bailey2010@Carpenter2010; @Dakos2011; @Bel2012].  A critical task for
+EWS research is to map these signals to their domains of applicability,
+and create methods to establish if ecosystems fall into these domains.
 
-Acknowledgments
+Acknowledgments 
 ===============
 
-This work was partially supported by the Center for Stock Assessment Research, a
-partnership between the University of California Santa Cruz and the Fisheries
-Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA, and the NSF Integrative Graduate Education and Research Traineeship Program.
+This work was partially supported by the Center for Stock Assessment
+Research, a partnership between the University of California Santa Cruz
+and the Fisheries Ecology Division, Southwest Fisheries Science Center,
+Santa Cruz, CA, to CB; the NSF Integrative Graduate Education and Research
+Traineeship Program to NH and by funding from NSF Grant EF 0742674 to AH.
 
-References
+References 
 ==========
