@@ -90,10 +90,9 @@ fall into each of these regions.
 
 ![Venn diagram representing the intersecting domains of rapid regime shifts,
 bifurcations, and critical slowing down. Labels in italic are example phenomena
-that occur in each domain. Numbers in parentheses refer to each of the sections
-below describing the domains.](ews-venn.jpg)
+that occur in each domain. Roman numerals indicate example literature (right) exploring each domain, and also refer to sections below describing those domains.  The center domain, where all three phenomena intersect, is the most extensively researched domain of the EWS field.](ews-venn.jpg)
 
-Catastrophic Bifurcations Preceded by CSD (1)
+Catastrophic Bifurcations Preceded by CSD (I)
 ---------------------------------------------
 
 Much of the (most visible) recent research in EWS has focused on the center of
@@ -128,7 +127,7 @@ While these studies have provided valuable demonstrations of the potential to
 find early warning signals of sudden transitions, this literature has begun to
 enumerate examples of similar transitions in which no such signal is present.
 
-Catastrophic Bifurcations *not* Preceded by CSD (2)
+Catastrophic Bifurcations *not* Preceded by CSD (II)
 ---------------------------------------------------
 
 Saddle nodes are only one of a variety of bifurcations, which can cause rapid
@@ -198,7 +197,7 @@ system's global dynamics would not exhibit CSD prior to such a transition.
 Another example is found in @Schreiber2008., in which variance is observed to
 decrease before a sudden transition that follow a Hopf bifurcation .
 
-Non-Catastrophic Bifurcations Preceded by CSD (3)
+Non-Catastrophic Bifurcations Preceded by CSD (III)
 -------------------------------------------------
 
 Not all regime shifts are rapid. Some systems undergo bifurcations between
@@ -235,7 +234,7 @@ reducing food supplies and driving population growth rates below zero.
 Indicators of CSD (variation, skewness, autocorrelation, and spatial
 correlation) increased prior to collapse of the population.
 
-CSD in the absence of bifurcations or regime shifts. (4)
+CSD in the absence of bifurcations or regime shifts. (IV)
 --------------------------------------------------------
 
 Critical slowing down may appear in systems without any bifurcations. @Kefi2012
@@ -257,7 +256,7 @@ transition, despite no bifurcation. Right: Lag-1 Autocorrelation in prey
 population dynamics as predation rate increases. Note that it, too, increases
 despite the lack of a bifurcation](kefi-fig.pdf)
 
-Non-Catastrophic Bifurcations without CSD (5)
+Non-Catastrophic Bifurcations without CSD (V)
 ---------------------------------------------
 
 Some bifurcations involve neither catastrophic shifts nor patterns of critical
@@ -266,7 +265,7 @@ transition. System behavior after extinction is clearly different, and exhibits
 hysteresis. However, the transition, while not smooth, is not due to a
 saddle-node or similar bifurcation, and CSD would not be expected.
 
-Catastrophic Regime Shifts without Bifurcations or CSD (6)
+Catastrophic Regime Shifts without Bifurcations or CSD (VI)
 ----------------------------------------------------------
 
 Some rapid regime shifts are not due to bifurcations at all. A large external
