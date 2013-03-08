@@ -699,7 +699,7 @@ levels commonly observed in ecological systems. Ecological Applications
 
 Polasky, S., S. R. Carpenter, C. Folke, and B. Keeler. 2011. Decision-making
 under great uncertainty: environmental management in an era of global change..
-Trends in ecology & evolution:1–7.
+Trends in ecology & evolution 26:398–404.
 
 Resilience Alliance. 2010. Assessing Resilience in Social-Ecological Systems :
 Workbook for Practitioners. Version 2.0.

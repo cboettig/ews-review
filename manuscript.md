@@ -450,7 +450,7 @@ resilience may be the only option. Likewise, regime shifts driven by
 external perturbation or strong forcing are not predictable *if the scope
 of mangement does not include the external causes. Proper scoping of the
 management problem can avoid this situation  [@ResilienceAlliance2010;
-@Fischer2009, @Polasky2011].
+@Fischer2009, @Polasky2011d].
 
 
 *** Not sure how much of the following we need, but could be very useful to
