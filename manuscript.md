@@ -317,7 +317,7 @@ endogenous climate stochasticity.
 Some events that appear to be regime shifts may actually be transients in some
 systems. Sudden changes in dynamics can occur in simple ecological models with
 strong density dependence that take long times to reach equilibrium.
-@Hastings1994 showed such dynamics in model of dispersal of inter- or sub-tidal
+@Hastings1998 showed such dynamics in model of dispersal of inter- or sub-tidal
 organisms whose larvae disperse along a coastline. Over the thousands of years
 it takes the model to reach equilibrium, it may alternate between temporary
 regimes of regular cycles and chaos that switch in only a few years. While on

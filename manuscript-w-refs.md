@@ -324,13 +324,13 @@ driven by endogenous climate stochasticity.
 Some events that appear to be regime shifts may actually be transients in some
 systems. Sudden changes in dynamics can occur in simple ecological models with
 strong density dependence that take long times to reach equilibrium. Hastings
-and Higgins (1994) showed such dynamics in model of dispersal of inter- or
-sub-tidal organisms whose larvae disperse along a coastline. Over the thousands
-of years it takes the model to reach equilibrium, it may alternate between
-temporary regimes of regular cycles and chaos that switch in only a few years.
-While on long time scales these are technically not regime shifts, such changes
-would effectively appear to be regime shifts on shorter ones. We would not
-expect such regime shifts to be preceded with CSD.
+(1998) showed such dynamics in model of dispersal of inter- or sub-tidal
+organisms whose larvae disperse along a coastline. Over the thousands of years
+it takes the model to reach equilibrium, it may alternate between temporary
+regimes of regular cycles and chaos that switch in only a few years. While on
+long time scales these are technically not regime shifts, such changes would
+effectively appear to be regime shifts on shorter ones. We would not expect such
+regime shifts to be preceded with CSD.
 
 Statistical problems in detecting early warning signals
 =======================================================
@@ -406,8 +406,20 @@ summarized by the area under the ROC curve]
 Discussion
 ==========
 
+\<\<\<\<\<\<\< HEAD Recognizing the potential for early warning signals of
+critical transitions represents a substantial leap forward in addressing one of
+the most challenging questions in ecology and ecosystem management today. In the
+decades prior, the prospect that ecosystems could make sudden transitions into
+an undesirable state due to gradual, slow changes in their environment hung like
+a spectre over both our understanding and management of natural systems.
+Research that points to the possibility of detecting these transitions holds the
+promise of meeting this challenge and has attracted justifiably widespread
+attention among both theoretical and empirical communities. Nonetheless, our
+understanding of early warning signals is still in its infancy. Thus far, our
+best understanding and empirical experience lies in transitions that are driven
+by saddle-node (also called fold) bifurcations. =======
 <!-- is 'spectre' etc a bit too strong/literary? dry out the tone a bit? -->
- 
+
 Recognizing the potential for early warning signals of critical transitions
 represents a substantial leap forward in addressing one of the most challenging
 questions in ecology and ecosystem management today. In the decades prior, the
@@ -452,11 +464,43 @@ prediction may not be possible. In such cases, managing for resilience may be
 the only option. Likewise, regime shifts driven by external perturbation or
 strong forcing are not predictable \*if the scope of mangement does not include
 the external causes. Proper scoping of the management problem can avoid this
-situation (Fischer et al. 2009, , Resilience Alliance 2010).
+situation (Fischer et al. 2009, Resilience Alliance 2010, Polasky et al. 2011).
 
 **\* Not sure how much of the following we need, but could be very useful to
 outline the basic idea of how we start identifying when we are in charted or
-uncharted territory...**\*
+uncharted territory...**\* \>\>\>\>\>\>\>
+0947e1d29b3f83e61ee68e8546325200808ca25a
+
+While saddle-node bifurcations may be a common, they represent only part of the
+potential mechanisms for rapid regime shift. Occupying the center of our
+diagram, Figure 1, such transitions represent our best-understood cases.
+Researchers have relied on existing expertise and prior research to identify
+empirical systems most likely to experience critical transitions through the
+saddle-node-like mechanism (e.g. Carpenter 2011a, Dai et al. 2012), and have
+achieved a close match to theoretical predictions of early warning signals.
+While these examples provide a much needed proof-of-principle that these signals
+can be detected in the real world, it is too early to apply the same methods to
+novel systems where the saddle-node is only one of many possible mechanisms.
+
+CSD alone cannot be used as evidence regime shift. In some cases, it will be
+present when no transition is approaching. In other cases, regime shifts occur
+without CSD. Though false alarms and missed events can occur in any statistical
+procedure, the cases discussed here demonstrate that these errors will also
+arise when the underlying dynamics do not correspond to our assumptions. These
+situations fall in the uncharted area beyond the center of Figure 1, where
+research has just begun to illuminate their existence. A better theoretical and
+empirical understanding of these cases will allow us to construct novel warning
+signals, that may be opposite the patterns observed in the familiar saddle-node
+bifurcations. Before early warning signals can be applied in novel systems,
+additional information is needed in order to determine best signal to use.
+
+The future of early warning signals lies in the uncharted territory. For certain
+classes of transitions, such as stochastically-driven regime shifts, prediction
+may not be possible. In such cases, managing for resilience may be the only
+option. Likewise, regime shifts driven by external perturbation or strong
+forcing are not predictable *if* the scope of management does not include the
+external causes. Proper scoping of the management problem can avoid this
+situation (Fischer et al. 2009, , Resilience Alliance 2010).
 
 Context-specific signals
 ------------------------
@@ -626,12 +670,12 @@ signal of regime shifts in ecosystems.. Ecology letters 11:450–60.
 Hare, S. R., and N. J. Mantua. 2000. Empirical evidence for North Pacific regime
 shifts in 1977 and 1989. Progress in oceanography 47:103–145.
 
+Hastings, A. 1998. Transients in spatial ecological models. Modeling
+spatiotemporal dynamics in ecology:189–198.
+
 Hastings, A., C. L. Hom, S. Ellner, P. Turchin, and H. C. J. Godfray. 1993.
 Chaos in ecology: is mother nature a strange attractor?. Annual Review of
 Ecology and Systematics 24:1–33.
-
-Hastings, A., and K. Higgins. 1994. Persistence of Transients in Spatially
-Structured Ecological Models. Science 263:1133–1136.
 
 Hastings, A., and D. B. Wysham. 2010. Regime shifts in ecological systems can
 occur with no warning.. Ecology letters 13:464–72.
@@ -769,7 +813,7 @@ of mathematical biology 70:1013–31.
   of predation rate. Middle: Variance of the prey population level. Note that it
   *decreases* as predation rate approaches the threshold. Right: Lag-1
   Autocorrelation in prey population dynamics increases as the threshold is
-  approached]: schreiber-fig.png
+  approached]: schreiber-fig.pdf
   [A system where critical slowing down is observed without a critical
   threshold, from Kéfi et al. (2012). In this model, prey have logistic growth
   and are subject to predation with a Type III functional response, but there is
@@ -778,7 +822,7 @@ of mathematical biology 70:1013–31.
   rate. Middle: Variance of the prey population level. Note that it increases
   during the transition, despite no bifurcation. Right: Lag-1 Autocorrelation in
   prey population dynamics as predation rate increases. Note that it, too,
-  increases despite the lack of a bifurcation]: kefi-fig.png
+  increases despite the lack of a bifurcation]: kefi-fig.pdf
   [Difference between different types of perturbations. On the horizontal axis
   is the bifurcation parameter, representing the state of the environment (e.g.
   annual mean temperature) whose slow change could lead to a sudden shift. A
@@ -789,11 +833,11 @@ of mathematical biology 70:1013–31.
   stochasticity. These distinct mechanisms of disturbance and environmental
   change are coupled -- as the environment deteriorates, moving the system right
   on the diagram, the probability that a disturbance crosses the threshold
-  increases. From Bel et al. (2012).]: Bel2012example.png
+  increases. From Bel et al. (2012).]: Bel2012example.pdf
   [Receiver-operating characteristic (ROC) curves illustrate the trade-off
   between false positive and true positive detection rates of an EWS. Perfect
   warning signals (solid curve) would identify all thresholds while generating
   no false positives, while very poor signals would have no ability to
   distinguish false from true signals (dotted line). In reality, warning
   signals' have a trade-off between the two which is described by a curve
-  (dotted line) or summarized by the area under the ROC curve]: ROC.png
+  (dotted line) or summarized by the area under the ROC curve]: ROC.pdf
