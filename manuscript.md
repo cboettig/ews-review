@@ -463,14 +463,13 @@ management problem can avoid this situation  [@ResilienceAlliance2010;
 @Fischer2009, @Polasky2011].
 
 
+*** Not sure how much of the following we need, but could be very useful to
+outline the basic idea of how we start identifying when we are in charted
+or uncharted territory...***
+
+
 Context-specific signals
 ------------------------
-
-**This is "the way forward". Unclear how much we should map out here (e.g., how
-the experimental examples basically knew they could expect saddle-nodes, etc),
-and how much we just highlight this for future work. No simple answers to this
-section at the moment... More about establishing language to discuss the problem
-and potential solutions --CB**
 
 -   Need to establish that you are in a warning signals' domain of applicability
     in order to use it
@@ -497,11 +496,11 @@ and potential solutions --CB**
     -   Strong density dependence make chaos, and thus both crises and chaotic
         transients, more likely [@Wysham2008].
 
-Examining other signals for their domains of applicability
-----------------------------------------------------------
 
-Section is again more of a footnote that these things exist but are outside the
-scope discussed here?
+
+*** Some cases we don't really discuss -- need to add as 'footnote' at least? ***
+-----------------------------------------------------------------------------------
+
 
 -   Flickering [@Wang2012; @Brock2010]
 -   Spatial signals in extended systems. [@Guttal2008; @Dakos2009; @Dakos2011;
@@ -510,19 +509,8 @@ scope discussed here?
 -   Network-theory based observations [@Scheffer2012b]
 -   Future research
     -   Behavior prior to/in systems with transients?
-
-Other Catastrophic Regime Shifts with CSD not driven by a bifurcation
----------------------------------------------------------------------
-
-**TODO: -- Section really belongs just as a footnote/passing comment in
-discussion.  Alternatively the first of these should be rolled into the statstics section?
-The coupling is kind of a technicality/semantics question anyhow, though
-those recent PNAS papers hit on exactly that.-CB**
-
 -   CSD may be observed prior to stochastically-driven regime shifts due to a
     stochastic artifact (See "Statistical Power" below, and @Boettiger2012b).
-
-
 -   CSD may also be observed in systems when they are *coupled* with other
     systems undergoing saddle-node bifurcations (see http://www.carlboettiger.info/2013/02/12/notes.html)
 
