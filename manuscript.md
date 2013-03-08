@@ -343,9 +343,18 @@ ones. We would not expect such regime shifts to be preceded with CSD.
 Statistical problems in detecting early warning signals
 =======================================================
 
-The above cases show that behavior providing an early warning signal prior to regime shifts may only be present in certain types of ecological systems.  An additional important consideration is whether these behaviors will be *detectable* in those domains where they are expected.  To be usable as an early warning signal, system behavior must be detectable well enough in advance of a regime shift to serve in decision-making, and be reliably distinguishable from other patterns.
+The above cases show that behavior providing an early warning signal before
+regime shifts may only be present in certain types of ecological systems. An
+additional important consideration is whether these behaviors will be
+*detectable* in those domains where they are expected. To be usable as an early
+warning signal, system behavior must be detectable well enough in advance of a
+regime shift to serve in decision-making, and be reliably distinguishable from
+other patterns.
 
-Ecological data is often sparse, noisy, autocorrelated and subject to confounding driving variables, in contrast to much of the experimental or simulated data used to test EWS. Under common levels of noise found in field data, CSD-based early warning signals often fail [@Perretti2012].
+Ecological data is often sparse, noisy, autocorrelated and subject to
+confounding driving variables, in contrast to much of the experimental or
+simulated data used to test EWS. Under common levels of noise found in field
+data, CSD-based early warning signals often fail [@Perretti2012].
 
 A wide variety of statistical summary indicators have been examined as potential
 detectors of CSD. The most common are variance and autocorrelation. Others
@@ -364,18 +373,19 @@ data. However, such calibration may not be possible with many ecological
 datasets. Multiple-method [@Lindegren2012] and composite indices [@Drake2010]
 have been proposed, but their power relative to other indicators is unknown.
 
-Another approach to detecting CSD has been fitting time series data to models. Two approaches have been used for
-these model-based methods. First, models may be used to calculate summary
-statistics related to CSD, such as eigenvalues [@Lade2012] or diffusion terms in
-jump-diffusion models [@Carpenter2011d; @Brock2012]. These statistics are then
-examined for trends in the same fashion as the summary statistics above.
-Alternatively, models representing both deteriorating and stable conditions may
-be fit to the data and in order to determine which is more likely [@Dakos2012,
-@Boettiger2012a]. @Boettiger2012a found that likelihood ratio tests were more
-powerful than trend-based summary statistic tests across several real and
-simulated ecological data sets. This approach is also more robust than
-summary-statistic methods to spurious correlations that arise when collapses are
-driven by purely stochastic events [@Boettiger2012b]
+Another approach to detecting CSD has been fitting time series data to models.
+Two approaches have been used for these model-based methods. First, models may
+be used to calculate summary statistics related to CSD, such as eigenvalues
+[@Lade2012] or diffusion terms in jump-diffusion models [@Carpenter2011d;
+@Brock2012]. These statistics are then examined for trends in the same fashion
+as the summary statistics above. Alternatively, models representing both
+deteriorating and stable conditions may be fit to the data and in order to
+determine which is more likely [@Dakos2012, @Boettiger2012a]. @Boettiger2012a
+found that likelihood ratio tests were more powerful than trend-based summary
+statistic tests across several real and simulated ecological data sets. This
+approach is also more robust than summary-statistic methods to spurious
+correlations that arise when collapses are driven by purely stochastic events
+[@Boettiger2012b]
 
 Care is required in the criteria used to judge the power of warning signal
 methods. The trade-off between false negatives and false positives is a matter
@@ -383,17 +393,26 @@ of not just statistical but economic efficiency. For instance, a large number of
 false positives may be acceptable if they reduce the probability of a false
 warning that would result in an otherwise avoidable catastrophic regime shift,
 and the costs of failing to detect such a shift exceed that of the false
-positives. @Boettiger2012a suggest the use of reciever-operating characteristic
+positives. @Boettiger2012a suggest the use of receiver-operating characteristic
 (ROC) curves to describe the performance of various early warning signals. ROC
 curves (Figure 6) represent the false positive rate at any true positive rate.
-Overall performance can be assessed by the area under the curve, which is 1 if
-the signal is perfect and 0.5 if the signal performs no better than random. The
-complete shape of the curve provides more information on the possible trade-offs
-under different sensitivities. This information, combined with a
-decision-theoretic [@REF?] framework, has the potential to illuminate in which
-cases early warning signals can be useful.
+The area under the curve (AUC) is a useful metric of overall performance. AUC
+will be one if the signal is perfect and 0.5 if the signal performs no better
+than random. The complete shape of the curve provides more information on the
+possible trade-offs under different sensitivities. This information, combined
+with a decision-theoretic [@REF?] framework, has the potential to illuminate in
+which cases early warning signals can be useful.
 
-![Figure 6: Reciever-operating characteristic (ROC) curves illustrate the trade-off between false positive and true positive detection rates of an early warning signal.  Perfect warning signals (solid curve) would identify all thresholds while generating no false positives, while very poor signals would have no ability to distinguish false from true signals (dotted line).  In reality, warning signals' have a trade-off between the two which is described by a curve (dotted line) or summarized by the area under the ROC curve](ROC.png)
+![Figure 6: Receiver-operating characteristic (ROC) curves illustrate the
+trade-off between false positive and true positive detection rates of an early
+warning signal. Perfect warning signals (solid curve) would identify all
+thresholds while generating no false positives, while very poor signals would
+have no ability to distinguish false from true signals (dotted line). In
+reality, warning signals' have a trade-off between the two which is described by
+a curve (dotted line) or summarized by the area under the ROC curve](ROC.png)
+
+
+
 
 Discussion
 ==========
@@ -481,7 +500,7 @@ Acknowledgments
 
 This work was partially supported by the Center for Stock Assessment Research, a
 partnership between the University of California Santa Cruz and the Fisheries
-Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA. **TODO Add
+Ecology Division, Southwest Fisheries Science Center, Santa Cruz, CA, and the NSF Integrative Graduate Education and Research Traineeship Program. **TODO Add
 your acknowledgments here**
 
 References
