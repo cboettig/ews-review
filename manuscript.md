@@ -68,15 +68,6 @@ paper we review both aspects of the overall question.
 Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 ============================================================================
 
-***A general thought while rewriting in this section. Whenever applicable,
-replace CSD with "early warning signal", to make the point that we are only
-using CSD as an example of possible warning signals.***. **Agreed**\*
-
-***I think each of the sections could use a format of "what we expected", "what
-is surprising" and "more research to answer xyz". We kind of jump into each of
-the examples without a lot of "so what". Highlighting which areas of the diagram
-are most ripe for exploration would be particularly useful I think. -CB***
-
 Early warning signals such as CSD have been studied extensively in theoretical
 [@Wissel1984; @Gandhi1998; @Carpenter2006; @Hastings2010; @Lade2012;
 @Dakos2011a; @Boettiger2012b] and empirical contexts [@Drake2010;
@@ -117,8 +108,6 @@ Saddle-nodes are one of many potential bifurcations in ecological systems,
 though. Rapid regime shifts may also occur in the absence of bifurcations at
 all.
 
-***Insert figure of saddle-node bifurcation(?) NR***
-
 @Dai2012 clearly maps out the entire saddle-node bifurcation diagram empirically
 before presenting the corresponding decrease in recovery time (increase in
 variance and autocorrelation over time). @Veraart2011 shows a very similar
@@ -154,10 +143,14 @@ that are completely opposite to the patterns seen above.
 
 These are some of the most problematic cases, because they represent disruptive
 but potentially avoidable events, but would not be detected by using CSD as an
-early warning signals.
+early warning signals. These cases include bifurcations in continuous time [@Schrieber2008]
+and discrete time [@Schrieber2003], explicitly spatial [@Bel2012] and non-spatial,
+chaotic [@Schreiber2003, @Hastings2010] and non-chaotic [@Hastings2010, @Bel2012,
+@Schreiber2008] examples. Before warning signals can be reliably applied to novel
+systems, research must provide a way to discern if the dynamics correspond to the
+more well-understood warning signals of the previous section or the the more complex
+patterns such as the examples discussed here. 
 
-*** Makes it sound like chaos is the only example. Chaos is dismissed by most
-ecologists as irrelevant, lacking evidence in most natural systems***
 
 One class of bifurcations in which we would not expect to see CSD prior to
 regime shift are sometimes known as *crises*. Crises are sudden changes in the
