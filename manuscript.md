@@ -1,3 +1,5 @@
+% Early warning signals: The charted and uncharted territories 
+
 Introduction
 ============
 
@@ -322,7 +324,7 @@ oscillatory behavior and regularly cycling regimes even while parameters
 herbivorous weevils alternated between low- and high-*Salvnia* states driven by
 external disturbances from regular flooding events. @Ditlevsen2010 examined 25
 abrupt climate changes that occurred during the last glacial period
-(Dansgaard‐Oeschger events) and found no evidence for CSD in high-resolution
+(Dansgaard-Oeschger events) and found no evidence for CSD in high-resolution
 climate data from ice cores, and concluded that the events were driven by
 endogenous climate stochasticity.
 
