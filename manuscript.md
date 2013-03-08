@@ -173,7 +173,7 @@ chaotic but persistent prey populations to prey extinction. As predation
 intensity increases towards this threshold, the population exhibits *decreasing*
 variance.
 
-![A system where variance decreases prior to a population collapse. from
+![A system where variance decreases prior to a population collapse; adapted from
 @Schreiber2003. In this model, prey species with high growth rates exhibit
 chaotic dynamics under predation, but populations collapse when predation
 increases beyond a threshold value. Left: The population level as a function of
@@ -404,7 +404,7 @@ transitions represents a substantial leap forward in addressing one
 of the most challenging questions in ecology and ecosystem management
 today. In the decades prior, the prospect that ecosystems could make
 sudden transitions into an undesirable state due to gradual, slow changes
-in their environment hung like a spectre over both our understanding and
+in their environment hung like a specter over both our understanding and
 management of natural systems. Research that points to the possibility of
 detecting these transitions holds the promise of meeting this challenge
 and has attracted justifiably widespread attention among both theoretical
@@ -464,7 +464,7 @@ For other classes of transitions, prediction may be possible but other
 EWS must be explored.  Flickering [@Brock2010; @Wang2012], or rapid
 transitions between states prior to a more permanent transition, is
 one signal that may apply across many types of systems.  It manifests
-in biomodality and high variance in times series.  Spatial pattern
+in bi-modality and high variance in times series.  Spatial pattern
 development may be a warning signal in systems with short-distance
 positive feedbacks but long-distance negative feedbacks, such as
 grassland-desert transitions [@vanNes2005; @Kefi2007, @Kefi2008].

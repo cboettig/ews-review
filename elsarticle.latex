@@ -170,6 +170,13 @@ $endfor$
   \cortext[cor1]{authors contributed equally}
   \address[cstar]{Center for Stock Assessment Research, Department of Applied Math and Statistics, University of California, Mail Stop SOE-2, Santa Cruz, CA 95064, USA}
   \address[esp]{Department of Environmental Science and Policy, University of California Davis, 1 Shields Avenue, Davis, CA 95616 USA}
+
+  \begin{abstract}
+
+The realization that complex systems as ecological communities can collapse or shift regimes suddenly and without rapid external forcing poses a serious challenge to our understanding and management of the natural world.  The potential to identify early warning signals that would allow researchers and managers to predict such events before they happen has therefore been an invaluable discovery that offers a way forward in spite of such seemingly unpredictable behavior.  Research into early warning signals has definitely demonstrated that it is possible to define and detect such early warning signals in advance of a transition in certain contexts.  Here we describe the pattern emerging as research continues to explore just how far we can generalize these results.  A core of examples emerges that shares three properties: the phenomenon of rapid regime shifts,  a pattern of 'critical slowing down' that can be used to detect the approaching shift, and a mechanism of bifurcation driving the sudden change.  As research has expanded beyond these core examples, it is becoming clear that not all systems that show regime shifts exhibit critical slowing down, or vice versa.  We review the literature that explores these edge cases and highlight the need for both (a) new early warning indicators that can be used in cases where rapid shifts do not exhibit critical slowing down, and (b) the development of methods to identify which indicator might be appropriate when encoutering a novel system; bearing in mind that a positive indication for some systems is a negative indication in others.  
+
+  \end{abstract}
+
  \end{frontmatter}
 
 
