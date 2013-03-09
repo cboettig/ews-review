@@ -164,9 +164,10 @@ $endfor$
 \begin{frontmatter}
   \title{$title$}
   \author[cstar]{Carl Boettiger\corref{cor1}}
+  \ead{cboettig@ucsc.edu}
   \author[esp]{Noam Ross\corref{cor1}}
+  \ead{noam.ross@gmail.com}
   \author[esp]{Alan Hastings}
-  \ead{cboettig@ucsc.edu, nross@ucdavis.edu}
   \cortext[cor1]{authors contributed equally}
   \address[cstar]{Center for Stock Assessment Research, Department of Applied Math and Statistics, University of California, Mail Stop SOE-2, Santa Cruz, CA 95064, USA}
   \address[esp]{Department of Environmental Science and Policy, University of California Davis, 1 Shields Avenue, Davis, CA 95616 USA}
