@@ -90,7 +90,7 @@ fall into each of these regions.
 
 ![Venn diagram representing the intersecting domains of rapid regime shifts,
 bifurcations, and critical slowing down. Labels in italic are example phenomena
-that occur in each domain. Roman numerals indicate example literature (right) exploring each domain, and also refer to sections below describing those domains.  The center domain, where all three phenomena intersect, is the most extensively researched domain of the EWS field.](ews-venn.jpg)
+that occur in each domain. Roman numerals indicate example literature (right) exploring each domain, and also refer to sections below describing those domains.  The center domain, where all three phenomena intersect, is the most extensively researched domain of the EWS field.](ews-venn.pdf)
 
 Catastrophic Bifurcations Preceded by CSD (I)
 ---------------------------------------------
