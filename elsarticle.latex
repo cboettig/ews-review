@@ -164,7 +164,7 @@ $endfor$
 \begin{frontmatter}
   \title{$title$}
   \author[cstar]{Carl Boettiger\corref{cor1}}
-  \ead{cboettig@ucsc.edu}
+  \ead{cboettig@gmail.com}
   \author[esp]{Noam Ross\corref{cor1}}
   \ead{noam.ross@gmail.com}
   \author[esp]{Alan Hastings}
