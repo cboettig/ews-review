@@ -480,7 +480,7 @@ This work was partially supported by the Center for Stock Assessment
 Research, a partnership between the University of California Santa Cruz
 and the Fisheries Ecology Division, Southwest Fisheries Science Center,
 Santa Cruz, CA, to CB; the NSF Integrative Graduate Education and Research
-Traineeship Program to NH and by funding from NSF Grant EF 0742674 to AH.
+Traineeship Program to NR and by funding from NSF Grant EF 0742674 to AH.
 
 References 
 ==========
