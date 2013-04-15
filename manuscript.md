@@ -208,7 +208,11 @@ decrease before a sudden transition that follow a Hopf bifurcation.
 
 Finally, @Boerlijst2013 found that EWS do not appear when perturbations are not
 in the direction of a system's dominant eigenvalue, and even then may only
-appear in one variable of the system. In their case, EWS only appeared when noise was applied to the juvenile population of a model with juveniles, adults, and predators, and it did not appear when identical noise was applied to all three.  When the EWS did appear, it only did so in the juvenile population variables.
+appear in one variable of the system. In their case, EWS only appeared when
+noise was applied to the juvenile population of a model with juveniles, adults,
+and predators, and it did not appear when identical noise was applied to all
+three. When the EWS did appear, it only did so in the juvenile population
+variables.
 
 Non-Catastrophic Bifurcations Preceded by CSD (III)
 ---------------------------------------------------
