@@ -206,6 +206,10 @@ system's global dynamics would not exhibit CSD prior to such a transition.
 Another example is found in @Schreiber2008, in which variance is observed to
 decrease before a sudden transition that follow a Hopf bifurcation.
 
+Finally, @Boerlijst2013 found that EWS do not appear when perturbations are not
+in the direction of a system's dominant eigenvalue, and even then may only
+appear in one variable of the system. In their case, EWS only appeared when noise was applied to the juvenile population of a model with juveniles, adults, and predators, and it did not appear when identical noise was applied to all three.  When the EWS did appear, it only did so in the juvenile population variables.
+
 Non-Catastrophic Bifurcations Preceded by CSD (III)
 ---------------------------------------------------
 
@@ -446,7 +450,7 @@ systems that have well-studied examples, such as lakes undergoing eutrophication
 [@Carpenter1996; Walters2001; @Carpenter2008], forest/savannah transitions
 [@Staver2011; @Hirota2011; @Bel2012], and rangeland transitions [Walker1993;
 @Anderies2002] Fitting simplified saddle-node models to past regime shifts
-[@Boettiger2012a] in less well-understood systems mayprovide evidence for the
+[@Boettiger2012a] in less well-understood systems may provide evidence for the
 mechanism. However, care must be taken to specify sufficient alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it will be

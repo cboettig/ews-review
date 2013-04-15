@@ -74,7 +74,7 @@ Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 CSD has been studied extensively in theoretical (Wissel 1984, Gandhi et al.
 1998, Carpenter and Brock 2006, Hastings and Wysham 2010, Dakos et al. 2011a,
 Lade and Gross 2012, Boettiger and Hastings 2012a) and empirical contexts (Drake
-and Griffen 2010, Veraart et al. 2011, Carpenter 2011a, Dai et al. 2012, Wang et
+and Griffen 2010, Carpenter 2011a, Veraart et al. 2012, Dai et al. 2012, Wang et
 al. 2012) as a potential EWS for regime shifts. CSD occurs as a system's
 dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
 environment. As the eigenvalue approaches zero, the system's response to small
@@ -116,7 +116,7 @@ Dai et al. (2012) studied yeast cell growth in a microcosm and demonstrated that
 an Allee effect created a saddle-node bifurcation in the system. When the cell
 density was reduced to levels near the bifurcation point, a decrease in recovery
 time (increase in variance and autocorrelation over time) was observed. Veraart
-et al. (2011) studied a system of cyanobacteria where models suggest a
+et al. (2012) studied a system of cyanobacteria where models suggest a
 saddle-node bifurcation driven by light inhibition. Thou also found increases in
 autocorrelation and decreased recovery rates as the system approached the
 bifurcation. These important experiments are among the best demonstrations that
@@ -213,6 +213,14 @@ to such a transition. Another example is found in Schreiber and Rudolf (2008),
 in which variance is observed to decrease before a sudden transition that follow
 a Hopf bifurcation.
 
+Finally, Boerlijst et al. (2013) found that EWS do not appear when perturbations
+are not in the direction of a system's dominant eigenvalue, and even then may
+only appear in one variable of the system. In their case, EWS only appeared when
+noise was applied to the juvenile population of a model with juveniles, adults,
+and predators, and it did not appear when identical noise was applied to all
+three. When the EWS did appear, it only did so in the juvenile population
+variables.
+
 Non-Catastrophic Bifurcations Preceded by CSD (III)
 ---------------------------------------------------
 
@@ -226,7 +234,7 @@ CSD precedes several types of these non-catastrophic bifurcations. In the
 subcritical form of a Hopf bifurcation, a system transitions from a stable
 equilibrium to a stable cycle. This bifurcation occurs in classical
 predator-prey systems (May 1972) and has been observed in experimental systems
-(Drake and Griffen 2010, Veraart et al. 2011, Carpenter 2011a, Dai et al. 2012,
+(Drake and Griffen 2010, Carpenter 2011a, Veraart et al. 2012, Dai et al. 2012,
 Wang et al. 2012). As a control parameter approaches the critical threshold, the
 system's dominant eigenvalue approaches zero and thus exhibits CSD (Chisholm and
 Filotas 2009, Kéfi et al. 2012). However, the mean value of the equilibrium does
@@ -448,7 +456,7 @@ novel systems where the saddle-node is only one of many possible mechanisms.
 
 Thus, establishing the saddle node mechanism a necessary condition of using CSD
 as a warning signal. This can be done via manipulation in simple experimental
-systems (Veraart et al. 2011, Dai et al. 2012), but this is impractical in
+systems (Veraart et al. 2012, Dai et al. 2012), but this is impractical in
 nature. Another approach is to assume the saddle-node mechanism applies to a
 limited set of systems that have well-studied examples, such as lakes undergoing
 eutrophication (Scheffer et al. 2001), lakes with 'trophic-triangle' cascade
@@ -456,7 +464,7 @@ mechanisms (Carpenter and Kitchell 1996, Walters2001; Carpenter et al. 2008),
 forest/savannah transitions (Staver et al. 2011, Hirota et al. 2011, Bel et al.
 2012), and rangeland transitions (Walker1993; Anderies et al. 2002) Fitting
 simplified saddle-node models to past regime shifts (Boettiger and Hastings
-2012a) in less well-understood systems mayprovide evidence for the mechanism.
+2012a) in less well-understood systems may provide evidence for the mechanism.
 However, care must be taken to specify sufficient alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it will be
@@ -521,6 +529,10 @@ Approaching a state shift in Earth’s biosphere. Nature 486:52–58.
 
 Bel, G., A. Hagberg, and E. Meron. 2012. Gradual regime shifts in spatially
 extended ecosystems. Theoretical Ecology 5:591–604.
+
+Boerlijst, M. C., T. Oudman, and A. M. de Roos. 2013. Catastrophic Collapse Can
+Occur without Early Warning: Examples of Silent Catastrophes in Structured
+Ecological Models. PLoS ONE 8:e62033.
 
 Boettiger, C., and A. Hastings. 2012a. Early warning signals and the
 prosecutor’s fallacy. Proceedings of the Royal Society B: Biological Sciences
@@ -752,8 +764,8 @@ Africa: rainfall and fire constrain forest and savanna as alternative stable
 states.. Ecology 92:1063–72.
 
 Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and M.
-Scheffer. 2011. Recovery rates reflect distance to a tipping point in a living
-system. Nature:2–5.
+Scheffer. 2012. Recovery rates reflect distance to a tipping point in a living
+system.. Nature 481:357–9.
 
 Wang, R., J. a Dearing, P. G. Langdon, E. Zhang, X. Yang, V. Dakos, and M.
 Scheffer. 2012. Flickering gives early warning signals of a critical transition
