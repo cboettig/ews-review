@@ -185,7 +185,9 @@ variance.
 @Schreiber2003. In this model, prey species with high growth rates exhibit
 chaotic dynamics under predation, but populations collapse when predation
 increases beyond a threshold value. Left: The population level as a function of
-predation rate. Middle: Variance of the prey population level. Note that it
+predation rate. Mean dynamics shown as black line, realizations with varying 
+initial conditions shown as grey dots; see @Schreiber2003. 
+Middle: Variance of the prey population level. Note that it
 *decreases* as predation rate approaches the threshold. Right: Lag-1
 Autocorrelation in prey population dynamics increases as the threshold is
 approached](schreiber-fig.pdf)
@@ -204,7 +206,7 @@ outwards [@Bel2012]. The Maxwell point may be far from the level at which an
 individual location would undergo a saddle-node bifurcation, and thus the
 system's global dynamics would not exhibit CSD prior to such a transition.
 Another example is found in @Schreiber2008, in which variance is observed to
-decrease before a sudden transition that follow a Hopf bifurcation.
+decrease before a sudden transition that results in the extinction of the population. 
 
 Finally, @Boerlijst2013 found that EWS do not appear when perturbations are not
 in the direction of a system's dominant eigenvalue, and even then may only
@@ -225,15 +227,18 @@ insignificant, so warning signals that detect such transitions may be effective
 
 CSD precedes several types of these non-catastrophic bifurcations. In the
 subcritical form of a Hopf bifurcation, a system transitions from a stable
-equilibrium to a stable cycle. This bifurcation occurs in classical
-predator-prey systems [@May1972] and has been observed in experimental systems
-[@Drake2010; @Carpenter2011; @Veraart2011; @Dai2012; @Wang2012]. As a control
+equilibrium to a stable cycle. As a control
 parameter approaches the critical threshold, the system's dominant eigenvalue
 approaches zero and thus exhibits CSD [@Chisholm2009; @Kefi2012]. However, the
 mean value of the equilibrium does not change dramatically, and the transition
 from stable equilibrium to cycles is gradual as the cycle sizes grow from zero
-at the threshold value. In the presence of stochasticity, system behavior may be
-observed on either side of the threshold may be indistinguishable.
+at the threshold value. To appreciate how this bifurcation is gradual rather
+than catastrophic, note that in the presence of stochasticity, the system behavior 
+observed on either side of the threshold may be indistinguishable: on one
+side stochasticity bounces the system around a stable node, while on the other
+it bounces the system around a very small limit cycle in the same region of state space.
+Contrast this to a critical transition in which any stochastic fluctuation across
+the threshold could lead to a qualitatively different state.  
 
 The system's eigenvalue also passes through zero in the case of the
 transcritical bifurcation. The transcritical is a degenerate case of the
@@ -245,7 +250,7 @@ to extinction - an important but non-catastrophic, and probably directly
 observable, event. CSD is observed prior to the transcritical bifurcations
 [@Chisholm2009; @Kefi2012].
 
-An experimental example a transcritical bifurcation found in @Drake2010, where a
+An experimental example of a transcritical bifurcation is found in @Drake2010, where a
 population of *Daphnia* was forced through a transcritical bifurcation by
 reducing food supplies and driving population growth rates below zero.
 Indicators of CSD (variation, skewness, autocorrelation, and spatial
@@ -267,20 +272,24 @@ that may be indistinguishable.
 from @Kefi2012. In this model, prey have logistic growth and are subject to
 predation with a Type III functional response, but there is no bifurcation.
 Instead, average prey population exhibits a smooth response to increased
-predation. Left: The population level as a function of predation rate. Middle:
-Variance of the prey population level. Note that it increases during the
-transition, despite no bifurcation. Right: Lag-1 Autocorrelation in prey
-population dynamics as predation rate increases. Note that it, too, increases
-despite the lack of a bifurcation](kefi-fig.pdf)
+predation (grazing). Left: The population level as a function of predation rate. Middle:
+Variance of the prey population level. Right: Lag-1 Autocorrelation in prey
+population dynamics as grazing rate increases. Note that both indicators increase
+despite the lack of a bifurcation.](kefi-fig.pdf)
 
 Non-Catastrophic Bifurcations without CSD (V)
 ---------------------------------------------
 
-Some bifurcations involve neither catastrophic shifts nor patterns of critical
-slowing down. The transition from very small populations to zero is one such
-transition. System behavior after extinction is clearly different, and exhibits
-hysteresis. However, the transition, while not smooth, is not due to a
-saddle-node or similar bifurcation, and CSD would not be expected.
+Some bifurcations involve neither catastrophic shifts nor patterns
+of critical slowing down. Transitions from very small populations
+to zero is one such transition; for instance, slowly taking carrying
+capacity to zero without changing growth-rate in the logistic equation.
+If growth-rate remains fixed in such dynamics, then the eigenvalues are
+unchanged and CSD would not be expected.
+
+<!-- Some cases, like transcritical bifurcations, will show slowing down for this.
+Some cases are not bifurcations.  -->
+
 
 Catastrophic Regime Shifts without Bifurcations or CSD (VI)
 -----------------------------------------------------------
@@ -316,7 +325,9 @@ coupling to the external forcing of El Nino environmental dynamics through the
 Pacific Decadal Oscillation (PDO). @Schooler2011 found that lakes with the
 invasive plant *Salvaniai molesta* andherbivorous weevils alternated between
 low- and high-*Salvnia* states driven by disturbances from regular external
-flooding events.
+flooding events. These examples highlight cases that involve critical transitions
+between regimes under circumstances that do not permit the discovery of early
+warning signals, as CSD is not anticipated under these mechanisms.  
 
 Internally-driven stochastic perturbations may shift systems from one state to
 another even if underlying environmental conditions remain the same. In such
@@ -328,7 +339,7 @@ variability) remain the same. @Ditlevsen2010 examined 25 abrupt climate changes
 that occurred during the last glacial period (Dansgaard-Oeschger events) and
 found no evidence for CSD in high-resolution climate data from ice cores, and
 concluded that the events were driven by endogenous climate stochasticity rather
-than regime shifts.
+than regime shifts [though see @Cimatoribus2013 for an alternative conclusion].
 
 Some events that appear to be regime shifts may actually be transients in some
 systems. Sudden changes in dynamics can occur in simple ecological models with
@@ -352,9 +363,11 @@ Statistical problems in detecting early warning signals
 =======================================================
 
 The above cases show that behavior providing an early warning signal before
-regime shifts may only be present in certain types of ecological systems. An
+regime shifts may only be present in certain types of ecological systems 
+[e.g. see the conditions outlined in @Scheffer2009]. An
 additional important consideration is whether these behaviors will be
-*detectable* in those domains where they are expected. To be usable as an EWS,
+*detectable* in those domains where they are expected 
+To be usable as an EWS,
 system behavior must be detectable well enough in advance of a regime shift to
 serve in decision-making, and be reliably distinguishable from other patterns.
 
@@ -445,15 +458,15 @@ examples provide a much needed proof-of-principle that these signals can be
 detected in the real world, it is too early to apply the same methods to novel
 systems where the saddle-node is only one of many possible mechanisms.
 
-Thus, establishing the saddle node mechanism a necessary condition of using CSD
+Thus, establishing the saddle node mechanism is a necessary condition of using CSD
 as a warning signal. This can be done via manipulation in simple experimental
-systems [@Veraart2011; @Dai2012], but this is impractical in nature. Another
+systems [@Veraart2011; @Dai2012], but this is impractical in most natural systems. Another
 approach is to assume the saddle-node mechanism applies to a limited set of
 systems that have well-studied examples, such as lakes undergoing eutrophication
 [@Scheffer2001], lakes with 'trophic-triangle' cascade mechanisms
 [@Carpenter1996; Walters2001; @Carpenter2008], forest/savannah transitions
 [@Staver2011; @Hirota2011; @Bel2012], and rangeland transitions [Walker1993;
-@Anderies2002] Fitting simplified saddle-node models to past regime shifts
+@Anderies2002]. Fitting simplified saddle-node models to past regime shifts
 [@Boettiger2012a] in less well-understood systems may provide evidence for the
 mechanism. However, care must be taken to specify sufficient alternative models.
 
@@ -483,7 +496,7 @@ states prior to a more permanent transition, is one signal that may apply across
 many types of systems. It manifests in bi-modality and high variance in times
 series. Spatial pattern development may be a warning signal in systems with
 short-distance positive feedbacks but long-distance negative feedbacks, such as
-grassland-desert transitions [@vanNes2005; @Kefi2007, @Kefi2008]. Other spatial
+grassland-desert transitions [@Rietkerk2004]. Other spatial
 signals may apply where systems include both saddle nodes and positive feedbacks
 across space [@Guttal2008; @Litzow2008; @Dakos2009; @Bailey2010@Carpenter2010;
 @Dakos2011; @Bel2012]. A critical task for EWS research is to map these signals

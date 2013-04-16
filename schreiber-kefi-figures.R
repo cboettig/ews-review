@@ -79,7 +79,7 @@ par(mfrow=c(1,3), cex.lab=1.5, oma=c(0,0.25,0,0))
 plot(kefi.stats$c, tail(Vout,1), xlab="", ylab="Population Level", type="l", lwd=2)
 plot(kefi.stats$c, kefi.stats$SD, type="l", ylab="Standard Deviation", xlab="", lwd=2)
 plot(kefi.stats$c, kefi.stats$AR1, type="l", ylab="Lag-1 Autocorrelation", xlab="", lwd=2)
-mtext("Predation Rate", side=1, outer=T, padj=-2)
+mtext("Grazing Rate", side=1, outer=T, padj=-2)
 dev.off()
 
 
