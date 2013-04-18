@@ -74,7 +74,7 @@ Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 CSD has been studied extensively in theoretical (Wissel 1984, Gandhi et al.
 1998, Carpenter and Brock 2006, Hastings and Wysham 2010, Dakos et al. 2011a,
 Lade and Gross 2012, Boettiger and Hastings 2012a) and empirical contexts (Drake
-and Griffen 2010, Carpenter 2011a, Veraart et al. 2012, Dai et al. 2012, Wang et
+and Griffen 2010, Veraart et al. 2011, Carpenter 2011a, Dai et al. 2012, Wang et
 al. 2012) as a potential EWS for regime shifts. CSD occurs as a system's
 dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
 environment. As the eigenvalue approaches zero, the system's response to small
@@ -116,8 +116,8 @@ Dai et al. (2012) studied yeast cell growth in a microcosm and demonstrated that
 an Allee effect created a saddle-node bifurcation in the system. When the cell
 density was reduced to levels near the bifurcation point, a decrease in recovery
 time (increase in variance and autocorrelation over time) was observed. Veraart
-et al. (2012) studied a system of cyanobacteria where models suggest a
-saddle-node bifurcation driven by light inhibition. Thou also found increases in
+et al. (2011) studied a system of cyanobacteria where models suggest a
+saddle-node bifurcation driven by light inhibition. They also found increases in
 autocorrelation and decreased recovery rates as the system approached the
 bifurcation. These important experiments are among the best demonstrations that
 saddle-node bifurcation dynamics really occur in natural systems, and can be
@@ -191,10 +191,11 @@ variance.
 Schreiber (2003). In this model, prey species with high growth rates exhibit
 chaotic dynamics under predation, but populations collapse when predation
 increases beyond a threshold value. Left: The population level as a function of
-predation rate. Middle: Variance of the prey population level. Note that it
-*decreases* as predation rate approaches the threshold. Right: Lag-1
-Autocorrelation in prey population dynamics increases as the threshold is
-approached]
+predation rate. Mean dynamics shown as black line, realizations with varying
+initial conditions shown as grey dots; see Schreiber (2003). Middle: Variance of
+the prey population level. Note that it *decreases* as predation rate approaches
+the threshold. Right: Lag-1 Autocorrelation in prey population dynamics
+increases as the threshold is approached]
 
 Examples are not restricted to chaotic dynamics. Some spatially extended systems
 exhibit a type of bifurcation that is not accompanied by CSD. In one class of
@@ -210,16 +211,17 @@ disturbance propagates outwards (Bel et al. 2012). The Maxwell point may be far
 from the level at which an individual location would undergo a saddle-node
 bifurcation, and thus the system's global dynamics would not exhibit CSD prior
 to such a transition. Another example is found in Schreiber and Rudolf (2008),
-in which variance is observed to decrease before a sudden transition that follow
-a Hopf bifurcation.
+in which variance is observed to decrease before a sudden transition that
+results in the extinction of the population.
 
-Finally, Boerlijst et al. (2013) found that EWS do not appear when perturbations
-are not in the direction of a system's dominant eigenvalue, and even then may
-only appear in one variable of the system. In their case, EWS only appeared when
-noise was applied to the juvenile population of a model with juveniles, adults,
-and predators, and it did not appear when identical noise was applied to all
-three. When the EWS did appear, it only did so in the juvenile population
-variables.
+Finally, Boerlijst et al. (2013) found that indicators of CSD do not appear
+prior to saddle-node bifurcations when perturbations are not in the direction of
+a system's dominant eigenvalue, and even then may only appear in one variable of
+the system. In their example case, increased variance and autocorrelation only
+occurred when noise was applied to the juvenile population of a model with
+juveniles, adults, and predators, and it did not appear when identical noise was
+applied to all three. When CSD indicators did appear, they only did so in the
+juvenile population variables.
 
 Non-Catastrophic Bifurcations Preceded by CSD (III)
 ---------------------------------------------------
@@ -232,16 +234,18 @@ insignificant, so warning signals that detect such transitions may be effective
 
 CSD precedes several types of these non-catastrophic bifurcations. In the
 subcritical form of a Hopf bifurcation, a system transitions from a stable
-equilibrium to a stable cycle. This bifurcation occurs in classical
-predator-prey systems (May 1972) and has been observed in experimental systems
-(Drake and Griffen 2010, Carpenter 2011a, Veraart et al. 2012, Dai et al. 2012,
-Wang et al. 2012). As a control parameter approaches the critical threshold, the
-system's dominant eigenvalue approaches zero and thus exhibits CSD (Chisholm and
-Filotas 2009, Kéfi et al. 2012). However, the mean value of the equilibrium does
-not change dramatically, and the transition from stable equilibrium to cycles is
-gradual as the cycle sizes grow from zero at the threshold value. In the
-presence of stochasticity, system behavior may be observed on either side of the
-threshold may be indistinguishable.
+equilibrium to a stable cycle. As a control parameter approaches the critical
+threshold, the system's dominant eigenvalue approaches zero and thus exhibits
+CSD (Chisholm and Filotas 2009, Kéfi et al. 2012). However, the mean value of
+the equilibrium does not change dramatically, and the transition from stable
+equilibrium to cycles is gradual as the cycle sizes grow from zero at the
+threshold value. To appreciate how this bifurcation is gradual rather than
+catastrophic, note that in the presence of stochasticity, the system behavior
+observed on either side of the threshold may be indistinguishable: on one side
+stochasticity bounces the system around a stable node, while on the other it
+bounces the system around a very small limit cycle in the same region of state
+space. Contrast this to a critical transition in which any stochastic
+fluctuation across the threshold could lead to a qualitatively different state.
 
 The system's eigenvalue also passes through zero in the case of the
 transcritical bifurcation. The transcritical is a degenerate case of the
@@ -253,11 +257,12 @@ to extinction - an important but non-catastrophic, and probably directly
 observable, event. CSD is observed prior to the transcritical bifurcations
 (Chisholm and Filotas 2009, Kéfi et al. 2012).
 
-An experimental example a transcritical bifurcation found in Drake and Griffen
-(2010), where a population of *Daphnia* was forced through a transcritical
-bifurcation by reducing food supplies and driving population growth rates below
-zero. Indicators of CSD (variation, skewness, autocorrelation, and spatial
-correlation) increased prior to collapse of the population.
+An experimental example of a transcritical bifurcation is found in Drake and
+Griffen (2010), where a population of *Daphnia* was forced through a
+transcritical bifurcation by reducing food supplies and driving population
+growth rates below zero. Indicators of CSD (variation, skewness,
+autocorrelation, and spatial correlation) increased prior to collapse of the
+population.
 
 CSD in the absence of bifurcations or regime shifts. (IV)
 ---------------------------------------------------------
@@ -275,20 +280,23 @@ CSD that may be indistinguishable.
 from Kéfi et al. (2012). In this model, prey have logistic growth and are
 subject to predation with a Type III functional response, but there is no
 bifurcation. Instead, average prey population exhibits a smooth response to
-increased predation. Left: The population level as a function of predation rate.
-Middle: Variance of the prey population level. Note that it increases during the
-transition, despite no bifurcation. Right: Lag-1 Autocorrelation in prey
-population dynamics as predation rate increases. Note that it, too, increases
-despite the lack of a bifurcation]
+increased predation (grazing). Left: The population level as a function of
+predation rate. Middle: Variance of the prey population level. Right: Lag-1
+Autocorrelation in prey population dynamics as grazing rate increases. Note that
+both indicators increase despite the lack of a bifurcation.]
 
 Non-Catastrophic Bifurcations without CSD (V)
 ---------------------------------------------
 
 Some bifurcations involve neither catastrophic shifts nor patterns of critical
-slowing down. The transition from very small populations to zero is one such
-transition. System behavior after extinction is clearly different, and exhibits
-hysteresis. However, the transition, while not smooth, is not due to a
-saddle-node or similar bifurcation, and CSD would not be expected.
+slowing down. Transitions from very small populations to zero is one such
+transition; for instance, slowly taking carrying capacity to zero without
+changing growth-rate in the logistic equation. If growth-rate remains fixed in
+such dynamics, then the eigenvalues are unchanged and CSD would not be expected.
+
+<!-- Some cases, like transcritical bifurcations, will show slowing down for this.
+Some cases are not bifurcations.  -->
+
 
 Catastrophic Regime Shifts without Bifurcations or CSD (VI)
 -----------------------------------------------------------
@@ -324,7 +332,10 @@ of as regime shifts in krill dynamics in the Pacific ocean (Hare and Mantua
 El Nino environmental dynamics through the Pacific Decadal Oscillation (PDO).
 Schooler et al. (2011) found that lakes with the invasive plant *Salvaniai
 molesta* andherbivorous weevils alternated between low- and high-*Salvnia*
-states driven by disturbances from regular external flooding events.
+states driven by disturbances from regular external flooding events. These
+examples highlight cases that involve critical transitions between regimes under
+circumstances that do not permit the discovery of early warning signals, as CSD
+is not anticipated under these mechanisms.
 
 Internally-driven stochastic perturbations may shift systems from one state to
 another even if underlying environmental conditions remain the same. In such
@@ -336,7 +347,8 @@ stochastic variability) remain the same. Ditlevsen and Johnsen (2010) examined
 25 abrupt climate changes that occurred during the last glacial period
 (Dansgaard-Oeschger events) and found no evidence for CSD in high-resolution
 climate data from ice cores, and concluded that the events were driven by
-endogenous climate stochasticity rather than regime shifts.
+endogenous climate stochasticity rather than regime shifts [though see
+@Cimatoribus2013 for an alternative conclusion].
 
 Some events that appear to be regime shifts may actually be transients in some
 systems. Sudden changes in dynamics can occur in simple ecological models with
@@ -352,19 +364,20 @@ regime shifts to be preceded with CSD.
 Of course, stochastically-driven regime shifts may occur in systems where
 bifurcations are also possible, and it may be difficult to distinguish between
 the two. Renne et al. (2013), for example suggest that ecosystems were under
-near-critical stress due to climate changes just prior to the Chicxulub impact,
-which resulted in mass extinction. In such a case, EWS may precede the regime
-shift even if it is ultimately triggered by a stochastic event.
+near-critical stress due to climate changes just prior to the Chicxulub meteor
+impact, which resulted in mass extinction. In such a case, EWS may precede the
+regime shift even if it is ultimately triggered by a stochastic event.
 
 Statistical problems in detecting early warning signals
 =======================================================
 
 The above cases show that behavior providing an early warning signal before
-regime shifts may only be present in certain types of ecological systems. An
-additional important consideration is whether these behaviors will be
-*detectable* in those domains where they are expected. To be usable as an EWS,
-system behavior must be detectable well enough in advance of a regime shift to
-serve in decision-making, and be reliably distinguishable from other patterns.
+regime shifts may only be present in certain types of ecological systems (e.g.
+see the conditions outlined in Scheffer et al. 2009). An additional important
+consideration is whether these behaviors will be *detectable* in those domains
+where they are expected to be usable as an EWS, system behavior must be
+detectable well enough in advance of a regime shift to serve in decision-making,
+and be reliably distinguishable from other patterns.
 
 Ecological data is often sparse, noisy, autocorrelated and subject to
 confounding driving variables, in contrast to much of the experimental or
@@ -454,18 +467,19 @@ While these examples provide a much needed proof-of-principle that these signals
 can be detected in the real world, it is too early to apply the same methods to
 novel systems where the saddle-node is only one of many possible mechanisms.
 
-Thus, establishing the saddle node mechanism a necessary condition of using CSD
-as a warning signal. This can be done via manipulation in simple experimental
-systems (Veraart et al. 2012, Dai et al. 2012), but this is impractical in
-nature. Another approach is to assume the saddle-node mechanism applies to a
-limited set of systems that have well-studied examples, such as lakes undergoing
-eutrophication (Scheffer et al. 2001), lakes with 'trophic-triangle' cascade
-mechanisms (Carpenter and Kitchell 1996, Walters2001; Carpenter et al. 2008),
-forest/savannah transitions (Staver et al. 2011, Hirota et al. 2011, Bel et al.
-2012), and rangeland transitions (Walker1993; Anderies et al. 2002) Fitting
-simplified saddle-node models to past regime shifts (Boettiger and Hastings
-2012a) in less well-understood systems may provide evidence for the mechanism.
-However, care must be taken to specify sufficient alternative models.
+Thus, establishing the saddle node mechanism is a necessary condition of using
+CSD as a warning signal. This can be done via manipulation in simple
+experimental systems (Veraart et al. 2011, Dai et al. 2012), but this is
+impractical in most natural systems. Another approach is to assume the
+saddle-node mechanism applies to a limited set of systems that have well-studied
+examples, such as lakes undergoing eutrophication (Scheffer et al. 2001), lakes
+with 'trophic-triangle' cascade mechanisms (Carpenter and Kitchell 1996,
+Walters2001; Carpenter et al. 2008), forest/savannah transitions (Staver et al.
+2011, Hirota et al. 2011, Bel et al. 2012), and rangeland transitions
+(Walker1993; Anderies et al. 2002). Fitting simplified saddle-node models to
+past regime shifts (Boettiger and Hastings 2012a) in less well-understood
+systems may provide evidence for the mechanism. However, care must be taken to
+specify sufficient alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it will be
 present when no transition is approaching. In other cases, regime shifts occur
@@ -478,6 +492,22 @@ empirical understanding of these cases will allow us to construct novel warning
 signals, that may be opposite the patterns observed in the familiar saddle-node
 bifurcations. Before early warning signals can be applied in novel systems,
 additional information is needed in order to determine the best signal to use.
+
+One area that requires further exploration is the effect of different forms of
+stochasticity on the existence of EWS and signal detectability. Many processes
+contribute to stochastic behavior in ecological systems, and different forms of
+stochasticity have different effects on system behavior far beyond greater
+variance (Melbourne and Hastings 2008). Hastings and Wysham (2010) argued that
+most examples of detectable CSD indicators were found in models with additive
+stochasticity and smooth potentials. Boerlijst et al. (2013), however, found
+that stochasticity had the same effects whether it was additive or included in
+the population growth rate. Instead, they found the *direction* of stochastic
+perturbations relative to the system's eigenvalue determined whether CSD
+indicators were detectable. The form of stochasticity may be important in the
+detectability of CSD indicators even where CSD is present, because stochastic
+perturbations are needed to explore system state-space, while at the same time
+can reduce the statistical power. More work such as Perretti and Munch (2012),
+which examined the role of noise color in detecting CSD, will be useful.
 
 The future of early warning signals lies in the uncharted territory. For certain
 classes of transitions, such as stochastically-driven regime shifts, prediction
@@ -493,13 +523,12 @@ transitions between states prior to a more permanent transition, is one signal
 that may apply across many types of systems. It manifests in bi-modality and
 high variance in times series. Spatial pattern development may be a warning
 signal in systems with short-distance positive feedbacks but long-distance
-negative feedbacks, such as grassland-desert transitions (van Nes and Scheffer
-2005, Kéfi et al. 2007, ). Other spatial signals may apply where systems include
-both saddle nodes and positive feedbacks across space (Litzow et al. 2008,
-Guttal and Jayaprakash 2008a, Dakos et al. 2009, Bailey 2010, Dakos et al.
-2011b, Bel et al. 2012). A critical task for EWS research is to map these
-signals to their domains of applicability, and create methods to establish if
-ecosystems fall into these domains.
+negative feedbacks, such as grassland-desert transitions [@Rietkerk2004]. Other
+spatial signals may apply where systems include both saddle nodes and positive
+feedbacks across space (Litzow et al. 2008, Guttal and Jayaprakash 2008a, Dakos
+et al. 2009, Bailey 2010, Dakos et al. 2011b, Bel et al. 2012). A critical task
+for EWS research is to map these signals to their domains of applicability, and
+create methods to establish if ecosystems fall into these domains.
 
 Acknowledgments
 ===============
@@ -659,10 +688,6 @@ Kidwell, C. B. Lange, H. S. Lenihan, J. M. Pandolfi, C. H. Peterson, R. S.
 Steneck, M. J. Tegner, and R. R. Warner. 2001. Historical overfishing and the
 recent collapse of coastal ecosystems.. Science (New York, N.Y.) 293:629–37.
 
-Kefi, S., M. Rietkerk, and G. G. Katul. 2008. Vegetation pattern shift as a
-result of rising atmospheric CO2 in arid ecosystems.. Theoretical population
-biology 74:332–44.
-
 Kéfi, S., V. Dakos, M. Scheffer, E. H. van Nes, and M. Rietkerk. 2012. Early
 warning signals also precede non-catastrophic transitions. Oikos:1–8.
 
@@ -700,17 +725,14 @@ Ludwig, D., D. D. Jones, and C. S. Holling. 1978. Qualitative Analysis of Insect
 Outbreak Systems: The Spruce Budworm and Forest. The Journal of Animal Ecology
 47:315.
 
-May, R. M. 1972. Limit cycles in predator-prey communities.. Science (New York,
-N.Y.) 177:900–2.
-
 May, R. M. 1977. Thresholds and breakpoints in ecosystems with a multiplicity of
 stable states. Nature 269:471–477.
 
+Melbourne, B. a, and A. Hastings. 2008. Extinction risk depends strongly on
+factors contributing to stochasticity.. Nature 454:100–3.
+
 Mumby, P. J., A. Hastings, and H. J. Edwards. 2007. Thresholds and the
 resilience of Caribbean coral reefs.. Nature 450:98–101.
-
-van Nes, E. H., and M. Scheffer. 2005. Implications of Spatial Heterogeneity for
-Catastrophic Regime Shifts in Ecosystems. Ecology 86:1797–1807.
 
 Perretti, C. T., and S. B. Munch. 2012. Regime shift indicators fail under noise
 levels commonly observed in ecological systems. Ecological Applications
@@ -764,8 +786,8 @@ Africa: rainfall and fire constrain forest and savanna as alternative stable
 states.. Ecology 92:1063–72.
 
 Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and M.
-Scheffer. 2012. Recovery rates reflect distance to a tipping point in a living
-system.. Nature 481:357–9.
+Scheffer. 2011. Recovery rates reflect distance to a tipping point in a living
+system. Nature:2–5.
 
 Wang, R., J. a Dearing, P. G. Langdon, E. Zhang, X. Yang, V. Dakos, and M.
 Scheffer. 2012. Flickering gives early warning signals of a critical transition
@@ -788,19 +810,19 @@ thresholds. Oecologia 65:101–107.
   from Schreiber (2003). In this model, prey species with high growth rates
   exhibit chaotic dynamics under predation, but populations collapse when
   predation increases beyond a threshold value. Left: The population level as a
-  function of predation rate. Middle: Variance of the prey population level.
-  Note that it *decreases* as predation rate approaches the threshold. Right:
-  Lag-1 Autocorrelation in prey population dynamics increases as the threshold
-  is approached]: schreiber-fig.pdf
+  function of predation rate. Mean dynamics shown as black line, realizations
+  with varying initial conditions shown as grey dots; see Schreiber (2003).
+  Middle: Variance of the prey population level. Note that it *decreases* as
+  predation rate approaches the threshold. Right: Lag-1 Autocorrelation in prey
+  population dynamics increases as the threshold is approached]: schreiber-fig.pdf
   [A system where critical slowing down is observed without a critical
   threshold, from Kéfi et al. (2012). In this model, prey have logistic growth
   and are subject to predation with a Type III functional response, but there is
   no bifurcation. Instead, average prey population exhibits a smooth response to
-  increased predation. Left: The population level as a function of predation
-  rate. Middle: Variance of the prey population level. Note that it increases
-  during the transition, despite no bifurcation. Right: Lag-1 Autocorrelation in
-  prey population dynamics as predation rate increases. Note that it, too,
-  increases despite the lack of a bifurcation]: kefi-fig.pdf
+  increased predation (grazing). Left: The population level as a function of
+  predation rate. Middle: Variance of the prey population level. Right: Lag-1
+  Autocorrelation in prey population dynamics as grazing rate increases. Note
+  that both indicators increase despite the lack of a bifurcation.]: kefi-fig.pdf
   [Difference between different types of perturbations. On the horizontal axis
   is the bifurcation parameter, representing the state of the environment (e.g.
   annual mean temperature) whose slow change could lead to a sudden shift. A
