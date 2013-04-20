@@ -278,20 +278,8 @@ Middle: Variance of the prey population level. Right: Lag-1 Autocorrelation in
 prey population dynamics as grazing rate increases. Note that both indicators
 increase despite the lack of a bifurcation.](kefi-fig.pdf)
 
-Non-Catastrophic Bifurcations without CSD (V)
----------------------------------------------
 
-Some bifurcations involve neither catastrophic shifts nor patterns of critical
-slowing down. Transitions from very small populations to zero is one such
-transition; for instance, slowly taking carrying capacity to zero without
-changing growth-rate in the logistic equation. If growth-rate remains fixed in
-such dynamics, then the eigenvalues are unchanged and CSD would not be expected.
-
-<!-- Some cases, like transcritical bifurcations, will show slowing down for this.
-Some cases are not bifurcations.  -->
-
-
-Catastrophic Regime Shifts without Bifurcations or CSD (VI)
+Catastrophic Regime Shifts without Bifurcations or CSD (V)
 -----------------------------------------------------------
 
 Some rapid regime shifts are not due to bifurcations at all. A large external
@@ -419,7 +407,8 @@ curve (AUC) is a useful metric of overall performance. AUC will be one if the
 signal is perfect and 0.5 if the signal performs no better than random. The
 complete shape of the curve provides more information on the possible trade-offs
 under different sensitivities. This information, combined with a
-decision-theoretic framework, has the potential to illuminate the cases in which EWS can be useful.
+decision-theoretic framework, has the potential to illuminate the cases in which
+EWS can be useful.
 
 ![Receiver-operating characteristic (ROC) curves illustrate the trade-off
 between false positive and true positive detection rates of an EWS. Perfect
@@ -454,12 +443,23 @@ saddle-node-like mechanism [e.g. @Carpenter2011; @Dai2012], and have achieved a
 close match to theoretical predictions of early warning signals. While these
 examples provide a much needed proof-of-principle that these signals can be
 detected in the real world, it is too early to apply the same methods to novel
-systems where the saddle-node is only one of many possible mechanisms. We are not yet able to determine if a natural system is likely to have a saddle-node bifurcation without detailed study, despite the popularity of saddle-node models.
+systems where the saddle-node is only one of many possible mechanisms. We are
+not yet able to determine if a natural system is likely to have a saddle-node
+bifurcation without detailed study, despite the popularity of saddle-node
+models.
 
 Thus, establishing the saddle node mechanism is a necessary condition of using
 CSD as a warning signal. This can be done via manipulation in simple
 experimental systems [@Veraart2011; @Dai2012], but this is impractical in most
-natural systems. Another approach is to assume the saddle-node mechanism applies to a limited set of systems that have well-studied examples, such as lakes undergoing eutrophication [@Scheffer2001], lakes with 'trophic-triangle' cascade mechanisms [@Carpenter1996; Walters2001; @Carpenter2008], forest/savannah transitions [@Staver2011; @Hirota2011; @Bel2012], and rangeland transitions [Walker1993; @Anderies2002]. Fitting simplified saddle-node models to past regime shifts [@Boettiger2012a] in less well-understood systems may provide evidence for the mechanism. However, care must be taken to specify sufficient alternative models.
+natural systems. Another approach is to assume the saddle-node mechanism applies
+to a limited set of systems that have well-studied examples, such as lakes
+undergoing eutrophication [@Scheffer2001], lakes with 'trophic-triangle' cascade
+mechanisms [@Carpenter1996; Walters2001; @Carpenter2008], forest/savannah
+transitions [@Staver2011; @Hirota2011; @Bel2012], and rangeland transitions
+[Walker1993; @Anderies2002]. Fitting simplified saddle-node models to past
+regime shifts [@Boettiger2012a] in less well-understood systems may provide
+evidence for the mechanism. However, care must be taken to specify sufficient
+alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it will be
 present when no transition is approaching. In other cases, regime shifts occur
