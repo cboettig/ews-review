@@ -191,22 +191,25 @@ the prey population level. Note that it *decreases* as predation rate approaches
 the threshold. Right: Lag-1 Autocorrelation in prey population dynamics
 increases as the threshold is approached](schreiber-fig.pdf)
 
-Examples are not restricted to chaotic dynamics. Some spatially extended systems
-exhibit a type of bifurcation that is not accompanied by CSD. In one class of
-models, individual locations are subject to saddle node-type regime shifts and
-influence adjacent locations via short-range facilitation and long-range
-competition. Such models are used represent transitions between vegetation types
-in response to changing water availability, and reproduce naturally occurring
-vegetation patterns [@Rietkerk2008]. In such systems, a regime shift in one
-location can propagate spatially and transition the whole system from one regime
-to another. Such a transition occurs if the control parameter (e.g., rainfall),
-exceeds the *Maxwell point* - the value at which a local disturbance propagates
-outwards [@Bel2012]. The Maxwell point may be far from the level at which an
-individual location would undergo a saddle-node bifurcation, and thus the
-system's global dynamics would not exhibit CSD prior to such a transition.
-Another example is found in @Schreiber2008, in which variance is observed to
-decrease before a sudden transition that results in the extinction of the
-population.
+Examples are not restricted to chaotic dynamics. An example is found in
+@Schreiber2008, in which variance is observed to decrease before a sudden
+transition that results in the extinction of the population.
+
+Another non-chaotic example is found in some spatially extended systems that
+exhibit a type of bifurcation not accompanied by CSD. In this class of models,
+individual locations are subject to saddle node-type regime shifts and influence
+adjacent locations via short-range facilitation and long-range competition. Such
+models are used represent transitions between vegetation types in response to
+changing water availability, and reproduce naturally occurring vegetation
+patterns [@Rietkerk2008]. In such systems, a regime shift in one location can
+propagate spatially and transition the whole system from one regime to another.
+Such a transition occurs if the control parameter (e.g., rainfall), exceeds the
+*Maxwell point* - the value at which a local disturbance propagates outwards
+[@Bel2012]. The Maxwell point may be far from the level at which an individual
+location would undergo a saddle-node bifurcation, and thus the system's global
+dynamics would not exhibit CSD prior to such a transition. This case illustrates
+the importance of distinguishing between *local* and *global* system dynamics
+and identifying the appropriate scale of observation.
 
 Finally, @Boerlijst2013 found that indicators of CSD do not appear prior to
 saddle-node bifurcations when perturbations are not in the direction of a
@@ -215,7 +218,10 @@ the system. In their example case, increased variance and autocorrelation only
 occurred when noise was applied to the juvenile population of a model with
 juveniles, adults, and predators, and it did not appear when identical noise was
 applied to all three. When CSD indicators did appear, they only did so in the
-juvenile population variables.
+juvenile population variables. This represents another under-explored area -
+selecting appropriate variables for early-warning detection in multivariate
+systems. Even where CSD is present, it may not be expressed in all system
+components.
 
 Non-Catastrophic Bifurcations Preceded by CSD (III)
 ---------------------------------------------------
@@ -278,9 +284,8 @@ Middle: Variance of the prey population level. Right: Lag-1 Autocorrelation in
 prey population dynamics as grazing rate increases. Note that both indicators
 increase despite the lack of a bifurcation.](kefi-fig.pdf)
 
-
 Catastrophic Regime Shifts without Bifurcations or CSD (V)
------------------------------------------------------------
+----------------------------------------------------------
 
 Some rapid regime shifts are not due to bifurcations at all. A large external
 forcing (as illustrated in Figure 4) may change the behavior of a system without
@@ -455,11 +460,10 @@ natural systems. Another approach is to assume the saddle-node mechanism applies
 to a limited set of systems that have well-studied examples, such as lakes
 undergoing eutrophication [@Scheffer2001], lakes with 'trophic-triangle' cascade
 mechanisms [@Carpenter1996; Walters2001; @Carpenter2008], forest/savannah
-transitions [@Staver2011; @Hirota2011; @Bel2012], and rangeland transitions
-[Walker1993; @Anderies2002]. Fitting simplified saddle-node models to past
-regime shifts [@Boettiger2012a] in less well-understood systems may provide
-evidence for the mechanism. However, care must be taken to specify sufficient
-alternative models.
+transitions [@Staver2011; @Hirota2011], and rangeland transitions [Walker1993;
+@Anderies2002]. Fitting simplified saddle-node models to past regime shifts
+[@Boettiger2012a] in less well-understood systems may provide evidence for the
+mechanism. However, care must be taken to specify sufficient alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it will be
 present when no transition is approaching. In other cases, regime shifts occur
