@@ -38,7 +38,7 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.82024387"
-     inkscape:cx="684.47165"
+     inkscape:cx="531.46837"
      inkscape:cy="334.77839"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -253,6 +253,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,21.24,-18)"
    id="text174"><tspan
@@ -260,6 +261,7 @@
      x="0"
      y="0"
      id="tspan176"> </tspan></text>
+
 
 
 
@@ -276,6 +278,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,21.24,-18)"
    id="text184"><tspan
@@ -283,6 +286,7 @@
      x="0"
      y="0"
      id="tspan186"> </tspan></text>
+
 
 
 
@@ -299,6 +303,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,21.24,-18)"
    id="text194"><tspan
@@ -306,6 +311,7 @@
      x="0"
      y="0"
      id="tspan196"> </tspan></text>
+
 
 
 
@@ -322,6 +328,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,21.24,-18)"
    id="text204"><tspan
@@ -329,6 +336,7 @@
      x="0"
      y="0"
      id="tspan206"> </tspan></text>
+
 
 
 
@@ -345,6 +353,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,21.24,-18)"
    id="text214"><tspan
@@ -352,6 +361,7 @@
      x="0"
      y="0"
      id="tspan216"> </tspan></text>
+
 
 
 
@@ -368,6 +378,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,21.24,-18)"
    id="text224"><tspan
@@ -378,11 +389,12 @@
 
 
 
+
 </g><flowRoot
    xml:space="preserve"
    id="flowRoot3209"
    style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   transform="matrix(0.8,0,0,-0.8,299.73183,442.377)"><flowRegion
+   transform="matrix(0.8,0,0,-0.8,-225.96548,462.85871)"><flowRegion
      id="flowRegion3211"><rect
        id="rect3213"
        width="52.150997"
@@ -394,7 +406,7 @@
    xml:space="preserve"
    id="flowRoot3217"
    style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   transform="matrix(0.8,0,0,-0.8,58.499895,602.86798)"><flowRegion
+   transform="matrix(0.8,0,0,-0.8,-185.33003,602.86798)"><flowRegion
      id="flowRegion3219"><rect
        id="rect3221"
        width="65.583847"
@@ -406,7 +418,7 @@
    xml:space="preserve"
    id="flowRoot3233"
    style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   transform="matrix(0.8,0,0,-0.8,-67.388867,771.01798)"><flowRegion
+   transform="matrix(0.8,0,0,-0.8,170.58914,771.01798)"><flowRegion
      id="flowRegion3235"><rect
        id="rect3237"
        width="71.905182"
@@ -418,7 +430,7 @@
    xml:space="preserve"
    id="flowRoot3241"
    style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   transform="matrix(0.8,0,0,-0.8,-111.92898,769.827)"><flowRegion
+   transform="matrix(0.8,0,0,-0.8,424.49685,790.30871)"><flowRegion
      id="flowRegion3243"><rect
        id="rect3245"
        width="80.597008"
@@ -621,39 +633,41 @@
      id="flowPara5882" /></flowRoot><text
    xml:space="preserve"
    style="font-size:22.39999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   x="641.55377"
-   y="-374.58408"
+   x="143.16541"
+   y="-378.48535"
    id="text3381"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
      id="tspan3383"
-     x="641.55377"
-     y="-374.58408"
+     x="143.16541"
+     y="-378.48535"
      style="text-align:center;text-anchor:middle">Rapid Regime</tspan><tspan
      sodipodi:role="line"
-     x="641.55377"
-     y="-346.58408"
+     x="143.16541"
+     y="-350.48535"
      id="tspan3259"
      style="text-align:center;text-anchor:middle">Shifts</tspan></text>
+
 
 
 <text
    xml:space="preserve"
    style="font-size:22.39999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   x="142.91806"
-   y="-378.836"
+   x="634.47919"
+   y="-380.78665"
    id="text3385"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
-     x="142.91806"
-     y="-378.836"
+     x="634.47919"
+     y="-380.78665"
      id="tspan3507">Critical Slowing</tspan><tspan
      sodipodi:role="line"
-     x="142.91806"
-     y="-350.836"
+     x="634.47919"
+     y="-352.78665"
      id="tspan3426">Down</tspan></text>
+
 
 
 <text
@@ -670,6 +684,7 @@
      y="-414.07541">Bifurcations</tspan></text>
 
 
+
 <flowRoot
    xml:space="preserve"
    id="flowRoot3393"
@@ -683,59 +698,62 @@
      id="flowPara3400" /></flowRoot><text
    xml:space="preserve"
    style="font-size:16px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
-   x="650.7948"
-   y="-239.45804"
+   x="125.09749"
+   y="-256.99802"
    id="text3428"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
-     x="650.7948"
-     y="-239.45804"
+     x="125.09749"
+     y="-256.99802"
      id="tspan3432">external focing,</tspan><tspan
      sodipodi:role="line"
-     x="650.7948"
-     y="-219.45804"
+     x="125.09749"
+     y="-236.99802"
      id="tspan3270">stochastic events</tspan></text>
+
 
 
 <text
    xml:space="preserve"
    style="font-size:16px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
-   x="125.25003"
-   y="-239.45804"
+   x="661.67584"
+   y="-256.99802"
    id="text3436"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
-     x="125.25003"
-     y="-239.45804"
+     x="661.67584"
+     y="-256.99802"
      id="tspan3440">smooth</tspan><tspan
      sodipodi:role="line"
-     x="125.25003"
-     y="-219.45804"
+     x="661.67584"
+     y="-236.99802"
      id="tspan3444">transitions</tspan></text>
+
 
 
 <text
    xml:space="preserve"
    style="font-size:16px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
-   x="258.93143"
-   y="-283.8815"
+   x="521.29242"
+   y="-295.58533"
    id="text3446"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
      id="tspan3448"
-     x="258.93143"
-     y="-283.8815">Hopf,</tspan><tspan
+     x="521.29242"
+     y="-295.58533">Hopf,</tspan><tspan
      sodipodi:role="line"
-     x="258.93143"
-     y="-263.8815"
+     x="521.29242"
+     y="-275.58533"
      id="tspan3276">transcritical</tspan><tspan
      sodipodi:role="line"
-     x="258.93143"
-     y="-243.8815"
+     x="521.29242"
+     y="-255.58533"
      id="tspan3458">bifurcations</tspan></text>
+
 
 
 
@@ -743,31 +761,32 @@
 <text
    xml:space="preserve"
    style="font-size:16px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
-   x="510.43454"
+   x="263.67865"
    y="-303.8815"
    id="text3460"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
-     x="510.43454"
+     x="263.67865"
      y="-303.8815"
      id="tspan3464">chaotic</tspan><tspan
      sodipodi:role="line"
-     x="512.98145"
+     x="266.22556"
      y="-283.8815"
      id="tspan3472">crisis, </tspan><tspan
      sodipodi:role="line"
-     x="510.43454"
+     x="263.67865"
      y="-263.8815"
      id="tspan3256">Maxwell</tspan><tspan
      sodipodi:role="line"
-     x="510.43454"
+     x="263.67865"
      y="-243.8815"
      id="tspan3274">point</tspan><tspan
      sodipodi:role="line"
-     x="510.43454"
+     x="263.67865"
      y="-223.8815"
      id="tspan3258">transition</tspan></text>
+
 
 
 <text
@@ -786,6 +805,7 @@
      x="389.21289"
      y="-312.46729"
      id="tspan3503">bifurcation</tspan></text>
+
 
 
 <flowRoot
