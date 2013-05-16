@@ -65,17 +65,22 @@ undergo shifts without such signals, and second, to determine appropriate
 statistical tools to detect the warning signal. In this paper we review both
 aspects of the overall question.
 
-Box: Definitions
-----------------
 
-In this paper we refer to two closely related but different phenomena:
+-------------------------------   --------------------------------------------
+**Critical slowing down (CSD)**   A system's slowing response to perturbations
+                                  as it's dominant eigenvalue approaches zero, 
+                                  often expressed in greater variance, autocorrelation,
+                                  and return time. CSD is one possible EWS.
 
-**Early warning signals (EWS)** - A general term for dynamic patterns in system
-behavior that precede regime shifts
+**Early warning signals (EWS)**   A general term for dynamic patterns in system
+                                  behavior that precede regime shifts. Though CSD 
+                                  phenomena are among the best studied EWS, some
+                                  shifts will require alternative signals; Figure 1.
+-------------------------------   -----------------------------------------------
 
-**Critical slowing down (CSD)** - A system's slowing response to perturbations
-as it's dominant eigenvalue approaches zero, often expressed in greater
-variance, autocorrelation, and return time. CSD is one possible EWS.
+**Definitions**: In this paper we refer to two closely related but different phenomena
+
+
 
 Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 ============================================================================
@@ -104,8 +109,10 @@ fall into each of these regions.
 bifurcations, and critical slowing down. Labels in italic are example phenomena
 that occur in each domain. Roman numerals indicate example literature (right)
 exploring each domain, and also refer to sections below describing those
-domains. The center domain, where all three phenomena intersect, is the most
-extensively researched domain of the EWS field.](ews-venn.pdf)
+domains. The center domain (I) where all three phenomena intersect, is the most
+extensively researched domain of the EWS field.  Literature outside this
+charted region does not yet provide the needed EWS, but hints where existing 
+signals based on CSD may be insufficient or misleading.](ews-venn.pdf)
 
 Catastrophic Bifurcations Preceded by CSD (I)
 ---------------------------------------------
