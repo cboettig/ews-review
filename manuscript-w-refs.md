@@ -91,7 +91,7 @@ Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 CSD has been studied extensively in theoretical (Wissel 1984, Gandhi et al.
 1998, Carpenter and Brock 2006, Hastings and Wysham 2010, Dakos et al. 2011a,
 Lade and Gross 2012, Boettiger and Hastings 2012a) and empirical contexts (Drake
-and Griffen 2010, Veraart et al. 2011, Carpenter 2011a, Dai et al. 2012, Wang et
+and Griffen 2010, Carpenter 2011a, Veraart et al. 2012, Dai et al. 2012, Wang et
 al. 2012) as a potential EWS for regime shifts. CSD occurs as a system's
 dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
 environment. As the eigenvalue approaches zero, the system's response to small
@@ -135,7 +135,7 @@ Dai et al. (2012) studied yeast cell growth in a microcosm and demonstrated that
 an Allee effect created a saddle-node bifurcation in the system. When the cell
 density was reduced to levels near the bifurcation point, a decrease in recovery
 time (increase in variance and autocorrelation over time) was observed. Veraart
-et al. (2011) studied a system of cyanobacteria where models suggest a
+et al. (2012) studied a system of cyanobacteria where models suggest a
 saddle-node bifurcation driven by light inhibition. They also found increases in
 autocorrelation and decreased recovery rates as the system approached the
 bifurcation. These important experiments are among the best demonstrations that
@@ -173,20 +173,21 @@ that are completely opposite to the patterns seen in the saddle-node case.
 
 These are some of the most problematic cases. They represent disruptive but
 potentially avoidable events, but would not be detected by using CSD as an EWS.
-These cases include bifurcations in continuous time [@Schrieber2008] and
-discrete time [@Schrieber2003], explicitly spatial (Bel et al. 2012) and
-non-spatial, chaotic (Schreiber 2003, ) and non-chaotic (Hastings and Wysham
-2010, , ) examples. Before warning signals can be reliably applied to novel
-systems, research must provide a way to discern if the dynamics correspond to
-the better understood warning signals of the saddle-node case or the more
-complex patterns such as the examples discussed here.
+These cases include bifurcations in continuous time (Schreiber and Rudolf 2008)
+and discrete time (Schreiber 2003), explicitly spatial (Bel et al. 2012) and
+non-spatial, chaotic (Schreiber 2003, Hastings and Wysham 2010) and non-chaotic
+(Schreiber and Rudolf 2008, Hastings and Wysham 2010, Bel et al. 2012) examples.
+Before warning signals can be reliably applied to novel systems, research must
+provide a way to discern if the dynamics correspond to the better understood
+warning signals of the saddle-node case or the more complex patterns such as the
+examples discussed here.
 
 One class of bifurcations in which we would not expect to see CSD prior to
 regime shift are sometimes known as *crises*. Crises are sudden changes in the
 dynamics of chaotic attractors that occur in response to small changes in
 parameters (Grebogi et al. 1983). Chaotic attractors are features of many
 ecological models (Hastings et al. 1993), and chaotic behavior has been shown in
-some ecological systems [@Constantino1997].
+some ecological systems (Costantino et al. 1997).
 
 Hastings and Wysham (2010) examined a continuous model of a stochastic
 three-species food chain where all species migrate between six patches. When
@@ -484,7 +485,7 @@ saddle-node models.
 
 Thus, establishing the saddle node mechanism is a necessary condition of using
 CSD as a warning signal. This can be done via manipulation in simple
-experimental systems (Veraart et al. 2011, Dai et al. 2012), but this is
+experimental systems (Veraart et al. 2012, Dai et al. 2012), but this is
 impractical in most natural systems. Another approach is to assume the
 saddle-node mechanism applies to a limited set of systems that have well-studied
 examples, such as lakes undergoing eutrophication (Scheffer et al. 2001), lakes
@@ -548,12 +549,13 @@ transitions between states prior to a more permanent transition, is one signal
 that may apply across many types of systems. It manifests in bi-modality and
 high variance in times series. Spatial pattern development may be a warning
 signal in systems with short-distance positive feedbacks but long-distance
-negative feedbacks, such as grassland-desert transitions [@Rietkerk2004]. Other
-spatial signals may apply where systems include both saddle nodes and positive
-feedbacks across space (Litzow et al. 2008, Guttal and Jayaprakash 2008a, Dakos
-et al. 2009, Bailey 2010, Dakos et al. 2011b, Bel et al. 2012). A critical task
-for EWS research is to map these signals to their domains of applicability, and
-create methods to establish if ecosystems fall into these domains.
+negative feedbacks, such as grassland-desert transitions (Rietkerk et al. 2004).
+Other spatial signals may apply where systems include both saddle nodes and
+positive feedbacks across space (Litzow et al. 2008, Guttal and Jayaprakash
+2008a, Dakos et al. 2009, Bailey 2010, Dakos et al. 2011b, Bel et al. 2012). A
+critical task for EWS research is to map these signals to their domains of
+applicability, and create methods to establish if ecosystems fall into these
+domains.
 
 Acknowledgments
 ===============
@@ -634,6 +636,9 @@ transitions in two-species models.. Journal of theoretical biology 257:142–9.
 Cimatoribus, S. S. Drijfhout, V. Livina, and G. van der Schrier. 2013.
 Dansgaard–Oeschger events: bifurcation points in the climate system. Climate of
 the Past 9:323–333.
+
+Costantino, R. F., R. A. Desharnais, J. M. Cushing, and B. Dennis. 1997. Chaotic
+Dynamics in an Insect Population. Science 275:389–391.
 
 Dai, L., D. Vorselen, K. S. Korolev, and J. Gore. 2012. Generic Indicators for
 Loss of Resilience Before a Tipping Point Leading to Population Collapse.
@@ -779,6 +784,10 @@ events around the Cretaceous-Paleogene boundary.. Science (New York, N.Y.)
 Resilience Alliance. 2010. Assessing Resilience in Social-Ecological Systems :
 Workbook for Practitioners. Version 2.0.
 
+Rietkerk, M., J. van de Koppel, S. C. Dekker, and P. C. de Ruiter. 2004.
+Self-organized patchiness and catastrophic shifts in ecosystems.. Science (New
+York, N.Y.) 305:1926–9.
+
 Rietkerk, M., and J. van de Koppel. 2008. Regular pattern formation in real
 ecosystems.. Trends in ecology & evolution 23:169–75.
 
@@ -815,8 +824,8 @@ Africa: rainfall and fire constrain forest and savanna as alternative stable
 states.. Ecology 92:1063–72.
 
 Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and M.
-Scheffer. 2011. Recovery rates reflect distance to a tipping point in a living
-system. Nature:2–5.
+Scheffer. 2012. Recovery rates reflect distance to a tipping point in a living
+system.. Nature 481:357–9.
 
 Wang, R., J. a Dearing, P. G. Langdon, E. Zhang, X. Yang, V. Dakos, and M.
 Scheffer. 2012. Flickering gives early warning signals of a critical transition

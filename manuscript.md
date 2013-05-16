@@ -168,10 +168,10 @@ that are completely opposite to the patterns seen in the saddle-node case.
 
 These are some of the most problematic cases. They represent disruptive but
 potentially avoidable events, but would not be detected by using CSD as an EWS.
-These cases include bifurcations in continuous time [@Schrieber2008] and
-discrete time [@Schrieber2003], explicitly spatial [@Bel2012] and non-spatial,
-chaotic [@Schreiber2003, @Hastings2010] and non-chaotic [@Hastings2010,
-@Bel2012, @Schreiber2008] examples. Before warning signals can be reliably
+These cases include bifurcations in continuous time [@Schreiber2008] and
+discrete time [@Schreiber2003], explicitly spatial [@Bel2012] and non-spatial,
+chaotic [@Schreiber2003; @Hastings2010] and non-chaotic [@Hastings2010;
+@Bel2012; @Schreiber2008] examples. Before warning signals can be reliably
 applied to novel systems, research must provide a way to discern if the dynamics
 correspond to the better understood warning signals of the saddle-node case or
 the more complex patterns such as the examples discussed here.
@@ -181,7 +181,7 @@ regime shift are sometimes known as *crises*. Crises are sudden changes in the
 dynamics of chaotic attractors that occur in response to small changes in
 parameters [@Grebogi1983]. Chaotic attractors are features of many ecological
 models [@Hastings1993], and chaotic behavior has been shown in some ecological
-systems [@Constantino1997].
+systems [@Costantino1997].
 
 @Hastings2010 examined a continuous model of a stochastic three-species food
 chain where all species migrate between six patches. When environmental
