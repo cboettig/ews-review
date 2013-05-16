@@ -46,6 +46,7 @@
 \fi
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage{longtable}
 \usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
 % that they will get their normal width if they fit onto the page, but
@@ -178,17 +179,29 @@ shifts without such signals, and second, to determine appropriate
 statistical tools to detect the warning signal. In this paper we review
 both aspects of the overall question.
 
-\subsection{Box: Definitions}
+\begin{longtable}[c]{@{}ll@{}}
+\hline\noalign{\medskip}
+\begin{minipage}[t]{0.44\columnwidth}\raggedright
+\textbf{Critical slowing down (CSD)}
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+A system's slowing response to perturbations as it's dominant eigenvalue
+approaches zero, often expressed in greater variance, autocorrelation,
+and return time. CSD is one possible EWS.
+\end{minipage}
+\\\noalign{\medskip}
+\begin{minipage}[t]{0.44\columnwidth}\raggedright
+\textbf{Early warning signals (EWS)}
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+A general term for dynamic patterns in system behavior that precede
+regime shifts. Though CSD phenomena are among the best studied EWS, some
+shifts will require alternative signals; Figure 1.
+\end{minipage}
+\\\noalign{\medskip}
+\hline
+\end{longtable}
 
-In this paper we refer to two closely related but different phenomena:
-
-\textbf{Early warning signals (EWS)} - A general term for dynamic
-patterns in system behavior that precede regime shifts
-
-\textbf{Critical slowing down (CSD)} - A system's slowing response to
-perturbations as it's dominant eigenvalue approaches zero, often
-expressed in greater variance, autocorrelation, and return time. CSD is
-one possible EWS.
+\textbf{Definitions}: In this paper we refer to two closely related but
+different phenomena
 
 \section{Relationships between Critical Slowing Down, Bifurcations, and
 Regime Shifts}
@@ -223,9 +236,11 @@ that fall into each of these regions.
 regime shifts, bifurcations, and critical slowing down. Labels in italic
 are example phenomena that occur in each domain. Roman numerals indicate
 example literature (right) exploring each domain, and also refer to
-sections below describing those domains. The center domain, where all
+sections below describing those domains. The center domain (I) where all
 three phenomena intersect, is the most extensively researched domain of
-the EWS field.}
+the EWS field. Literature outside this charted region does not yet
+provide the needed EWS, but hints where existing signals based on CSD
+may be insufficient or misleading.}
 \end{figure}
 
 \subsection{Catastrophic Bifurcations Preceded by CSD (I)}
