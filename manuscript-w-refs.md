@@ -62,7 +62,7 @@ Here we review a variety of mechanisms that may lead to rapid (or
 generate early warning signals. We focus on CSD and its manifestations as they
 are the most commonly studied warning signals. We illustrate that not all rapid
 shifts exhibit CSD, and not all observations of CSD involve rapid shifts. Thus
-the issue of determining EWS is really two-fold: first, identify classes of
+the issue of determining EWS is really two-fold: first, to identify classes of
 systems where the warning signal is expected and conversely systems that may
 undergo shifts without such signals, and second, to determine appropriate
 statistical tools to detect the warning signal. In this paper we review both

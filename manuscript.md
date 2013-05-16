@@ -59,28 +59,28 @@ Here we review a variety of mechanisms that may lead to rapid (or
 generate early warning signals. We focus on CSD and its manifestations as they
 are the most commonly studied warning signals. We illustrate that not all rapid
 shifts exhibit CSD, and not all observations of CSD involve rapid shifts. Thus
-the issue of determining EWS is really two-fold: first, identify classes of
+the issue of determining EWS is really two-fold: first, to identify classes of
 systems where the warning signal is expected and conversely systems that may
 undergo shifts without such signals, and second, to determine appropriate
 statistical tools to detect the warning signal. In this paper we review both
 aspects of the overall question.
 
+  --------------------------------- --------------------------------------------
+  **Critical slowing down (CSD)**   A system's slowing response to perturbations
+                                    as it's dominant eigenvalue approaches zero,
+                                    often expressed in greater variance,
+                                    autocorrelation, and return time. CSD is one
+                                    possible EWS.
 
--------------------------------   --------------------------------------------
-**Critical slowing down (CSD)**   A system's slowing response to perturbations
-                                  as it's dominant eigenvalue approaches zero, 
-                                  often expressed in greater variance, autocorrelation,
-                                  and return time. CSD is one possible EWS.
+  **Early warning signals (EWS)**   A general term for dynamic patterns in
+                                    system behavior that precede regime shifts.
+                                    Though CSD phenomena are among the best
+                                    studied EWS, some shifts will require
+                                    alternative signals; Figure 1.
+  --------------------------------- --------------------------------------------
 
-**Early warning signals (EWS)**   A general term for dynamic patterns in system
-                                  behavior that precede regime shifts. Though CSD 
-                                  phenomena are among the best studied EWS, some
-                                  shifts will require alternative signals; Figure 1.
--------------------------------   -----------------------------------------------
-
-**Definitions**: In this paper we refer to two closely related but different phenomena
-
-
+**Definitions**: In this paper we refer to two closely related but different
+phenomena
 
 Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 ============================================================================
@@ -110,9 +110,9 @@ bifurcations, and critical slowing down. Labels in italic are example phenomena
 that occur in each domain. Roman numerals indicate example literature (right)
 exploring each domain, and also refer to sections below describing those
 domains. The center domain (I) where all three phenomena intersect, is the most
-extensively researched domain of the EWS field.  Literature outside this
-charted region does not yet provide the needed EWS, but hints where existing 
-signals based on CSD may be insufficient or misleading.](ews-venn.pdf)
+extensively researched domain of the EWS field. Literature outside this charted
+region does not yet provide the needed EWS, but hints where existing signals
+based on CSD may be insufficient or misleading.](ews-venn.pdf)
 
 Catastrophic Bifurcations Preceded by CSD (I)
 ---------------------------------------------
@@ -517,10 +517,10 @@ Another area that has is understanding how the relationship between the scale of
 observation and the scale of ecological processes affect the efficacy of EWS. As
 shown by the Maxwell Point example in @Bel2012, EWS which detect local
 bifurcations may not detect global bifurcations in system behavior. The scale of
-observation likely also will affect the statistical power of EWS.  Similarly, as
-illustrated in @Boerlijst2013, the choice of variables to observe in 
-multivariate systems is important, but little is known about how to select
-the appropriate variable for detecting EWS.
+observation likely also will affect the statistical power of EWS. Similarly, as
+illustrated in @Boerlijst2013, the choice of variables to observe in
+multivariate systems is important, but little is known about how to select the
+appropriate variable for detecting EWS.
 
 The future of early warning signals lies in the uncharted territory. For certain
 classes of transitions, such as stochastically-driven regime shifts, prediction
