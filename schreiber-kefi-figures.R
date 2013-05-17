@@ -29,7 +29,7 @@ schreiber.stats <- adply(1:length(m), 1, function(x) data.frame(
   AR1=acf(X[800:1001,x], lag.max=1, plot=FALSE)$acf[2]
   ))
 
-pdf("schreiber-fig.pdf", width=6, height=3)
+postscript("schreiber-fig.eps", horizontal = FALSE, onefile = FALSE, paper = "special", width=6, height=3)
 par(mfrow=c(1,3), cex.lab=1.5, oma=c(0,0.25,0,0))
 plot(m, X[1001,], pch=19, cex=0.3, xlab = "", ylab="Population Level", col="grey")
 lines(schreiber.stats$m, schreiber.stats$mean, type="l")
@@ -74,7 +74,7 @@ kefi.stats <- adply(1:length(cs), 1, function(x) data.frame(
   AR1=acf(Vout[,x], lag.max=1, plot=FALSE)$acf[2]
   ))
 
-pdf("kefi-fig.pdf", width=6, height=3)
+postscript("kefi-fig.eps", horizontal = FALSE, onefile = FALSE, paper = "special", width=6, height=3)
 par(mfrow=c(1,3), cex.lab=1.5, oma=c(0,0.25,0,0))
 plot(kefi.stats$c, tail(Vout,1), xlab="", ylab="Population Level", type="l", lwd=2)
 plot(kefi.stats$c, kefi.stats$SD, type="l", ylab="Standard Deviation", xlab="", lwd=2)
