@@ -107,12 +107,14 @@ fall into each of these regions.
 
 ![Venn diagram representing the intersecting domains of rapid regime shifts,
 bifurcations, and critical slowing down. Labels in italic are example phenomena
-that occur in each domain. Roman numerals indicate example literature (right)
-exploring each domain, and also refer to sections below describing those
-domains. The center domain (I) where all three phenomena intersect, is the most
-extensively researched domain of the EWS field. Literature outside this charted
-region does not yet provide the needed EWS, but hints where existing signals
-based on CSD may be insufficient or misleading.](ews-venn.pdf)
+that occur in each domain. Roman numerals and indicate example literature
+(right) exploring each domain, and also refer to sections below describing those
+domains. Each dot represents a study in the domain. Studies and dots in grey
+represent literature not explicitly testing EWS, but which demonstrate phenomena
+related to EWS. The center domain (I) where all three phenomena intersect, is
+the most extensively researched domain of the EWS field. Literature outside this
+charted region does not yet provide the needed EWS, but hints where existing
+signals based on CSD may be insufficient or misleading.](ews-venn.pdf)
 
 Catastrophic Bifurcations Preceded by CSD (I)
 ---------------------------------------------
@@ -164,7 +166,7 @@ changes in system dynamics. Other bifurcations can cause long-term changes in
 system dynamics without a gradual pass through a state with zero eigenvalue, and
 therefore, not exhibit CSD. Many of these examples can in fact show patterns in
 typical early warning indicator variables such as variance or autocorrelation
-that are completely opposite to the patterns seen in the saddle-node case.
+that are completely opposite to the patterns seen in the saddle-node case. Several of these examples are found outside the EWS literature, indicating a need to expand the range of systems studied for EWS.
 
 These are some of the most problematic cases. They represent disruptive but
 potentially avoidable events, but would not be detected by using CSD as an EWS.
@@ -313,7 +315,8 @@ any warning. This mechanism is commonly recognized, [@Barnosky2012;
 @Scheffer2001; @Scheffer2009; @Scheffer2012b], but others are possible. An
 internal stochastic event may switch a system between dynamic regimes, or a
 change in system behavior may be the manifestation of a long-term transient. In
-none of these cases would CSD be expected to precede such changes.
+none of these cases would CSD be expected to precede such changes. Nonetheless,
+it may be difficult to distinguish such cases from bifurcations.
 
 ![Difference between different types of perturbations. On the horizontal axis is
 the bifurcation parameter, representing the state of the environment (e.g.
@@ -528,7 +531,9 @@ may not be possible. In such cases, managing for resilience may be the only
 option. Likewise, regime shifts driven by external perturbation or strong
 forcing are not predictable *if* the scope of management does not include the
 external causes. Proper scoping of the management problem can avoid this
-situation [@ResilienceAlliance2010; @Fischer2009; @Polasky2011d].
+situation [@ResilienceAlliance2010; @Fischer2009; @Polasky2011d]. More research
+is needed in methods of distinguishing such cases from those in which early
+detection may be possible.
 
 For other classes of transitions, prediction may be possible but other EWS must
 be explored. Flickering [@Brock2010; @Wang2012], or rapid transitions between
