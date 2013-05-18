@@ -1,11 +1,11 @@
 I 
 -
-1. @Dakos2008
-1. @Carpenter2006b 
+1. @Dakos2008       
+1. @Carpenter2006b  
 1. @Guttal2008a 
 1. @Dai2012 
 1. @Veraart2011
-1. @Wang2012
+1. @Wang2012 
 1. @Scheffer2012b
 1. @Scheffer2009
 1. @Perretti2012
@@ -19,12 +19,13 @@ I
 
 II
 ---
-1. @Schreiber2008
+1. @Schreiber2008 *
 1. @Bel2012
-1. @Schreiber2003
+1. @Schreiber2003 *
 1. @Hastings2010
-1. @Hastings1993
-1. @Rietkerk2008
+1. @Hastings1993 * 
+1. @Rietkerk2008  <-- Delete this one I think, it's not a particulary good example
+1. @Boerlijst2013 <-- add this one
 
 III
 ---
@@ -36,15 +37,13 @@ IV
 ---
 1. @Kefi2012
 
+
 V
 --
-
-VI
---
-1. @Scheffer2001
-1. @Barnosky2012
-1. @Williams2011b
-1. @Doney2013
-1. @DiLorenzo2013
-1. @Schooler2011
+1. @Scheffer2001 *
+1. @Barnosky2012 *
+1. @Williams2011b *
+1. @Doney2013     *
+1. @DiLorenzo2013 *
+1. @Schooler2011  *
 1. @Ditlevsen2010
