@@ -87,7 +87,7 @@ Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 
 CSD has been studied extensively in theoretical [@Wissel1984; @Gandhi1998;
 @Carpenter2006b; @Hastings2010; @Lade2012; @Dakos2011a; @Boettiger2012b] and
-empirical contexts [@Drake2010; @Carpenter2011; @Veraart2011; @Dai2012;
+empirical contexts [@Drake2010; @Carpenter2011a; @Veraart2011; @Dai2012;
 @Wang2012] as a potential EWS for regime shifts. CSD occurs as a system's
 dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
 environment. As the eigenvalue approaches zero, the system's response to small
@@ -466,7 +466,7 @@ potential mechanisms for rapid regime shift. Occupying the center of our
 diagram, Figure 1, such transitions represent our best-understood cases.
 Researchers have relied on existing expertise and prior research to identify
 empirical systems most likely to experience critical transitions through the
-saddle-node-like mechanism [e.g. @Carpenter2011; @Dai2012], and have achieved a
+saddle-node-like mechanism [e.g. @Carpenter2011a; @Dai2012], and have achieved a
 close match to theoretical predictions of early warning signals. While these
 examples provide a much needed proof-of-principle that these signals can be
 detected in the real world, it is too early to apply the same methods to novel
