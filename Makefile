@@ -5,7 +5,7 @@ all:
 	latex manuscript.tex 
 	latex manuscript.tex 
 	latex manuscript.tex 
-
+	dvipdf manuscript.dvi
 
 eps:
 
