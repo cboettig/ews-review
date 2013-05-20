@@ -10,10 +10,15 @@ $if(graphics)$
 % are scaled down if they would overflow the margins.
 $endif$
 
-\title{$title$}
-\author{Carl Boettiger, Noam Ross, Alan Hastings}
+
+
+\title{Early warning signals: The charted and uncharted territories}
+\author{%
+  Carl Boettiger\thanks{CB \& NR contributed equally. Center for Stock Assessment Research, Department of Applied Math and Statistics, University of California, Mail Stop SOE-2, Santa Cruz, CA 95064, USA} \and Noam Ross\thanks{Department of Environmental Science and Policy, University of California Davis, 1 Shields Avenue, Davis, CA 95616 USA} \and Alan Hastings\footnotemark[2]
+}
 \begin{document}
   
+\maketitle
 
   \begin{abstract}
 
