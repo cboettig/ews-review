@@ -251,8 +251,8 @@ Non-Catastrophic Bifurcations Preceded by CSD (III)
 Not all regime shifts are rapid. Some systems undergo bifurcations between
 qualitatively different, but quantitatively similar regimes. These transitions
 may be reversible. In a management setting, such qualitative changes may be
-insignificant, so warning signals that detect such transitions may be effective
-"false positives."
+gradual, so warning signals that detect such transitions may be effective
+"false positives."   
 
 CSD precedes several types of these non-catastrophic bifurcations. In the
 subcritical form of a Hopf bifurcation, a system transitions from a stable
@@ -265,7 +265,10 @@ how this bifurcation is gradual rather than catastrophic, note that in the
 presence of stochasticity, the system behavior observed on either side of the
 threshold may be indistinguishable: on one side stochasticity bounces the system
 around a stable node, while on the other it bounces the system around a very
-small limit cycle in the same region of state space. Contrast this to a critical
+small limit cycle in the same region of state space. Even when oscillations 
+grow quickly, returning the environmental conditions (bifurcation parameter)
+to the previous conditions restores the stable node -- the bifurcation does
+not exhibit the hysteresis of the saddle node bifurcation.  Contrast this to a critical
 transition in which any stochastic fluctuation across the threshold could lead
 to a qualitatively different state.
 
