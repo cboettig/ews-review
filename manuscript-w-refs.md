@@ -6,24 +6,23 @@ Introduction
 ============
 
 Many natural systems exhibit regime shifts - rapid changes in the state and
-conditions of system behavior. Such shifts include lake eutrophication
-(Carpenter et al. 1999), algal overgrowth of coral systems (Mumby et al. 2007),
-fishery collapse (Jackson et al. 2001), desertification of grasslands (Kéfi et
-al. 2007), and rapid changes in climate (Dakos et al. 2008, Lenton et al. 2009).
-Such dramatic shifts have the potential to impact ecosystem health and human
-well-being. Thus, it is important to develop strategies for adaptation,
-mitigation, and avoidance of such shifts.
+conditions of system behavior. Examples of such shifts include lake
+eutrophication (Carpenter et al. 1999), algal overgrowth of coral systems (Mumby
+et al. 2007), fishery collapse (Jackson et al. 2001), desertification of
+grasslands (Kéfi et al. 2007), and rapid changes in climate (Dakos et al. 2008,
+Lenton et al. 2009). Such dramatic shifts have the potential to impact ecosystem
+health and human well-being. Thus, it is important to develop strategies for
+adaptation, mitigation, and avoidance of such shifts.
 
 The idea that complex systems such as ecosystems could change suddenly and
 without warning goes back to the 1960s (Lewontin 1969, Holling 1973, May 1977).
 Such early work revealed that even simple models with the appropriate
 nonlinearities were capable of unpredictable behavior. The only way to predict
 the transition was to have the right model -- and that meant having already had
-the chance to observe the transition (even then, this remains a tough problem).
-One cogent early example (Ludwig et al. 1978) demonstrated how knowledge of the
-forms and time scales of interactions among insects, birds, and trees could lead
-to a qualitative model that essentially predicted the possibility of regime
-shifts.
+the chance to observe the transition. One cogent early example (Ludwig et al.
+1978) demonstrated how knowledge of the forms and time scales of interactions
+among insects, birds, and trees could lead to a qualitative model that
+essentially predicted the possibility of regime shifts.
 
 Management of systems that could potentially undergo shifts requires balancing
 the costs of adaptation, mitigation, or avoidance against the costs of the shift
@@ -91,8 +90,8 @@ Relationships between Critical Slowing Down, Bifurcations, and Regime Shifts
 CSD has been studied extensively in theoretical (Wissel 1984, Gandhi et al.
 1998, Carpenter and Brock 2006, Hastings and Wysham 2010, Dakos et al. 2011a,
 Lade and Gross 2012, Boettiger and Hastings 2012a) and empirical contexts (Drake
-and Griffen 2010, Carpenter 2011a, Veraart et al. 2012, Dai et al. 2012, Wang et
-al. 2012) as a potential EWS for regime shifts. CSD occurs as a system's
+and Griffen 2010, Carpenter et al. 2011, Veraart et al. 2012, Dai et al. 2012,
+Wang et al. 2012) as a potential EWS for regime shifts. CSD occurs as a system's
 dominant eigenvalue approaches zero due to a changing (possibly deteriorating)
 environment. As the eigenvalue approaches zero, the system's response to small
 perturbations slows. This change in dynamic properties of a system can be
@@ -150,14 +149,14 @@ is manipulated towards a sudden transition through the introduction of a
 predator, while a neighboring experimental lake provides a control. In this and
 similar lake systems, bifurcation is thought to be driven in part by trophic
 interactions where adult fish prey on the competitors of their juveniles
-(Carpenter and Kitchell 1996, Walters2001; Carpenter et al. 2008) which leads to
-a saddle-node bifurcation. While the underlying dynamics of a whole lake
-ecosystem are less tractable than the laboratory controlled chemoststats of
-microorganisms, the system is understood well enough to anticipate that a sudden
-transition can be induced under the intended manipulation. Like the laboratory
-examples, this helps eliminate the options outside the circle "bifurcations," in
-Figure 1. The observed warning signals then place it in the center of the
-diagram.
+(Carpenter and Kitchell 1996, Walters and Kitchell 2001, Carpenter et al. 2008)
+which leads to a saddle-node bifurcation. While the underlying dynamics of a
+whole lake ecosystem are less tractable than the laboratory controlled
+chemoststats of microorganisms, the system is understood well enough to
+anticipate that a sudden transition can be induced under the intended
+manipulation. Like the laboratory examples, this helps eliminate the options
+outside the circle "bifurcations," in Figure 1. The observed warning signals
+then place it in the center of the diagram.
 
 These studies have provided valuable demonstrations of the potential to find
 early warning signals of sudden transitions. However, this literature has begun
@@ -259,7 +258,7 @@ Non-Catastrophic Bifurcations Preceded by CSD (III)
 
 Not all regime shifts are rapid. Some systems undergo bifurcations between
 qualitatively different, but quantitatively similar regimes. These transitions
-may be reversible. In a management setting, such qualitative changes may
+may be reversible. In a management setting, such qualitative changes may be
 insignificant, so warning signals that detect such transitions may be effective
 "false positives."
 
@@ -350,7 +349,7 @@ of as regime shifts in krill dynamics in the Pacific ocean (Hare and Mantua
 2000) could actually be explained by a close coupling to the external forcing of
 El Nino environmental dynamics through the Pacific Decadal Oscillation (PDO).
 Schooler et al. (2011) found that lakes with the invasive plant *Salvaniai
-molesta* andherbivorous weevils alternated between low- and high-*Salvnia*
+molesta* and herbivorous weevils alternated between low- and high-*Salvnia*
 states driven by disturbances from regular external flooding events. These
 examples highlight cases that involve critical transitions between regimes under
 circumstances that do not permit the discovery of early warning signals, as CSD
@@ -404,27 +403,27 @@ data, CSD-based EWS often fail (Perretti and Munch 2012).
 
 A wide variety of statistical summary indicators have been examined as potential
 detectors of CSD. The most common are variance and autocorrelation. Others
-include skewness [Guttal2008a] and conditional heteroscedasticity (Seekell et
-al. 2011). These statistics are typically calculated on sliding windows of
-time-series data and tested formally or informally for trends. The relative
-power of these tests varies considerably with context; no indicator has
-consistently outperformed others (Dakos et al. 2011b, 2012, Lindegren et al.
-2012, Perretti and Munch 2012). Also, measuring these indicators requires making
-sometimes arbitrary calculations. For instance, the power of lag-1
-autocorrelation to detect a regime shift may be modified by changing methods of
-data aggregation, de-trending, changing sliding window length, filtering signal
-bandwidth (Lenton et al. 2012). These choices may be optimized when enough
-calibration data is available, as Lenton et al. (2012) were able to do with
-several sets of paleoclimate data. However, such calibration may not be possible
-with many ecological datasets. Multiple-method (Lindegren et al. 2012) and
-composite indices (Drake and Griffen 2010) have been proposed, but their power
-relative to other indicators is unknown.
+include skewness (Guttal and Jayaprakash 2008a) and conditional
+heteroscedasticity (Seekell et al. 2011). These statistics are typically
+calculated on sliding windows of time-series data and tested formally or
+informally for trends. The relative power of these tests varies considerably
+with context; no indicator has consistently outperformed others (Dakos et al.
+2011b, 2012, Lindegren et al. 2012, Perretti and Munch 2012). Also, measuring
+these indicators requires making sometimes arbitrary calculations. For instance,
+the power of lag-1 autocorrelation to detect a regime shift may be modified by
+changing methods of data aggregation, de-trending, changing sliding window
+length, filtering signal bandwidth (Lenton et al. 2012). These choices may be
+optimized when enough calibration data is available, as Lenton et al. (2012)
+were able to do with several sets of paleoclimate data. However, such
+calibration may not be possible with many ecological datasets. Multiple-method
+(Lindegren et al. 2012) and composite indices (Drake and Griffen 2010) have been
+proposed, but their power relative to other indicators is unknown.
 
 Another approach to detecting CSD has been fitting time series data to models.
 Two approaches have been used for these model-based methods. First, models may
 be used to calculate summary statistics related to CSD, such as eigenvalues
 (Lade and Gross 2012) or diffusion terms in jump-diffusion models (Carpenter
-2011a, Brock and Carpenter 2012). These statistics are then examined for trends
+2011, Brock and Carpenter 2012). These statistics are then examined for trends
 in the same fashion as the summary statistics above. Alternatively, models
 representing both deteriorating and stable conditions may be fit to the data and
 in order to determine which is more likely (Dakos et al. 2012, ). Boettiger and
@@ -479,8 +478,8 @@ potential mechanisms for rapid regime shift. Occupying the center of our
 diagram, Figure 1, such transitions represent our best-understood cases.
 Researchers have relied on existing expertise and prior research to identify
 empirical systems most likely to experience critical transitions through the
-saddle-node-like mechanism (e.g. Carpenter 2011a, Dai et al. 2012), and have
-achieved a close match to theoretical predictions of early warning signals.
+saddle-node-like mechanism (e.g. Carpenter et al. 2011, Dai et al. 2012), and
+have achieved a close match to theoretical predictions of early warning signals.
 While these examples provide a much needed proof-of-principle that these signals
 can be detected in the real world, it is too early to apply the same methods to
 novel systems where the saddle-node is only one of many possible mechanisms. We
@@ -494,13 +493,13 @@ experimental systems (Veraart et al. 2012, Dai et al. 2012), but this is
 impractical in most natural systems. Another approach is to assume the
 saddle-node mechanism applies to a limited set of systems that have well-studied
 examples, such as lakes undergoing eutrophication (Scheffer et al. 2001), lakes
-with 'trophic-triangle' cascade mechanisms (Carpenter and Kitchell 1996,
-Walters2001; Carpenter et al. 2008), forest/savannah transitions (Staver et al.
-2011, Hirota et al. 2011), and rangeland transitions (Walker1993; Anderies et
-al. 2002). Fitting simplified saddle-node models to past regime shifts
-(Boettiger and Hastings 2012a) in less well-understood systems may provide
-evidence for the mechanism. However, care must be taken to specify sufficient
-alternative models.
+with 'trophic-triangle' cascade mechanisms (Carpenter and Kitchell 1996, Walters
+and Kitchell 2001, Carpenter et al. 2008), forest/savannah transitions (Staver
+et al. 2011, Hirota et al. 2011), and rangeland transitions (Walker1993;
+Anderies et al. 2002). Fitting simplified saddle-node models to past regime
+shifts (Boettiger and Hastings 2012a) in less well-understood systems may
+provide evidence for the mechanism. However, care must be taken to specify
+sufficient alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it will be
 present when no transition is approaching. In other cases, regime shifts occur
@@ -542,10 +541,12 @@ appropriate variable for detecting EWS.
 
 The future of early warning signals lies in the uncharted territory. For certain
 classes of transitions, such as stochastically-driven regime shifts, prediction
-may not be possible. In such cases, managing for resilience may be the only
-option. Likewise, regime shifts driven by external perturbation or strong
-forcing are not predictable *if* the scope of management does not include the
-external causes. Proper scoping of the management problem can avoid this
+may not be possible. In such cases, management options include optimizing
+outcomes despite the possibility of regime shifts, or possibly taking actions to
+reduce the long-term probability of regime shifts, despite short-term
+unpredictability. Likewise, regime shifts driven by external perturbation or
+strong forcing are not predictable *if* the scope of management does not include
+the external causes. Proper scoping of the management problem can avoid this
 situation (Fischer et al. 2009, Resilience Alliance 2010, Polasky et al. 2011).
 More research is needed in methods of distinguishing such cases from those in
 which early detection may be possible.
@@ -611,9 +612,7 @@ Ecosystems: Implication for Early Warnings. Ecological Monographs 80:353–367.
 Brock, W. a, and S. R. Carpenter. 2012. Early Warnings of Regime Shift When the
 Ecosystem Structure Is Unknown. PLoS ONE 7:e45586.
 
-Carpenter, J. 2011a. May the Best Analyst Win. Science 331:698–699.
-
-Carpenter, S. R. 2011a. Early warnings of unknown nonlinear shifts : a
+Carpenter, S. R. 2011. Early warnings of unknown nonlinear shifts : a
 nonparametric approach. Ecology 92:2196–2201.
 
 Carpenter, S. R., W. a Brock, J. J. Cole, J. F. Kitchell, and M. L. Pace. 2008.
@@ -833,6 +832,10 @@ states.. Ecology 92:1063–72.
 Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and M.
 Scheffer. 2012. Recovery rates reflect distance to a tipping point in a living
 system.. Nature 481:357–9.
+
+Walters, C., and J. F. Kitchell. 2001. Cultivation/depensation effects on
+juvenile survival and recruitment: implications for the theory of fishing.
+Canadian Journal of Fisheries and Aquatic Sciences 58:39–50.
 
 Wang, R., J. a Dearing, P. G. Langdon, E. Zhang, X. Yang, V. Dakos, and M.
 Scheffer. 2012. Flickering gives early warning signals of a critical transition
