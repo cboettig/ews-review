@@ -31,7 +31,7 @@ Key words: early warning signals, regime shifts, bifurcation, critical slowing d
 \section{Introduction}
 
 Many natural systems exhibit regime shifts - rapid changes in the state
-and conditions of system behavior. Such shifts include lake
+and conditions of system behavior. Examples of such shifts include lake
 eutrophication (Carpenter et al. 1999), algal overgrowth of coral
 systems (Mumby et al. 2007), fishery collapse (Jackson et al. 2001),
 desertification of grasslands (Kéfi et al. 2007), and rapid changes in
@@ -45,11 +45,11 @@ and without warning goes back to the 1960s (Lewontin 1969, Holling 1973,
 May 1977). Such early work revealed that even simple models with the
 appropriate nonlinearities were capable of unpredictable behavior. The
 only way to predict the transition was to have the right model -- and
-that meant having already had the chance to observe the transition (even
-then, this remains a tough problem). One cogent early example (Ludwig et
-al. 1978) demonstrated how knowledge of the forms and time scales of
-interactions among insects, birds, and trees could lead to a qualitative
-model that essentially predicted the possibility of regime shifts.
+that meant having already had the chance to observe the transition. One
+cogent early example (Ludwig et al. 1978) demonstrated how knowledge of
+the forms and time scales of interactions among insects, birds, and
+trees could lead to a qualitative model that essentially predicted the
+possibility of regime shifts.
 
 Management of systems that could potentially undergo shifts requires
 balancing the costs of adaptation, mitigation, or avoidance against the
@@ -197,14 +197,14 @@ introduction of a predator, while a neighboring experimental lake
 provides a control. In this and similar lake systems, bifurcation is
 thought to be driven in part by trophic interactions where adult fish
 prey on the competitors of their juveniles (Carpenter and Kitchell 1996,
-Walters2001; Carpenter et al. 2008) which leads to a saddle-node
-bifurcation. While the underlying dynamics of a whole lake ecosystem are
-less tractable than the laboratory controlled chemoststats of
-microorganisms, the system is understood well enough to anticipate that
-a sudden transition can be induced under the intended manipulation. Like
-the laboratory examples, this helps eliminate the options outside the
-circle ``bifurcations,'' in Figure 1. The observed warning signals then
-place it in the center of the diagram.
+Walters and Kitchell 2001, Carpenter et al. 2008) which leads to a
+saddle-node bifurcation. While the underlying dynamics of a whole lake
+ecosystem are less tractable than the laboratory controlled chemoststats
+of microorganisms, the system is understood well enough to anticipate
+that a sudden transition can be induced under the intended manipulation.
+Like the laboratory examples, this helps eliminate the options outside
+the circle ``bifurcations,'' in Figure 1. The observed warning signals
+then place it in the center of the diagram.
 
 These studies have provided valuable demonstrations of the potential to
 find early warning signals of sudden transitions. However, this
@@ -319,8 +319,8 @@ in all system components.
 Not all regime shifts are rapid. Some systems undergo bifurcations
 between qualitatively different, but quantitatively similar regimes.
 These transitions may be reversible. In a management setting, such
-qualitative changes may insignificant, so warning signals that detect
-such transitions may be effective ``false positives.''
+qualitative changes may be gradual, so warning signals that detect such
+transitions may be effective ``false positives.''
 
 CSD precedes several types of these non-catastrophic bifurcations. In
 the subcritical form of a Hopf bifurcation, a system transitions from a
@@ -335,9 +335,12 @@ presence of stochasticity, the system behavior observed on either side
 of the threshold may be indistinguishable: on one side stochasticity
 bounces the system around a stable node, while on the other it bounces
 the system around a very small limit cycle in the same region of state
-space. Contrast this to a critical transition in which any stochastic
-fluctuation across the threshold could lead to a qualitatively different
-state.
+space. Even when oscillations grow quickly, returning the environmental
+conditions (bifurcation parameter) to the previous conditions restores
+the stable node -- the bifurcation does not exhibit the hysteresis of
+the saddle node bifurcation. Contrast this to a critical transition in
+which any stochastic fluctuation across the threshold could lead to a
+qualitatively different state.
 
 The system's eigenvalue also passes through zero in the case of the
 transcritical bifurcation. The transcritical is a degenerate case of the
@@ -423,7 +426,7 @@ krill dynamics in the Pacific ocean (Hare and Mantua 2000) could
 actually be explained by a close coupling to the external forcing of El
 Nino environmental dynamics through the Pacific Decadal Oscillation
 (PDO). Schooler et al. (2011) found that lakes with the invasive plant
-\emph{Salvaniai molesta} andherbivorous weevils alternated between low-
+\emph{Salvaniai molesta} and herbivorous weevils alternated between low-
 and high-\emph{Salvnia} states driven by disturbances from regular
 external flooding events. These examples highlight cases that involve
 critical transitions between regimes under circumstances that do not
@@ -481,16 +484,16 @@ in field data, CSD-based EWS often fail (Perretti and Munch 2012).
 
 A wide variety of statistical summary indicators have been examined as
 potential detectors of CSD. The most common are variance and
-autocorrelation. Others include skewness {[}Guttal2008a{]} and
-conditional heteroscedasticity (Seekell et al. 2011). These statistics
-are typically calculated on sliding windows of time-series data and
-tested formally or informally for trends. The relative power of these
-tests varies considerably with context; no indicator has consistently
-outperformed others (Dakos et al. 2011b, 2012, Lindegren et al. 2012,
-Perretti and Munch 2012). Also, measuring these indicators requires
-making sometimes arbitrary calculations. For instance, the power of
-lag-1 autocorrelation to detect a regime shift may be modified by
-changing methods of data aggregation, de-trending, changing sliding
+autocorrelation. Others include skewness (Guttal and Jayaprakash 2008a)
+and conditional heteroscedasticity (Seekell et al. 2011). These
+statistics are typically calculated on sliding windows of time-series
+data and tested formally or informally for trends. The relative power of
+these tests varies considerably with context; no indicator has
+consistently outperformed others (Dakos et al. 2011b, 2012, Lindegren et
+al. 2012, Perretti and Munch 2012). Also, measuring these indicators
+requires making sometimes arbitrary calculations. For instance, the
+power of lag-1 autocorrelation to detect a regime shift may be modified
+by changing methods of data aggregation, de-trending, changing sliding
 window length, filtering signal bandwidth (Lenton et al. 2012). These
 choices may be optimized when enough calibration data is available, as
 Lenton et al. (2012) were able to do with several sets of paleoclimate
@@ -584,12 +587,12 @@ this is impractical in most natural systems. Another approach is to
 assume the saddle-node mechanism applies to a limited set of systems
 that have well-studied examples, such as lakes undergoing eutrophication
 (Scheffer et al. 2001), lakes with `trophic-triangle' cascade mechanisms
-(Carpenter and Kitchell 1996, Walters2001; Carpenter et al. 2008),
-forest/savannah transitions (Staver et al. 2011, Hirota et al. 2011),
-and rangeland transitions (Walker1993; Anderies et al. 2002). Fitting
-simplified saddle-node models to past regime shifts (Boettiger and
-Hastings 2012a) in less well-understood systems may provide evidence for
-the mechanism. However, care must be taken to specify sufficient
+(Carpenter and Kitchell 1996, Walters and Kitchell 2001, Carpenter et
+al. 2008), forest/savannah transitions (Staver et al. 2011, Hirota et
+al. 2011), and rangeland transitions (Walker1993; Anderies et al. 2002).
+Fitting simplified saddle-node models to past regime shifts (Boettiger
+and Hastings 2012a) in less well-understood systems may provide evidence
+for the mechanism. However, care must be taken to specify sufficient
 alternative models.
 
 CSD alone cannot be used as evidence of regime shifts. In some cases, it
@@ -636,14 +639,16 @@ select the appropriate variable for detecting EWS.
 
 The future of early warning signals lies in the uncharted territory. For
 certain classes of transitions, such as stochastically-driven regime
-shifts, prediction may not be possible. In such cases, managing for
-resilience may be the only option. Likewise, regime shifts driven by
-external perturbation or strong forcing are not predictable \emph{if}
-the scope of management does not include the external causes. Proper
-scoping of the management problem can avoid this situation (Fischer et
-al. 2009, Alliance 2010, Polasky et al. 2011). More research is needed
-in methods of distinguishing such cases from those in which early
-detection may be possible.
+shifts, prediction may not be possible. In such cases, management
+options include optimizing outcomes despite the possibility of regime
+shifts, or possibly taking actions to reduce the long-term probability
+of regime shifts, despite short-term unpredictability. Likewise, regime
+shifts driven by external perturbation or strong forcing are not
+predictable \emph{if} the scope of management does not include the
+external causes. Proper scoping of the management problem can avoid this
+situation (Fischer et al. 2009, Alliance 2010, Polasky et al. 2011).
+More research is needed in methods of distinguishing such cases from
+those in which early detection may be possible.
 
 For other classes of transitions, prediction may be possible but other
 EWS must be explored. Flickering (Brock and Carpenter 2010, Wang et al.
@@ -674,7 +679,7 @@ Research Traineeship Program to NR and by funding from NSF Grant EF
 Alliance, R. 2010. Assessing Resilience in Social-Ecological Systems :
 Workbook for Practitioners. Version 2.0.
 
-Anderies, J. M., M. a Janssen, and B. H. Walker. 2002. Grazing
+Anderies, J. M., M. A. Janssen, and B. H. Walker. 2002. Grazing
 Management, Resilience, and the Dynamics of a Fire-driven Rangeland
 System. Ecosystems 5:23--44.
 
@@ -682,8 +687,8 @@ Bailey, R. M. 2010. Spatial and temporal signatures of fragility and
 threshold proximity in modelled semi-arid vegetation.. Proceedings.
 Biological sciences / The Royal Society.
 
-Barnosky, A. D., E. a Hadly, J. Bascompte, E. L. Berlow, J. H. Brown, M.
-Fortelius, W. M. Getz, J. Harte, A. Hastings, P. a Marquet, N. D.
+Barnosky, A. D., E. A. Hadly, J. Bascompte, E. L. Berlow, J. H. Brown,
+M. Fortelius, W. M. Getz, J. Harte, A. Hastings, P. A. Marquet, N. D.
 Martinez, A. Mooers, P. Roopnarine, G. Vermeij, J. W. Williams, R.
 Gillespie, J. Kitzes, C. Marshall, N. Matzke, D. P. Mindell, E. Revilla,
 and A. B. Smith. 2012. Approaching a state shift in Earth's biosphere.
@@ -708,26 +713,26 @@ Brock, W. A., and S. R. Carpenter. 2010. Interacting Regime Shifts in
 Ecosystems: Implication for Early Warnings. Ecological Monographs
 80:353--367.
 
-Brock, W. a, and S. R. Carpenter. 2012. Early Warnings of Regime Shift
+Brock, W. A., and S. R. Carpenter. 2012. Early Warnings of Regime Shift
 When the Ecosystem Structure Is Unknown. PLoS ONE 7:45586.
 
 Carpenter, S. R. 2011. Early warnings of unknown nonlinear shifts : a
 nonparametric approach. Ecology 92:2196--2201.
 
-Carpenter, S. R., W. a Brock, J. J. Cole, J. F. Kitchell, and M. L.
+Carpenter, S. R., W. A. Brock, J. J. Cole, J. F. Kitchell, and M. L.
 Pace. 2008. Leading indicators of trophic cascades.. Ecology letters
 11:128--38.
 
-Carpenter, S. R., J. J. Cole, M. L. Pace, R. Batt, W. a Brock, T. Cline,
-J. Coloso, J. R. Hodgson, J. F. Kitchell, D. a Seekell, L. Smith, and B.
-Weidel. 2011. Early Warnings of Regime Shifts: A Whole-Ecosystem
+Carpenter, S. R., J. J. Cole, M. L. Pace, R. Batt, W. A. Brock, T.
+Cline, J. Coloso, J. R. Hodgson, J. F. Kitchell, D. a Seekell, L. Smith,
+and B. Weidel. 2011. Early Warnings of Regime Shifts: A Whole-Ecosystem
 Experiment. Science 1079.
 
 Carpenter, S. R., D. Ludwig, and W. A. Brock. 1999. Management of
 eutrophication for lakes subject to potentially irreversible change.
 Ecological Applications 9:751--771.
 
-Carpenter, S. R., and W. a Brock. 2006. Rising variance: a leading
+Carpenter, S. R., and W. A. Brock. 2006. Rising variance: a leading
 indicator of ecological transition.. Ecology letters 9:311--8.
 
 Carpenter, S. R., and W. a Brock. 2010. Early warnings of regime shifts
@@ -737,7 +742,7 @@ in spatial dynamics using the discrete Fourier transform. Ecosphere
 Carpenter, S. R., and J. F. Kitchell. 1996. The trophic cascade in
 lakes. . Cambridge University Press.
 
-Chisholm, R. a, and E. Filotas. 2009. Critical slowing down as an
+Chisholm, R. A., and E. Filotas. 2009. Critical slowing down as an
 indicator of transitions in two-species models.. Journal of theoretical
 biology 257:142--9.
 
@@ -824,7 +829,7 @@ systems can occur with no warning.. Ecology letters 13:464--72.
 
 Hirota, M., M. Holmgren, E. H. Van Nes, and M. Scheffer. 2011. Global
 resilience of tropical forest and savanna to critical transitions..
-Science (New York, N.Y.) 334:232--5.
+Science 334:232--5.
 
 Holling, C. S. S. 1973. Resilience and Stability of Ecological Systems.
 Annual Review of Ecology and Systematics 4:1--23.
@@ -865,7 +870,7 @@ G. W. Woodwell and H. H. Smith, editors. Brookhaven Symposia in Biology.
 . Brookhaven National Laboratory, Upton, N.Y.
 
 Lindegren, M., V. Dakos, J. P. Gröger, A. G\textbackslash{}aa rdmark, G.
-Kornilovs, S. a Otto, and C. Möllmann. 2012. Early Detection of
+Kornilovs, S. A. Otto, and C. Möllmann. 2012. Early Detection of
 Ecosystem Regime Shifts: A Multiple Method Evaluation for Management
 Application. PLoS ONE 7:38410.
 
@@ -880,8 +885,8 @@ of Animal Ecology 47:315.
 May, R. M. 1977. Thresholds and breakpoints in ecosystems with a
 multiplicity of stable states. Nature 269:471--477.
 
-Melbourne, B. a, and A. Hastings. 2008. Extinction risk depends strongly
-on factors contributing to stochasticity.. Nature 454:100--3.
+Melbourne, B. A., and A. Hastings. 2008. Extinction risk depends
+strongly on factors contributing to stochasticity.. Nature 454:100--3.
 
 Mumby, P. J., A. Hastings, and H. J. Edwards. 2007. Thresholds and the
 resilience of Caribbean coral reefs.. Nature 450:98--101.
@@ -896,12 +901,12 @@ era of global change.. Trends in ecology \& evolution 26:398--404.
 
 Renne, P. R., A. L. Deino, F. J. Hilgen, K. F. Kuiper, D. F. Mark, W. S.
 Mitchell, L. E. Morgan, R. Mundil, and J. Smit. 2013. Time scales of
-critical events around the Cretaceous-Paleogene boundary.. Science (New
-York, N.Y.) 339:684--7.
+critical events around the Cretaceous-Paleogene boundary.. Science
+339:684--7.
 
 Rietkerk, M., J. van de Koppel, S. C. Dekker, and P. C. de Ruiter. 2004.
 Self-organized patchiness and catastrophic shifts in ecosystems..
-Science (New York, N.Y.) 305:1926--9.
+Science 305:1926--9.
 
 Rietkerk, M., and J. van de Koppel. 2008. Regular pattern formation in
 real ecosystems.. Trends in ecology \& evolution 23:169--75.
@@ -913,8 +918,8 @@ Early-warning signals for critical transitions.. Nature 461:53--9.
 Scheffer, M., S. R. Carpenter, J. A. Foley, C. Folke, and B. Walker.
 2001. Catastrophic shifts in ecosystems.. Nature 413:591--6.
 
-Scheffer, M., S. R. Carpenter, T. M. Lenton, J. Bascompte, W. Brock, V.
-Dakos, J. van de Koppel, I. A. van de Leemput, S. a Levin, E. H. van
+Scheffer, M., S. R. Carpenter, T. M. Lenton, J. Bascompte, W. A. Brock,
+V. Dakos, J. van de Koppel, I. A. van de Leemput, S. A. Levin, E. H. van
 Nes, M. Pascual, and J. Vandermeer. 2012. Anticipating Critical
 Transitions. Science 338:344--348.
 
@@ -944,6 +949,10 @@ alternative stable states.. Ecology 92:1063--72.
 Veraart, A. J., E. J. Faassen, V. Dakos, E. H. van Nes, M. Lürling, and
 M. Scheffer. 2012. Recovery rates reflect distance to a tipping point in
 a living system.. Nature 481:357--9.
+
+Walters, C., and J. F. Kitchell. 2001. Cultivation/depensation effects
+on juvenile survival and recruitment: implications for the theory of
+fishing. Canadian Journal of Fisheries and Aquatic Sciences 58:39--50.
 
 Wang, R., J. a Dearing, P. G. Langdon, E. Zhang, X. Yang, V. Dakos, and
 M. Scheffer. 2012. Flickering gives early warning signals of a critical
