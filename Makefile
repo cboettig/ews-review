@@ -18,7 +18,7 @@ eps:
 
 fancy: 
 
-	pandoc --biblio=manuscript-refs.bib manuscript.md --template=elsarticle.latex -o manuscript.tex
+	pandoc --biblio=manuscript-refs.bib  --csl=ecology.csl manuscript.md --template=elsarticle.latex -o manuscript.tex
 	xelatex manuscript.tex
 	xelatex manuscript.tex
 	xelatex manuscript.tex
